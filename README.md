@@ -1,8 +1,13 @@
 # Let me say right away that I'm neither a programmer nor a designer. I simply liked this design and decided to tweak it a bit to suit my tastes. I'd be grateful for any help or advice. This is still a work in progress (I do this in my free time and whenever I feel like it)
 
+<img width="364" height="439" alt="Снимок экрана 2025-10-29 230306" src="https://github.com/user-attachments/assets/ddf351ec-3aa0-477b-9c74-f944de885fb5" />
+<img width="384" height="469" alt="Снимок экрана 2025-10-29 230259" src="https://github.com/user-attachments/assets/e7bdd95a-2777-4dda-82d3-18b63ea37c7c" />
+<img width="848" height="929" alt="Снимок экрана 2025-10-29 230242" src="https://github.com/user-attachments/assets/bb64434b-b3ca-4416-865a-0efa45d67469" />
+
 ##### Also thanks to @x3phyy for this and other improvements that I'm using
 
 ### Changelog:
+
     Version 0.1
         Start Menu:
           1. The search bar takes up the entire width of the Start menu
