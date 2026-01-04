@@ -32,6 +32,7 @@
 - Removed the All Apps header text
 - Adjusted the corner radius
 - Removed the recent section in the phone link widget for improved privacy and security
+- Add search window styling
 
 ### Taskbar
 
