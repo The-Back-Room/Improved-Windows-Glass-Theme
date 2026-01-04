@@ -33,12 +33,14 @@
             3. Removed the All Apps header text
             4. Adjusted the corner radius
             5. Removed the recent section in the phone link widget for improved privacy and security
+            6. Supports 1920x1080 and 1920x1200 screen reolutions with a DPI of 100%
         
         Taskbar:
             1. Adjust the width to fix overlapping when windows are open
             2. Added support for search box
             3. Adjusted the corner radius
             4. Added a grey start button
+            6. Supports 1920x1080 and 1920x1200 screen reolutions with a DPI of 100%
 
         Notification Center:
             1. Adjusted the corner radius to match the rest of the theme
