@@ -24,12 +24,8 @@
 
 ### I want to try doing this in the future:
       Start Menu:
-        1. When opening the Start menu, the icon in the Search Bar is blue-green, but if I 
-           click on a folder or button that doesn't close the Start Menu, the color changes 
-           to gray (I'd like it to be always gray)
-        2. Move the "Account" button slightly to the right and the "power" button to the left 
+        1. Move the "Account" button slightly to the right and the "power" button to the left 
            for symmetry
-        3. Change the spacing between icons in the "Pinned" section
              
       Taskbar:
         1. Change the tray background from the standard one to WindowGlass
