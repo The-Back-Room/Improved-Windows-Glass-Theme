@@ -1,7 +1,5 @@
 # Let me say right away that I'm neither a programmer nor a designer. I simply liked this design and decided to tweak it a bit to suit my tastes. I'd be grateful for any help or advice. This is still a work in progress (I do this in my free time and whenever I feel like it)
 
-### Previews
-
 <img width="100%" height="auto" alth="Preview" src="/Preview.png" />
 
 ##### Also thanks to @x3phyy for this and other improvements that I'm using
@@ -27,9 +25,7 @@
           2. Removed the notification block above the calendar
           3. Removed the "Focus" block below the calendar
           4. Changed the background opacity for better readability
-
 <br><br><br>
-
     Version 0.2
         Start Menu:
             1. Fixed the reccomended section frame width
@@ -45,6 +41,7 @@
 
         Notification Center:
             1. Adjusted the corner radius to match the rest of the theme
+<br><br><br>
 
 #### If you'd like to help, I'd be grateful! Below will be written the current problems that I want to solve in the future or I am unable to solve them.
 
