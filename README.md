@@ -52,7 +52,6 @@
           2. At the bottom of the "All" section, there's a border that hides the contents of 
              that section, but it's not very nicely positioned. I couldn't lower this border 
              to the "User Panel" bottom level
-          3. Remove the "All" heading
 
         Notifications Center:
           1. Change the color of the buttons when it is off, icons and the text underneath them 
