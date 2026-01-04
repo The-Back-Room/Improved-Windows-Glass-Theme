@@ -1,8 +1,12 @@
 # Let me say right away that I'm neither a programmer nor a designer. I simply liked this design and decided to tweak it a bit to suit my tastes. I'd be grateful for any help or advice. This is still a work in progress (I do this in my free time and whenever I feel like it)
 
-<img width="848" height="929" alt="Снимок экрана 2025-10-29 230242" src="https://github.com/user-attachments/assets/bb64434b-b3ca-4416-865a-0efa45d67469" />
-<img width="364" height="439" alt="Снимок экрана 2025-10-29 230306" src="https://github.com/user-attachments/assets/ddf351ec-3aa0-477b-9c74-f944de885fb5" />
-<img width="384" height="469" alt="Снимок экрана 2025-10-29 230259" src="https://github.com/user-attachments/assets/e7bdd95a-2777-4dda-82d3-18b63ea37c7c" />
+### Previews
+
+<img width="100%" height="auto" alth="Preview" src="/Preview.png" />
+<hr />
+<img width="100%" height="auto"  alt="Start Menu" src="/Start Menu Styler/Preview.png" /><br />
+<img width="100%" height="auto"  alt="Taskbar" src="/Taskbar Styler/Preview.png" /><br />
+<img width="100%" height="auto"  alt="Notification Center" src="/Notification Center Styler/Preview.png" />
 
 ##### Also thanks to @x3phyy for this and other improvements that I'm using
 
@@ -29,6 +33,22 @@
           4. Changed the background opacity for better readability
 
 <br><br><br>
+
+    Version 0.2
+        Start Menu:
+            1. Fixed the reccomended section frame width
+            2. Fixed categories view frame width
+            3. Removed the All Apps header text
+            4. Adjusted the corner radius
+            5. Hid the recent section in the phone link widget
+        
+        Taskbar:
+            1. Increased the width
+            2. Added support for search box
+            3. Adjusted the corner radius
+
+        Notification Center:
+            1. Adjusted the corner radius to match the rest of the theme
 
 #### If you'd like to help, I'd be grateful! Below will be written the current problems that I want to solve in the future or I am unable to solve them.
 
