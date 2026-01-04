@@ -35,7 +35,7 @@
             5. Hid the recent section in the phone link widget
         
         Taskbar:
-            1. Increased the width
+            1. Adjust the width to fix overlapping when windows are open
             2. Added support for search box
             3. Adjusted the corner radius
 
