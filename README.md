@@ -32,7 +32,7 @@
             2. Fixed categories view frame width
             3. Removed the All Apps header text
             4. Adjusted the corner radius
-            5. Hid the recent section in the phone link widget
+            5. Removed the recent section in the phone link widget for improved privacy and security
         
         Taskbar:
             1. Adjust the width to fix overlapping when windows are open
