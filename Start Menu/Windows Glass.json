@@ -166,7 +166,7 @@
   "controlStyles[43].styles[0]": "Width=525",
   "controlStyles[43].styles[1]": "HorizontalAlignment=Left",
   "controlStyles[44].target": "StartMenu.FolderModal#StartFolderModal > Grid#Root",
-  "controlStyles[44].styles[0]": "Margin=-300,0,75,0",
+  "controlStyles[44].styles[0]": "Margin=-150,0,75,0",
   "controlStyles[45].target": "Border#ContentBorder@CommonStates > Grid#DroppedFlickerWorkaroundWrapper > Border",
   "controlStyles[45].styles[0]": "Background@Normal:=<RevealBorderBrush Color=\"Transparent\" TargetTheme=\"1\" Opacity=\"0.2\"/>",
   "controlStyles[45].styles[1]": "Background@PointerOver:=<RevealBorderBrush Color=\"Transparent\" TargetTheme=\"1\" Opacity=\"0.3\"/>",
