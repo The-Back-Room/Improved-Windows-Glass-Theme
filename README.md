@@ -33,4 +33,3 @@
              
       Taskbar:
         1. Change the tray background from the standard one to WindowGlass
-        2. Maybe find a better start button image
