@@ -146,5 +146,9 @@
   "controlStyles[38].target": "Border#BackgroundElement",
   "controlStyles[38].styles[0]": "CornerRadius=$CornerRadius",
   "controlStyles[0].styles[1]": "CornerRadius=$CornerRadius",
-  "controlStyles[19].styles[1]": "CornerRadius=$CornerRadius"
+  "controlStyles[19].styles[1]": "CornerRadius=$CornerRadius",
+  "controlStyles[39].target": "Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Border#BackgroundElement",
+  "controlStyles[39].styles[0]": "Background:=<ImageBrush Stretch=\"Uniform\" ImageSource=\"https://raw.githubusercontent.com/The-Back-Room/Improved-Windows-Glass-Theme/refs/heads/main/resources/start-button.png\" />",
+  "controlStyles[40].target": "Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon",
+  "controlStyles[40].styles[0]": "Visibility=1"
 }

@@ -38,6 +38,7 @@
             1. Adjust the width to fix overlapping when windows are open
             2. Added support for search box
             3. Adjusted the corner radius
+            4. Added a grey start button
 
         Notification Center:
             1. Adjusted the corner radius to match the rest of the theme
@@ -68,3 +69,4 @@
              
         Taskbar:
           1. Change the tray background from the standard one to WindowGlass
+          2. Maybe find a better start button image
