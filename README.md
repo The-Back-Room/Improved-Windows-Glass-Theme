@@ -7,69 +7,30 @@
 > [!IMPORTANT]
 > This theme ONLY supports 1920x1080 and 1920x1200 screen reolutions with a DPI of 100%. Using it on anything else will result in overlapping elements.
 
-### Changelog:
 
-    Version 0.1
-        Start Menu:
-          1. The search bar takes up the entire width of the Start menu
-          2. Added a "Recommended" section 
-             (Settings -> Personalization -> Start menu -> enable/disable "Show recently added apps")
-          3. The "Pinned" and "Recomended" heading has been removed
-          4. The open folder from "Pinned" has been moved to the left
-          5. The "Phone Link" and the "User Panel" have been moved lower
-          6. Added a hover effect similar to the TranslucentStartMenu Theme
-          7. Slightly increased the opacity of the dark gray background for all sections
-          
-        Taskbar:
-          1. Slightly increased the opacity of the System Tray background
-          
-        Notifications Center:
-          1. Decreased the opacity of the "Control Center" background 
-          2. Removed the notification block above the calendar
-          3. Removed the "Focus" block below the calendar
-          4. Changed the background opacity for better readability
-<br><br><br>
-    Version 0.2
-        Start Menu:
-            1. Fixed the reccomended section frame width
-            2. Fixed categories view frame width
-            3. Removed the All Apps header text
-            4. Adjusted the corner radius
-            5. Removed the recent section in the phone link widget for improved privacy and security
-        
-        Taskbar:
-            1. Adjust the width to fix overlapping when windows are open
-            2. Added support for search box
-            3. Adjusted the corner radius
-            4. Added a grey start button
+#### If you'd like to help, I'd be grateful! Below will be written the current problems that I want to solve in the future or I am unable to solve them. You can find a changelog with all of our current changes [here](/CHANGELOG.md).
 
-        Notification Center:
-            1. Adjusted the corner radius to match the rest of the theme
-<br><br><br>
+### Problems I couldn't solve:
+      Start Menu:
+        1. In the "Pinned" section, there's a gray border around the folder thumbnails 
+            (where the four app icon previews are)
+        2. At the bottom of the "All" section, there's a border that hides the contents of 
+            that section, but it's not very nicely positioned. I couldn't lower this border 
+            to the "User Panel" bottom level
 
-#### If you'd like to help, I'd be grateful! Below will be written the current problems that I want to solve in the future or I am unable to solve them.
+      Notifications Center:
+        1. Change the color of the buttons when it is off, icons and the text underneath them 
+            to gray for better  readability
 
-  ### Problems I couldn't solve:
-        Start Menu:
-          1. In the "Pinned" section, there's a gray border around the folder thumbnails 
-             (where the four app icon previews are)
-          2. At the bottom of the "All" section, there's a border that hides the contents of 
-             that section, but it's not very nicely positioned. I couldn't lower this border 
-             to the "User Panel" bottom level
-
-        Notifications Center:
-          1. Change the color of the buttons when it is off, icons and the text underneath them 
-             to gray for better readability
-
-  ### I want to try doing this in the future:
-        Start Menu:
-          1. When opening the Start menu, the icon in the Search Bar is blue-green, but if I 
-             click on a folder or button that doesn't close the Start Menu, the color changes 
-             to gray (I'd like it to be always gray)
-          2. Move the "Account" button slightly to the right and the "power" button to the left 
-             for symmetry
-          3. Change the spacing between icons in the "Pinned" section
+### I want to try doing this in the future:
+      Start Menu:
+        1. When opening the Start menu, the icon in the Search Bar is blue-green, but if I 
+            click on a folder or button that doesn't close the Start Menu, the color changes 
+            to gray (I'd like it to be always gray)
+        2. Move the "Account" button slightly to the right and the "power" button to the left 
+            for symmetry
+        3. Change the spacing between icons in the "Pinned" section
              
-        Taskbar:
-          1. Change the tray background from the standard one to WindowGlass
-          2. Maybe find a better start button image
+      Taskbar:
+        1. Change the tray background from the standard one to WindowGlass
+        2. Maybe find a better start button image
