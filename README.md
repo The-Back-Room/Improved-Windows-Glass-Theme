@@ -3,9 +3,6 @@
 ### Previews
 
 <img width="100%" height="auto" alth="Preview" src="/Preview.png" />
-<hr />
-<img width="100%" height="auto"  alt="Start Menu" src="/Start Menu Styler/Preview.png" /><br />
-<img width="45%" height="auto"  alt="Taskbar" src="/Taskbar Styler/Preview.png" /> <img width="45%" height="auto"  alt="Notification Center" src="/Notification Center Styler/Preview.png" />
 
 ##### Also thanks to @x3phyy for this and other improvements that I'm using
 
