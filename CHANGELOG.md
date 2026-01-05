@@ -33,6 +33,7 @@
 - Adjusted the corner radius
 - Removed the recent section in the phone link widget for improved privacy and security
 - Add search window styling
+- Added minimal variation *(Should be compatible with most resolutions regardless of DPI)*
 
 ### Taskbar
 
@@ -40,6 +41,7 @@
 - Added support for search box
 - Adjusted the corner radius
 - Added a grey start button
+- Should be compatible with most resolutions regarldess of DPI
 
 ### Notification Center
 
