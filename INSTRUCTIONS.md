@@ -9,7 +9,7 @@ The theme styles must be imported manually for now due to the official version n
 * Copy the contents of the [Start Menu/Windows Glass.json](/Start%20Menu/Windows%20Glass.json) file to the text box under "Mod settings" and click "Save".
 
 
-## Minimal Start Menu variant
+### Minimal Start Menu
 
 This theme also includes a minimal version of the Start menu with the Phone Link companion removed.
 
