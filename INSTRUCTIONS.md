@@ -11,8 +11,11 @@ The theme styles must be imported manually for now due to the official version n
 
 ### Start Menu
 
+* Install the [Vivo Sans En VF](https://1drv.ms/u/c/67fedd4420ed716d/EXRoW1f5dABJrO2dPj0tbM0Bm1uYiGeoKyAYA7X7er2Zww?e=cLsiJJ) and [Vivo Sans Clock Stencil](https://1drv.ms/u/c/67fedd4420ed716d/EW6LJO1CAu1Fs-khbTGXWFUB5sXhRxM-I__B1lkKWgizdA?e=J1RJYy) fonts.
+* Download the [w11-grey.png](/resources/w11-grey.png) file and place it into `C:\Resources\Icons\Start Orbs\`. *(If the location doesn't exist, create it.)*
 * Open the Windows 11 Start Menu Styler mod in Windhawk.
 * Go to the "Advanced" tab.
+* Add 'LockApp.exe' to the 'Custom process inclusion list' under 'Advanced settings' in the Windows 11 Start Menu Styler mod.
 * Copy the contents of the [Start Menu/Windows Glass.json](/Start%20Menu/Windows%20Glass.json) file to the text box under "Mod settings" and click "Save".
 
 
