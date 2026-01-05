@@ -1,3 +1,10 @@
+# Windows Glass
+
+<div align="center">
+<img width="48%" height="auto" alt="Minimal Preview" src="/Preview.png" /> 
+<img width="48%" height="auto" alt="Minimal Preview" src="/Minimal-Preview.png" />
+</div>
+
 ## Manual installation
 
 The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
