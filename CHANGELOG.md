@@ -19,7 +19,7 @@
 ### Notifications Center
 
 - Decreased the opacity of the "Control Center" background 
-- emoved the notification block above the calendar
+- Removed the notification block above the calendar
 - Removed the "Focus" block below the calendar
 - Changed the background opacity for better readability
 
@@ -27,22 +27,20 @@
 
 ### Start Menu
 
-- Fixed the reccomended section frame width
-- Fixed categories view frame width
+- Multiple bug fixes
 - Removed the All Apps header text
 - Adjusted the corner radius
+- Added search window styling
 - Removed the recent section in the phone link widget for improved privacy and security
-- Add search window styling
 - Added minimal variation *(Should be compatible with most resolutions regardless of DPI)*
 
 ### Taskbar
 
-- Adjust the width to fix overlapping when windows are open
-- Added support for search box
+- Multiple bug fixes
 - Adjusted the corner radius
 - Added a grey start button
 - Should be compatible with most resolutions regarldess of DPI
 
 ### Notification Center
 
-- Adjusted the corner radius to match the rest of the theme
+- Adjusted the corner radius
