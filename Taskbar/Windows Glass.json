@@ -161,5 +161,9 @@
   "controlStyles[42].styles[0]": "HorizontalAlignment=Left",
   "styleConstants[12]": "CornerRadius=10",
   "styleConstants[13]": "ElementCornerRadius=6",
-  "controlStyles[34].styles[5]": "Width=125"
+  "controlStyles[34].styles[5]": "Width=125",
+  "controlStyles[39].styles[1]": "BorderBrush:=$ElementBorderBrush",
+  "controlStyles[39].styles[2]": "BorderThickness=$ElementBorderThickness",
+  "controlStyles[39].styles[3]": "CornerRadius=$ElementCornerRadius",
+  "controlStyles[39].styles[4]": "Padding=18"
 }
