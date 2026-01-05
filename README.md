@@ -7,6 +7,8 @@
 > [!IMPORTANT]
 > This theme ONLY supports 1920x1080 and 1920x1200 screen reolutions with a DPI of 100%. Using it on anything else will result in overlapping elements.
 
+See the [Instructions](/INSTRUCTIONS.md) page for instructions on how to apply this theme.
+
 
 #### If you'd like to help, I'd be grateful! Below will be written the current problems that I want to solve in the future or I am unable to solve them. You can find a changelog with all of our current changes [here](/CHANGELOG.md).
 
