@@ -153,7 +153,7 @@
   "styleConstants[12]": "PressedOrb=<ImageBrush Stretch=\"Uniform\" ImageSource=\"C:\\Resources\\Icons\\Start Orbs\\w11-grey.png\" />",
   "controlStyles[0].styles[2]": "HorizontalAlignment=Stretch",
   "controlStyles[0].styles[3]": "Width=Auto",
-  "controlStyles[1].styles[4]": "Margin=100,2",
+  "controlStyles[1].styles[4]": "Margin=100,0",
   "controlStyles[5].styles[4]": "RenderTransform:=<TranslateTransform X=\"-105\" Y=\"2\" />",
   "controlStyles[5].styles[5]": "Margin=0,7,0,7",
   "controlStyles[41].target": "SystemTray.SystemTrayFrame",
