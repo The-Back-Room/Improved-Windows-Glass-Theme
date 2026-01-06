@@ -1,0 +1,220 @@
+theme: ''
+controlStyles:
+  - target: Grid#NotificationCenterGrid
+    styles:
+      - // Visibility=1
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - CornerRadius=$CornerRadius
+      - BorderThickness=$BorderThickness
+      - VerticalAlignment=2
+  - target: Grid#CalendarCenterGrid
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Border#CalendarHeaderMinimizedOverlay
+    styles:
+      - Background:=$Background
+      - CornerRadius-$CornerRadius
+      - Height=45
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+  - target: CalendarViewDayItem
+    styles:
+      - CornerRadius=$ElementCornerRadius
+  - target: Control
+    styles:
+      - CornerRadius=$ElementCornerRadius
+  - target: CalendarViewDayItem > Border
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - BorderThickness=$ElementBorderThickness
+      - BorderBrush:=$ElementBorderBrush
+      - Background:=$ElementBG
+  - target: Control > Border
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - BorderThickness=$ElementBorderThickness
+      - BorderBrush:=$ElementBorderBrush
+      - Background:=$ElementBG
+  - target: Grid#ControlCenterRegion
+    styles:
+      - CornerRadius=$CornerRadius
+      - BorderThickness=$BorderThickness
+      - BorderBrush:=$BorderBrush
+      - Background:=$Background
+  - target: Button#ClearAll
+    styles:
+      - AccessKey=x
+  - target: Button#ExpandCollapseButton
+    styles:
+      - AccessKey=e
+  - target: ActionCenter.FocusSessionControl#FocusSessionControl > Grid#FocusGrid
+    styles:
+      - Background:=Transparent
+      - BorderBrush:=Transparent
+  - target: MenuFlyoutPresenter
+    styles:
+      - CornerRadius=$CornerRadius
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - Background:=$Background
+  - target: ScrollViewer#ListContent
+    styles:
+      - Background:=Transparent
+      - BorderBrush:=Transparent
+  - target: ActionCenter.FlexibleToastView#FlexibleNormalToastView
+    styles:
+      - Background:=Transparent
+  - target: Border#ToastBackgroundBorder2
+    styles:
+      - Background:=$Background
+      - CornerRadius=$CornerRadius
+  - target: Grid#WeekDayNames
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: ScrollBar#VerticalScrollBar
+    styles:
+      - Visibility=1
+  - target: Button#VolumeL2Button[AutomationProperties.Name = Select a sound output] > ContentPresenter#ContentPresenter
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+  - target: Button#FooterButton[AutomationProperties.Name = All settings] > ContentPresenter#ContentPresenter
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+  - target: Button[AutomationProperties.AutomationId = Microsoft.QuickAction.Battery] > ContentPresenter#ContentPresenter
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+  - target: Button#FooterButton[AutomationProperties.Name = Edit quick settings]
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+  - target: Rectangle#HorizontalTrackRect
+    styles:
+      - Fill:=$ElementBG
+      - Height=5
+  - target: Rectangle#HorizontalDecreaseRect
+    styles:
+      - Fill:=$AccentBG
+      - Height=5
+  - target: Grid#AlbumTextAndArtContainer
+    styles:
+      - Height=55
+      - MaxWidth:=150
+      - Width=Auto
+      - Background:=Transparent
+      - BorderBrush:=Transparent
+      - HorizontalAlignment=Left
+  - target: Grid#ThumbnailImage
+    styles:
+      - Visibility=1
+  - target: StackPanel#PrimaryAndSecondaryTextContainer
+    styles:
+      - VerticalAlignment=Center
+      - HorizontalAlignment=Left
+  - target: StackPanel#PrimaryAndSecondaryTextContainer > TextBlock#Title
+    styles:
+      - TextAlignment=Center
+      - FontSize=18
+  - target: StackPanel#PrimaryAndSecondaryTextContainer >TextBlock#Subtitle
+    styles:
+      - TextAlignment=Center
+      - FontFamily=vivo Sans EN VF
+      - Margin=0,3,0,0
+      - FontWeight=600
+  - target: ListView#MediaButtonsListView
+    styles:
+      - VerticalAlignment=Center
+      - Height=20
+      - Margin=130,-60,0,0
+      - Width=Auto
+      - HorizontalAlignment=Right
+  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#PreviousButton
+    styles:
+      - Width=40
+      - Height=40
+      - Margin=10,0,0,0
+  - target: Button#PlayPauseButton
+    styles:
+      - Width=40
+      - Height=40
+      - Margin=0
+  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#NextButton
+    styles:
+      - Width=40
+      - Height=30
+      - Margin=0,0,10,0
+  - target: TextBlock#AppNameText
+    styles:
+      - FontFamily=vivo Sans EN VF
+      - FontSize=16
+  - target: Image#IconImage
+    styles:
+      - Height=20
+      - Width=20
+  - target: Grid#MediaTransportControlsRegion
+    styles:
+      - Height=125
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Grid > Border#ItemOpaquePlating
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: JumpViewUI.SystemItemListViewItem > Grid#LayoutRoot > Border#BackgroundBorder
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: JumpViewUI.JumpListListViewItem > Grid#LayoutRoot > Border#BackgroundBorder
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: QuickActions.AccessibleToggleButton#ToggleButton
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: QuickActions.AccessibleToggleButton#SplitL2Button
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+styleConstants:
+  - Background=<WindhawkBlur BlurAmount="15" TintColor="#10808080"/>
+  - BorderThickness=0.3,1,0.3,0.3
+  - ElementBG=<SolidColorBrush Color="#202020" Opacity="0.2" />
+  - ElementBorderThickness=0.3,0.3,0.3,1
+  - ElementBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="1" /><GradientStop Color="#50606060" Offset="0.15" /></LinearGradientBrush>
+  - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="0.0" /><GradientStop Color="#50404040" Offset="0.25" /><GradientStop Color="#50808080" Offset="1" /></LinearGradientBrush>
+  - CornerRadius=10
+  - ElementCornerRadius=6
+  - AccentBG=<WindhawkBlur BlurAmount="15" TintColor="{ThemeResource SystemAccentColor}"/>
+resourceVariables:
+  - variableKey: ''
+    value: ''

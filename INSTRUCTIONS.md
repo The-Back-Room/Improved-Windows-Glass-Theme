@@ -19,7 +19,8 @@ The theme styles must be imported manually for now due to the official version n
 * Open the Windows 11 Start Menu Styler mod in Windhawk.
 * Go to the `Advanced` tab.
 * Add `LockApp.exe` to the `Custom process inclusion list`.
-* Copy the contents of the [Start Menu/Windows Glass.json](/Start%20Menu/Windows%20Glass.json) file to the text box under `Mod settings` and click `Save`.
+* Return to the `Settings` tab and click the `Textual` button.
+* Copy the contents of the [start menu default.yml](/Start%20Menu/start%20menu%20default.yml) file to the text box under `Mod settings` and click `Save`.
 
 
 ### Minimal Start Menu
@@ -27,17 +28,17 @@ The theme styles must be imported manually for now due to the official version n
 This theme also includes a minimal version of the Start menu with the Phone Link companion removed.
 
 * Open the Windows 11 Start Menu Styler mod in Windhawk.
-* Go to the `Advanced` tab.
-* Copy the contents of the [Start Menu/Windows Glass Minimal.json](/Start%20Menu/Windows%20Glass%20Minimal.json) file to the text box under `Mod settings` and click `Save`.
+* Go to the `Settings` tab and click the `Textual` button.
+* Copy the contents of the [start menu minimal.yml](/Start%20Menu/start%20menu%20minimal.yml) file to the text box under `Mod settings` and click `Save`.
 
 ### Taskbar
 
 * Open the Windows 11 Taskbar Styler mod in Windhawk.
-* Go to the `Advanced` tab.
-* Copy the contents of the [Taskbar/Windows Glass.json](/Taskbar/Windows%20Glass.json) file to the text box under `Mod settings` and click `Save`.
+* Go to the `Settings` tab and click the `Textual` button.
+* Copy the contents of the [taskbar.yml](/Taskbar/taskbar.yml) file to the text box under `Mod settings` and click `Save`.
 
 ### Notification Center
 
 * Open the Windows 11 Notification Center Styler mod in Windhawk.
-* Go to the `Advanced` tab.
-* Copy the contents of the [Notification Center/Windows Glass.json](/Notification%20Center/Windows%20Glass.json) file to the text box under `Mod settings` and click `Save`.
+* Go to the `Settings` tab and click the `Textual` button.
+* Copy the contents of the [notification center.yml](/Notification%20Center/notification%20center.yml) file to the text box under `Mod settings` and click `Save`.

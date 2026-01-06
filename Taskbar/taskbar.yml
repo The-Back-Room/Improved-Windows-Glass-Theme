@@ -1,0 +1,227 @@
+theme: ''
+controlStyles:
+  - target: Taskbar.TaskbarFrame#TaskbarFrame
+    styles:
+      - CornerRadius=$CornerRadius
+      - HorizontalAlignment=Stretch
+      - Width=Auto
+  - target: Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid
+    styles:
+      - BorderThickness=$BorderThickness
+      - BorderBrush:=$BorderBrush
+      - CornerRadius=$CornerRadius
+      - Background:=$Background
+      - Margin=100,0
+  - target: Rectangle#BackgroundFill
+    styles:
+      - Visibility=1
+  - target: Rectangle#BackgroundStroke
+    styles:
+      - Visibility=1
+  - target: Taskbar.AugmentedEntryPointButton#AugmentedEntryPointButton > Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel
+    styles:
+      - Margin=-2,0
+  - target: Grid#SystemTrayFrameGrid
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+      - RenderTransform:=<TranslateTransform X="-100" Y="0" />
+      - Margin=4
+  - target: SystemTray.ChevronIconView
+    styles:
+      - CornerRadius=$CornerRadius
+  - target: SystemTray.NotifyIconView#NotifyItemIcon
+    styles:
+      - CornerRadius=$ElementCornerRadius
+  - target: SystemTray.OmniButton
+    styles:
+      - CornerRadius=$ElementCornerRadius
+  - target: SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > ContentPresenter#ContentPresenter > Grid#ContentGrid > SystemTray.TextIconContent > Grid#ContainerGrid
+    styles:
+      - CornerRadius=$ElementCornerRadius
+  - target: Taskbar.Gripper#GripperControl
+    styles:
+      - Width=Auto
+      - MinWidth=24
+      - HorizontalAlignment=Left
+  - target: TextBlock#TimeInnerTextBlock
+    styles:
+      - FontSize=13
+      - FontFamily=vivo Sans EN VF
+      - Margin=0
+      - Padding=0
+      - RenderTransform:=<TranslateTransform X="0" Y="0" />
+  - target: TextBlock#DateInnerTextBlock
+    styles:
+      - Visibility=1
+  - target: TextBlock#InnerTextBlock[Text=]
+    styles:
+      - Text=
+  - target: TextBlock#SearchBoxTextBlock
+    styles:
+      - Text=Search This PC
+      - FontSize=10
+      - FontFamily=vivo Sans EN VF
+  - target: SystemTray.OmniButton#NotificationCenterButton > Grid > ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid > Grid > SystemTray.TextIconContent
+    styles:
+      - Visibility=1
+  - target: Border#OverflowFlyoutBackgroundBorder
+    styles:
+      - BorderThickness=$BorderThickness
+      - BorderBrush:=$BorderBrush
+      - Background:=$Background
+      - CornerRadius=$CornerRadius
+  - target: WindowsInternal.ComposableShell.Experiences.Switcher.AltTab > Grid#ModalRootGrid > Border
+    styles:
+      - BorderThickness=$BorderThickness
+      - BorderBrush:=$BorderBrush
+      - Background:=$Background
+      - CornerRadius=$CornerRadius
+  - target: WindowsInternal.ComposableShell.Experiences.Switcher.VirtualDesktopBarElement#VirtualDesktopBar
+    styles:
+      - CornerRadius=$CornerRadius
+      - Background:=$Background
+  - target: Border#BackgroundDimmingLayer
+    styles:
+      - Background:=$Background
+      - CornerRadius=$CornerRadius
+  - target: Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel > Border#BackgroundElement
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+  - target: Taskbar.TaskListButton#TaskListButton
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+  - target: Border#SnapBarBorder
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - CornerRadius=$CornerRadius
+      - BorderThickness=$BorderThickness
+      - Margin=2
+  - target: Border#SnapPickerBorder
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - CornerRadius=$CornerRadius
+      - BorderThickness=$BorderThickness
+      - Margin=2
+  - target: Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel
+    styles:
+      - Background:=Transparent
+  - target: ToolTip > ContentPresenter#LayoutRoot
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness:=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: WindowsInternal.ComposableShell.Experiences.Switcher.VirtualDesktopBarElement > Grid#GridElement > Border#VirtualDesktopSwitcherBackground
+    styles:
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+      - Background=$Background
+  - target: WindowsInternal.ComposableShell.Experiences.Switcher.SwitchItemListViewItem > Grid > Border
+    styles:
+      - CornerRadius=$ElementCornerRadius
+  - target: Border#VirtualDesktopBarBackground
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Taskbar.TaskListLabeledButtonPanel@CommonStates > Border#BackgroundElement
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: Rectangle#RunningIndicator
+    styles:
+      - Visibility=1
+  - target: Rectangle#ShowDesktopPipe
+    styles:
+      - Visibility=1
+  - target: Rectangle#RightOverflowButtonDivider
+    styles:
+      - Visibility=1
+  - target: SearchUx.SearchUI.SearchIconButton > SearchUx.SearchUI.SearchButtonRootGrid@CommonStates > Border#BackgroundElement
+    styles:
+      - Background:=Transparent
+      - BorderBrush:=Transparent
+  - target: SearchUx.SearchUI.SearchButtonRootGrid
+    styles:
+      - Background:=Transparent
+      - BorderBrush:=Transparent
+      - // BorderThickness=$ElementBorderThickness
+      - // CornerRadius=$ElementCornerRadius
+      - // Margin=4
+      - // Width=125
+  - target: Border#SearchPillBackgroundElement
+    styles:
+      - // Visibility=1
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+      - Margin=0,1
+  - target: SearchUx.SearchUI.SearchBoxButton > SearchUx.SearchUI.SearchButtonRootGrid@CommonStates > Border#BackgroundElement
+    styles:
+      - // Visibility=1
+      - CornerRadius=$ElementCornerRadius
+      - BorderThickness=$ElementBorderThickness
+      - BorderBrush:=$ElementBorderBrush
+      - Background:=$ElementBG
+      - Margin=0,-4
+  - target: Canvas#HoverFlyoutCanvas > Grid#HoverFlyoutGrid > Border#HoverFlyoutBackground
+    styles:
+      - Shadow:=
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Border#BackgroundElement
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - Background:=$ElementBG
+  - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Border#BackgroundElement
+    styles:
+      - Background:=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\w11-grey.png" />
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+      - Padding=18
+  - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon
+    styles:
+      - Visibility=1
+  - target: SystemTray.SystemTrayFrame
+    styles:
+      - HorizontalAlignment=Right
+  - target: Grid#AugmentedEntryPointContentGrid
+    styles:
+      - HorizontalAlignment=Left
+styleConstants:
+  - BorderThickness=0.3,1,0.3,0.3
+  - ElementBorderThickness=0.3,0.3,0.3,1
+  - Background=<WindhawkBlur BlurAmount="20" TintColor="#10808080"/>
+  - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="0.0" /><GradientStop Color="#50404040" Offset="0.25" /><GradientStop Color="#50808080" Offset="1" /></LinearGradientBrush>
+  - GlassBG=<AcrylicBrush TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.3" FallbackColor="{ThemeResource SystemChromeAltHighColor}" />
+  - GlassBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeLowColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
+  - ElementBG=<SolidColorBrush Color="#202020" Opacity="0.2" />
+  - ElementBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="1" /><GradientStop Color="#50606060" Offset="0.15" /></LinearGradientBrush>
+  - NormalOrb=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\w11-grey.png" />
+  - HoverOrb=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\w11-grey.png" />
+  - PressedOrb=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\w11-grey.png" />
+  - CornerRadius=10
+  - ElementCornerRadius=6
+resourceVariables:
+  - variableKey: ''
+    value: ''

@@ -44,3 +44,5 @@
 ### Notification Center
 
 - Adjusted the corner radius
+- Updated background colors to match the rest of the theme
+- Various visual tweaks and adjustments
