@@ -160,20 +160,14 @@ controlStyles:
     styles:
       - Background:=Transparent
       - BorderBrush:=Transparent
-      - // BorderThickness=$ElementBorderThickness
-      - // CornerRadius=$ElementCornerRadius
-      - // Margin=4
-      - // Width=125
   - target: Border#SearchPillBackgroundElement
     styles:
-      - // Visibility=1
       - BorderBrush:=$ElementBorderBrush
       - BorderThickness=$ElementBorderThickness
       - CornerRadius=$ElementCornerRadius
       - Margin=0,1
   - target: SearchUx.SearchUI.SearchBoxButton > SearchUx.SearchUI.SearchButtonRootGrid@CommonStates > Border#BackgroundElement
     styles:
-      - // Visibility=1
       - CornerRadius=$ElementCornerRadius
       - BorderThickness=$ElementBorderThickness
       - BorderBrush:=$ElementBorderBrush
@@ -217,9 +211,6 @@ styleConstants:
   - GlassBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeLowColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
   - ElementBG=<SolidColorBrush Color="#202020" Opacity="0.2" />
   - ElementBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="1" /><GradientStop Color="#50606060" Offset="0.15" /></LinearGradientBrush>
-  - NormalOrb=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\w11-grey.png" />
-  - HoverOrb=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\w11-grey.png" />
-  - PressedOrb=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\w11-grey.png" />
   - CornerRadius=10
   - ElementCornerRadius=6
 resourceVariables:
