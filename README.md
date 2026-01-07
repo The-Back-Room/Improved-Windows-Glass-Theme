@@ -23,6 +23,7 @@ Tweaks and adjusments that I am looking into and want to get done in future upda
 1. Properly fit the navigattion tray on the far right without causing the start menu to have a cutoff.
    - Center the Account and the Power buttons for symmetry
    - Adjust the start menu content and scroll container height to extend further down to be flush with the rest of the start menu.
+2. Adjust the blur radius for imrpoved visual clarity.
              
 ### Taskbar
 1. Change the tray background from the standard one to WindowGlass
@@ -31,9 +32,11 @@ Tweaks and adjusments that I am looking into and want to get done in future upda
    - **Pointer Over State**: A grey-scaled *(preferably frosted glass)* version default start button's pointer over image.
    - **Pressed State**: A grey-scaled *(preferably frosted glass)* version default start button's pressed image. 
 3. Remove the gray border around folder thumbnails in the pinned apps section.
+4. Adjust the blur radius for imrpoved visual clarity.
 
 ### Notifications Center
 1. Change the color of the buttons when it is off, icons and the text underneath them to gray for better  readability
+2. Adjust the blur radius for imrpoved visual clarity.
 
 ## Manual installation
 
