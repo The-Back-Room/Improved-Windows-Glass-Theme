@@ -28,7 +28,10 @@ Tweaks and adjusments that I am looking into and want to get done in future upda
              
 ### Taskbar
 1. Change the tray background from the standard one to WindowGlass
-2. Add seperate start button images for each start button state. *(e.g. pressed, pointer over, normal)*
+2. Add seperate start button images for each start button state. *(preferably one that looks more like a frosted glass w11 start button to match the glass ui a bit more)*
+   - **Normal State**: A grey-scaled *(preferably frosted glass)* version of the default Windows 11 start button's normal image.
+   - **Pointer Over State**: A grey-scaled *(preferably frosted glass)* version default start button's pointer over image.
+   - **Pressed State**: A grey-scaled *(preferably frosted glass)* version default start button's pressed image. 
 3. Remove the gray border around folder thumbnails in the pinned apps section.
 
 ### Notifications Center
