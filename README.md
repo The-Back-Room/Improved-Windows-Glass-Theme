@@ -18,31 +18,21 @@
 
 #### If you'd like to help, I'd be grateful! Below will be written the current problems that I want to solve in the future or I am unable to solve them. You can find a changelog with all of our current changes [here](/CHANGELOG.md).
 
-## Known Issues
+## To-Do
+Tweaks and adjusments that I am looking into and want to get done in future updates.
 
-### Problems I couldn't solve:
-      Start Menu:
-        1. In the "Pinned" section, there's a gray border around the folder thumbnails 
-           (where the four app icon previews are)
-        2. At the bottom of the "All" section, there's a border that hides the contents of 
-           that section, but it's not very nicely positioned. I couldn't lower this border 
-           to the "User Panel" bottom level
-
-      Notifications Center:
-        1. Change the color of the buttons when it is off, icons and the text underneath them 
-            to gray for better  readability
-
-### I want to try doing this in the future:
-      Start Menu:
-        1. Move the "Account" button slightly to the right and the "power" button to the left 
-           for symmetry
-        2. Properly fit the navigattion tray on the far right without causing the start menu to
-           have a cutoff
+### Start Menu
+1. Properly fit the navigattion tray on the far right without causing the start menu to have a cutoff.
+   - Center the Account and the Power buttons for symmetry
+   - Adjust the start menu content and scroll container height to extend further down to be flush with the rest of the start menu.
              
-      Taskbar:
-        1. Change the tray background from the standard one to WindowGlass
-        2. Add seperate start button images for each start button state. 
-           (e.g. pressed, pointer over, normal)
+### Taskbar
+1. Change the tray background from the standard one to WindowGlass
+2. Add seperate start button images for each start button state. *(e.g. pressed, pointer over, normal)*
+3. Remove the gray border around folder thumbnails in the pinned apps section.
+
+### Notifications Center
+1. Change the color of the buttons when it is off, icons and the text underneath them to gray for better  readability
 
 ## Manual installation
 
