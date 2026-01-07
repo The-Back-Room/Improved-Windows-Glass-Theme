@@ -36,9 +36,13 @@
       Start Menu:
         1. Move the "Account" button slightly to the right and the "power" button to the left 
            for symmetry
+        2. Properly fit the navigattion tray on the far right without causing the start menu to
+           have a cutoff
              
       Taskbar:
         1. Change the tray background from the standard one to WindowGlass
+        2. Add seperate start button images for each start button state. 
+           (e.g. pressed, pointer over, normal)
 
 ## Manual installation
 
