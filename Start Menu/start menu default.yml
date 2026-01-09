@@ -12,6 +12,21 @@ controlStyles:
       - CornerRadius=$CornerRadius
       - Width=780
       - RenderTransform:=<TranslateTransform X="10" Y="4" />
+  - target: Border#AppBorder
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Border#DropShadow
+    styles:
+      - Visibility=1
+  - target: Border#StartDropShadow
+    styles:
+      - Visibility=1
+  - target: Border#RightCompanionDropShadow
+    styles:
+      - Visibility=1
   - target: StartMenu.SearchBoxToggleButton#SearchBoxToggleButton
     styles:
       - Visibility=0
@@ -19,12 +34,6 @@ controlStyles:
       - RenderTransform:=<TranslateTransform X="8" Y="10" />
       - HorizontalAlignment=Stretch
       - Margin=20,0
-  - target: Border#AppBorder
-    styles:
-      - Background:=$Background
-      - BorderBrush:=$BorderBrush
-      - BorderThickness=$BorderThickness
-      - CornerRadius=$CornerRadius
   - target: Cortana.UI.Views.RichSearchBoxControl#SearchBoxControl
     styles:
       - HorizontalAlignment=Stretch
@@ -113,9 +122,6 @@ controlStyles:
   - target: TextBlock#PinnedListHeaderText
     styles:
       - Visibility=1
-  - target: Microsoft.UI.Xaml.Controls.DropDownButton#ViewSelectionButton
-    styles:
-      - // Visibility=0
   - target: Grid#NavPanePlaceholder
     styles:
       - Background:=$ElementBG
@@ -134,9 +140,6 @@ controlStyles:
       - BorderThickness=$ElementBorderThickness
       - Padding:=20,10,0,10
       - CornerRadius=$ElementCornerRadius
-  - target: StartMenu.PinnedListTile > Grid#Root > Grid#DisplayNameAndDownloadIconContainer > TextBlock
-    styles:
-      - // Visibility=0
   - target: StartMenu.StartHome > Grid#FrameRoot
     styles:
       - Margin=190,40,190,-100
@@ -317,9 +320,6 @@ controlStyles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius
-  - target: Border#AppBorder
-    styles:
-      - Visibility=1
   - target: Microsoft.UI.Xaml.Controls.DropDownButton > Grid@CommonStates
     styles:
       - Background@Normal:=$ElementBG

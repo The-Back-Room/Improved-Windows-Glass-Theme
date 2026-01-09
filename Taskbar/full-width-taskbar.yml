@@ -214,12 +214,6 @@ controlStyles:
   - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon
     styles:
       - Visibility=1
-  - target: SystemTray.SystemTrayFrame
-    styles:
-      - HorizontalAlignment=Right
-  - target: Grid#AugmentedEntryPointContentGrid
-    styles:
-      - HorizontalAlignment=Left
 styleConstants:
   - BorderThickness=0.3,1,0.3,0.3
   - ElementBorderThickness=0.3,0.3,0.3,1

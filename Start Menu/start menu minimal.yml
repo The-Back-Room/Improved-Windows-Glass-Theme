@@ -10,18 +10,31 @@ controlStyles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius
-      - Width=550
-  - target: StartMenu.SearchBoxToggleButton#SearchBoxToggleButton
+      - MaxWidth=750
+      - Width=Auto
+  - target: Border#AccentAppBorder
     styles:
-      - Height=40
-      - HorizontalAlignment=Stretch
-      - Margin=40,0
+      - Background:=$Background
+      - BorderThickness=$BorderThickness
+      - BorderBrush:=$BorderBrush
+      - CornerRadius=$CornerRadius
   - target: Border#AppBorder
     styles:
       - Background:=$Background
       - BorderBrush:=$BorderBrush
       - BorderThickness=$BorderThickness
       - CornerRadius=$CornerRadius
+  - target: Border#DropShadow
+    styles:
+      - Visibility=1
+  - target: Border#StartDropShadow
+    styles:
+      - Visibility=1
+  - target: StartMenu.SearchBoxToggleButton#SearchBoxToggleButton
+    styles:
+      - Height=40
+      - HorizontalAlignment=Stretch
+      - Margin=40,0
   - target: Cortana.UI.Views.RichSearchBoxControl#SearchBoxControl
     styles:
       - HorizontalAlignment=Stretch
@@ -97,6 +110,8 @@ controlStyles:
     styles:
       - Height=Auto
       - HorizontalAlignment=Stretch
+      - MaxWidth=910
+      - Width=Auto
   - target: TextBlock#PinnedListHeaderText
     styles:
       - Visibility=1
@@ -107,8 +122,9 @@ controlStyles:
       - BorderThickness=$ElementBorderThickness
       - Height=54
       - CornerRadius=$ElementCornerRadius
-      - HorizontalAlignment=Center
-      - Width=518
+      - HorizontalAlignment=Stretch
+      - MaxWidth=710
+      - Width=Auto
   - target: Windows.UI.Xaml.Controls.Primitives.ScrollBar#VerticalScrollBar
     styles:
       - Visibility=1
@@ -264,15 +280,6 @@ controlStyles:
   - target: Border#BackgroundBorder
     styles:
       - BackgroundTransition:=<BrushTransition Duration="0:0:0.083" />
-  - target: Border#AccentAppBorder
-    styles:
-      - Background:=$Background
-      - BorderThickness=$BorderThickness
-      - BorderBrush:=$BorderBrush
-      - CornerRadius=$CornerRadius
-  - target: Border#AppBorder
-    styles:
-      - Visibility=1
   - target: Microsoft.UI.Xaml.Controls.DropDownButton > Grid@CommonStates
     styles:
       - Background@Normal:=$ElementBG
@@ -288,6 +295,9 @@ controlStyles:
   - target: StartDocked.NavigationPaneButton#PowerButton
     styles:
       - RenderTransform:=<TranslateTransform X="-8" />
+  - target: ContentPresenter#ZoomedInPresenter > GridView#AllAppsGrid > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid
+    styles:
+      - MaximumRowsOrColumns=4
 webContentStyles:
   - target: '#qfPreviewPane'
     styles:
