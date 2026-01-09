@@ -202,15 +202,15 @@ controlStyles:
       - BorderThickness=$ElementBorderThickness
       - CornerRadius=$ElementCornerRadius
 styleConstants:
-  - Background=<WindhawkBlur BlurAmount="15" TintColor="#10808080"/>
+  - Background=<WindhawkBlur BlurAmount="10" TintColor="#10808080" TintOpacity="0,2"/>
   - BorderThickness=0.3,1,0.3,0.3
-  - ElementBG=<SolidColorBrush Color="#202020" Opacity="0.2" />
+  - ElementBG=<WindhawkBlur BlurAmount="10" TintColor="#202020" TintOpacity="0.2" />
   - ElementBorderThickness=0.3,0.3,0.3,1
   - ElementBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="1" /><GradientStop Color="#50606060" Offset="0.15" /></LinearGradientBrush>
   - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="0.0" /><GradientStop Color="#50404040" Offset="0.25" /><GradientStop Color="#50808080" Offset="1" /></LinearGradientBrush>
   - CornerRadius=10
   - ElementCornerRadius=6
-  - AccentBG=<WindhawkBlur BlurAmount="15" TintColor="{ThemeResource SystemAccentColorLight}"/>
+  - AccentBG=<WindhawkBlur BlurAmount="10" TintColor="{ThemeResource SystemAccentColorLight}" TintOpacity="0.2" />
 resourceVariables:
   - variableKey: ''
     value: ''
