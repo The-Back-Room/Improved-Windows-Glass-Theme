@@ -4,6 +4,7 @@ controlStyles:
     styles:
       - CornerRadius=$CornerRadius
       - HorizontalAlignment=Stretch
+      - MaxWidth=1330
       - Width=Auto
   - target: Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid
     styles:
@@ -11,7 +12,6 @@ controlStyles:
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius
       - Background:=$Background
-      - Margin=100,0
   - target: Rectangle#BackgroundFill
     styles:
       - Visibility=1
@@ -28,6 +28,7 @@ controlStyles:
       - BorderThickness=$ElementBorderThickness
       - CornerRadius=$ElementCornerRadius
       - Margin=4
+      - RenderTransform:=<TranslateTransform X="-104" />
   - target: SystemTray.ChevronIconView
     styles:
       - CornerRadius=$CornerRadius
