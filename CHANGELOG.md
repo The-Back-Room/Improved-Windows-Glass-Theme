@@ -15,6 +15,7 @@
 ### Taskbar
 
 - Slightly increased the opacity of the System Tray background
+- Added alternative full width taskbar variant.
           
 ### Notifications Center
 
