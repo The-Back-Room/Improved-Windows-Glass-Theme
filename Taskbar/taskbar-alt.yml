@@ -1,3 +1,4 @@
+theme: ''
 controlStyles:
   - target: Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid
     styles:
@@ -81,14 +82,10 @@ controlStyles:
   - target: Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel > Border#BackgroundElement
     styles:
       - CornerRadius=$ElementCornerRadius
-      - Background:=$ElementBG
-      - BorderBrush:=$ElementBorderBrush
       - BorderThickness=$ElementBorderThickness
   - target: Taskbar.TaskListButton#TaskListButton
     styles:
       - CornerRadius=$ElementCornerRadius
-      - Background:=$ElementBG
-      - BorderBrush:=$ElementBorderBrush
       - BorderThickness=$ElementBorderThickness
   - target: Border#SnapBarBorder
     styles:
@@ -97,6 +94,36 @@ controlStyles:
       - CornerRadius=$CornerRadius
       - BorderThickness=$BorderThickness
       - Margin=2
+  - target: Taskbar.TaskListLabeledButtonPanel@CommonStates > Border#BackgroundElement
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - BorderThickness=$ElementBorderThickness
+      - Background@ActiveNormal:=$ActiveBG
+      - Background@ActivePointerOver:=$ActiveBG
+      - Background@ActivePressed:=$ActiveBG
+      - Background@InactivePointerOver:=$ElementBG
+      - Background@InactivePressed:=$ElementBG
+      - BorderBrush@ActiveNormal:=$ElementBorderBrush
+      - BorderBrush@ActivePointerOver:=$ElementBorderBrush
+      - BorderBrush@ActivePressed:=$ElementBorderBrush
+      - BorderBrush@InactivePointerOver:=$ElementBorderBrush
+      - BorderBrush@InactivePressed:=$ElementBorderBrush
+      - Margin=1
+  - target: ContentPresenter#ContentPresenter@CommonStates
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - BorderThickness=$ElementBorderThickness
+      - Background@ActiveNormal:=$ActiveBG
+      - Background@ActivePointerOver:=$ActiveBG
+      - Background@ActivePressed:=$ActiveBG
+      - Background@InactivePointerOver:=$ElementBG
+      - Background@InactivePressed:=$ElementBG
+      - BorderBrush@ActiveNormal:=$ElementBorderBrush
+      - BorderBrush@ActivePointerOver:=$ElementBorderBrush
+      - BorderBrush@ActivePressed:=$ElementBorderBrush
+      - BorderBrush@InactivePointerOver:=$ElementBorderBrush
+      - BorderBrush@InactivePressed:=$ElementBorderBrush
+      - Margin=1
   - target: Border#SnapPickerBorder
     styles:
       - Background:=$Background
@@ -200,7 +227,8 @@ styleConstants:
   - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="0.0" /><GradientStop Color="#50404040" Offset="0.25" /><GradientStop Color="#50808080" Offset="1" /></LinearGradientBrush>
   - GlassBG=<AcrylicBrush TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.3" FallbackColor="{ThemeResource SystemChromeAltHighColor}" />
   - GlassBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeLowColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
-  - ElementBG=<SolidColorBrush Color="#202020" Opacity="0.2" />
+  - ElementBG=<WindhawkBlur BlurAmount="20" TintColor="#202020" TintOpacity="0.2" />
+  - ActiveBG=<WindhawkBlur BlurAmount="40" TintColor="#FFFFFF" TintOpacity="Opacity="0.8" />
   - ElementBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="1" /><GradientStop Color="#50606060" Offset="0.15" /></LinearGradientBrush>
   - CornerRadius=10
   - ElementCornerRadius=6
