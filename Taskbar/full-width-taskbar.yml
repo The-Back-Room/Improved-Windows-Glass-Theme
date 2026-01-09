@@ -1,14 +1,9 @@
 theme: ''
 controlStyles:
-  - target: Taskbar.TaskbarFrame#TaskbarFrame
-    styles:
-      - CornerRadius=$CornerRadius
-      - Margin=4
   - target: Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid
     styles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
-      - CornerRadius=$CornerRadius
       - Background:=$Background
   - target: Rectangle#BackgroundFill
     styles:

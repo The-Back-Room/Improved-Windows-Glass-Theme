@@ -1,10 +1,17 @@
 theme: ''
 controlStyles:
+  - target: Taskbar.TaskbarFrame#TaskbarFrame
+    styles:
+      - CornerRadius=$CornerRadius
+      - HorizontalAlignment=Stretch
+      - Width=Auto
   - target: Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid
     styles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
+      - CornerRadius=$CornerRadius
       - Background:=$Background
+      - Margin=100,0
   - target: Rectangle#BackgroundFill
     styles:
       - Visibility=1
