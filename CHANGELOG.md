@@ -15,7 +15,6 @@
 ### Taskbar
 
 - Slightly increased the opacity of the System Tray background
-- Added alternative full width taskbar variant.
           
 ### Notifications Center
 
@@ -41,6 +40,9 @@
 - Adjusted the corner radius
 - Added a grey start button
 - Should be compatible with most resolutions regarldess of DPI
+- Added active highlight to task list icons.
+- Added full width taskbar variant.
+- Added alt taskbar variant.
 
 ### Notification Center
 
