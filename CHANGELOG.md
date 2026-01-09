@@ -33,6 +33,7 @@
 - Added search window styling
 - Removed the recent section in the phone link widget for improved privacy and security
 - Added minimal variation *(Should be compatible with most resolutions regardless of DPI)*
+- Added alternate start menu variation with smaller grid colums *(Should allow phone link widget on 125% DPI displays with 1920x1080 or 1920x1200 screen resolutions)*
 
 ### Taskbar
 

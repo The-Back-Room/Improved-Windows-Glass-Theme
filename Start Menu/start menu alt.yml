@@ -1,0 +1,361 @@
+theme: ''
+disableNewStartMenuLayout: 0
+controlStyles:
+  - target: Border#AcrylicOverlay
+    styles:
+      - Visibility=1
+  - target: Border#AcrylicBorder
+    styles:
+      - Background:=$Background
+      - BorderThickness=$BorderThickness
+      - BorderBrush:=$BorderBrush
+      - CornerRadius=$CornerRadius
+      - MaxWidth=780
+      - Width=Auto
+      - RenderTransform:=<TranslateTransform X="10" Y="4" />
+  - target: Border#AppBorder
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Border#DropShadow
+    styles:
+      - Visibility=1
+  - target: Border#StartDropShadow
+    styles:
+      - Visibility=1
+  - target: Border#RightCompanionDropShadow
+    styles:
+      - Visibility=1
+  - target: StartMenu.SearchBoxToggleButton#SearchBoxToggleButton
+    styles:
+      - Visibility=0
+      - Height=40
+      - RenderTransform:=<TranslateTransform X="8" Y="10" />
+      - HorizontalAlignment=Stretch
+      - Margin=20,0
+  - target: Cortana.UI.Views.RichSearchBoxControl#SearchBoxControl
+    styles:
+      - HorizontalAlignment=Stretch
+  - target: Border#BorderElement
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: 'StartMenu.CategoryControl > Grid#RootGrid > Border '
+    styles:
+      - BorderThickness=$ElementBorderThickness
+      - BorderBrush:=$ElementBorderBrush
+      - Background:=$ElementBG
+      - CornerRadius=$ElementCornerRadius
+  - target: Border#BorderUnderline
+    styles:
+      - Visibility=0
+  - target: StackPanel#TimeAndDatePanel
+    styles:
+      - VerticalAlignment=Top
+      - HorizontalAlignment=Center
+      - RenderTransform:=<TranslateTransform X="0" />
+  - target: StackPanel#TimePanel > TextBlock#Time
+    styles:
+      - HorizontalAlignment=Center
+      - RenderTransform:=<TranslateTransform X="0" Y="50" />
+      - FontFamily=vivo Sans Clock Stencil Regular
+      - Foreground:=$ClockBG
+  - target: StackPanel#TimeAndDatePanel > TextBlock#Date
+    styles:
+      - HorizontalAlignment=Center
+      - RenderTransform:=<TranslateTransform X="0" Y="-150" />
+      - FontFamily=vivo Sans EN VF
+      - Foreground:=$ClockBG
+  - target: Grid#WidgetFrameGrid
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Grid#WidgetCanvasPanel
+    styles:
+      - HorizontalAlignment=Center
+      - RenderTransform:=<TranslateTransform X="0" Y="50" />
+  - target: Grid#MediaTransportControls
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Grid#MediaControlsContainer
+    styles:
+      - Visibility=0
+      - RenderTransform:=<TranslateTransform X="0" Y="-200" />
+      - Margin=0,0,0,0
+  - target: Windows.UI.Xaml.Controls.Primitives.ToggleButton#ShowHideCompanion
+    styles:
+      - Visibility=1
+  - target: Grid#CompanionRoot > Border#AcrylicOverlay
+    styles:
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+      - BorderBrush:=$ElementBorderBrush
+      - Background:=$ElementBG
+  - target: Grid#Root > Border
+    styles:
+      - BorderBrush:=$BorderBrush
+      - Background:=$Background
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Border#RightCompanionDropShadow
+    styles:
+      - Visibility=1
+  - target: Grid#RightCompanionContainerGrid
+    styles:
+      - Margin=-420,85,0,75
+      - RenderTransform:=<TranslateTransform X="68" />
+      - Width=200
+      - Visibility=0
+      - CornerRadius=$ElementCornerRadius
+  - target: StartMenu.PinnedList#StartMenuPinnedList
+    styles:
+      - Margin=30,0,25,25
+      - Height=auto
+  - target: TextBlock#PinnedListHeaderText
+    styles:
+      - Visibility=1
+  - target: Grid#NavPanePlaceholder
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - Height=55
+      - CornerRadius=$ElementCornerRadius
+      - RenderTransform:=<TranslateTransform X="10" />
+  - target: Windows.UI.Xaml.Controls.Primitives.ScrollBar#VerticalScrollBar
+    styles:
+      - Visibility=1
+  - target: StartMenu.PinnedList#StartMenuPinnedList > Grid#Root > GridView#PinnedList > Border
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - Padding:=20,10,0,10
+      - CornerRadius=$ElementCornerRadius
+  - target: StartMenu.StartHome > Grid#FrameRoot
+    styles:
+      - Margin=190,40,190,-100
+      - RenderTransform:=<TranslateTransform X="-190" Y="0" />
+      - Padding=0,0,0,80
+  - target: StartMenu.StartMenuCompanion#RightCompanion > Grid#CompanionRoot > Border#AcrylicBorder
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: Grid#TopLevelHeader > Grid > Button
+    styles:
+      - Visibility=1
+  - target: MenuFlyoutPresenter > Border
+    styles:
+      - BorderBrush:=$BorderBrush
+      - Background:=$Background
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: ToolTip > ContentPresenter#LayoutRoot
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness=$BorderThickness
+      - CornerRadius=$CornerRadius
+  - target: Button#AddButton
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: StartMenu.StartBlendedFlexFrame > Grid#FrameRoot
+    styles:
+      - Width=Auto
+      - HorizontalAlignment=Center
+      - MaxWidth:=1000
+      - MinWidth:=500
+  - target: GridView#PinnedList > Border > ScrollViewer
+    styles:
+      - ScrollViewer.VerticalScrollMode=2
+      - MaxHeight:=500
+      - MinHeight:=100
+      - Height=Auto
+      - Width=Auto
+      - HorizontalAlignment=Stretch
+  - target: StartMenu.CategoryControl
+    styles:
+      - MaxWidth:=200
+      - MinWidth:=100
+      - HorizontalAlignment=Stretch
+  - target: GridViewHeaderItem > Border > ContentPresenter#ContentPresenter > Button#Header > Border#Border
+    styles:
+      - Background:=Transparent
+      - BorderBrush:=Transparent
+  - target: StartMenu.SearchBoxToggleButton#SearchBoxToggleButton > Grid
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: Microsoft.UI.Xaml.Controls.DropDownButton
+    styles:
+      - RenderTransform:=<TranslateTransform X="-200" Y="-8" />
+  - target: GridView#PinnedList > Border
+    styles:
+      - Width=325
+      - HorizontalAlignment=Left
+  - target: StartMenu.FolderModal#StartFolderModal > Grid#Root
+    styles:
+      - Margin=-100,0,75,0
+  - target: ' Border#ContentBorder@CommonStates > Grid#DroppedFlickerWorkaroundWrapper > Border#BackgroundBorder'
+    styles:
+      - Background@PointerOver:=$Background
+      - BorderBrush@PointerOver:=$BorderBrush
+      - BorderThickness@PointerOver=$BorderThickness
+      - Background@Pressed:=$Background
+      - BorderBrush@Pressed:=$BorderBrush
+      - BorderThickness@Pressed=$BorderThickness
+      - Background@Selected:=$Background
+      - BorderBrush@Selected:=$BorderBrush
+      - BorderThickness@Selected=$BorderThickness
+      - Background@Normal:=Transparent
+      - BorderBrush@Normal:=Transparent
+      - BorderThickness@Normal=Transparent
+      - CornerRadius=$ElementCornerRadius
+  - target: StartMenu.SearchBoxToggleButton > Grid > Border#BorderElement
+    styles:
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: StartDocked.NavigationPaneButton#UserTileButton > Grid@CommonStates > Border
+    styles:
+      - Margin=6,-2
+      - Background:=Transparent
+      - BorderBrush:=Transparent
+      - BorderBrush@PointerOver:=$BorderBrush
+      - Background@PointerOver:=$Background
+      - BorderThickness@PointerOver=$BorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: StartDocked.AppListViewItem > Grid@CommonStates > Border
+    styles:
+      - BorderBrush:=Transparent
+      - Background:=Transparent
+      - BorderBrush@PointerOver:=$BorderBrush
+      - Background@PointerOver:=$Background
+      - BorderThickness@PointerOver=$BorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: StartDocked.NavigationPaneButton#PowerButton > Grid@CommonStates > Border
+    styles:
+      - BorderBrush:=Transparent
+      - Background:=Transparent
+      - BorderBrush@PointerOver:=$BorderBrush
+      - Background@PointerOver:=$Background
+      - BorderThickness@PointerOver=$BorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: Microsoft.UI.Xaml.Controls.DropDownButton > Grid#RootGrid
+    styles:
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: Button > Grid@CommonStates > Border
+    styles:
+      - BorderBrush:=Transparent
+      - Background:=Transparent
+      - BorderBrush@PointerOver:=$BorderBrush
+      - Background@PointerOver:=$Background
+      - BorderThickness@PointerOver=$BorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: ListViewItem > Grid#ContentBorder@CommonStates
+    styles:
+      - BorderBrush:=Transparent
+      - Background:=Transparent
+      - BorderBrush@PointerOver:=$BorderBrush
+      - Background@PointerOver:=$Background
+      - BorderThickness@PointerOver=$BorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: GridView#RecommendedList > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid
+    styles:
+      - MaximumRowsOrColumns=2
+  - target: GridView#RecommendedList > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid > GridViewItem
+    styles:
+      - Margin=10,0,0,0
+      - MinWidth=165
+      - MaxWidth=180
+      - Width=Auto
+  - target: Grid#TopLevelSuggestionsListHeader
+    styles:
+      - Visibility=1
+  - target: TextBlock#AllListHeadingText
+    styles:
+      - Visibility=1
+  - target: Button#ShowMoreSuggestionsButton
+    styles:
+      - Visibility=1
+  - target: ContentPresenter#ZoomedInPresenter > GridView#AllAppsGrid > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid
+    styles:
+      - MaximumRowsOrColumns=2
+  - target: Border > AdaptiveCards.Rendering.Uwp.WholeItemsPanel > Border > AdaptiveCards.Rendering.Uwp.WholeItemsPanel > Border
+    styles:
+      - Visibility=1
+  - target: Border#Root > Grid > ScrollContentPresenter > AdaptiveCards.Rendering.Uwp.WholeItemsPanel > Border > AdaptiveCards.Rendering.Uwp.WholeItemsPanel > Grid > Border > AdaptiveCards.Rendering.Uwp.WholeItemsPanel > TextBlock
+    styles:
+      - Visibility=1
+  - target: Grid@SearchBoxInputStates > Border#TaskbarSearchBackground
+    styles:
+      - Visibility=1
+  - target: Grid#LayoutRoot
+    styles:
+      - BackgroundTransition:=<BrushTransition Duration="0:0:0.083" />
+  - target: Border#BackgroundBorder
+    styles:
+      - BackgroundTransition:=<BrushTransition Duration="0:0:0.083" />
+  - target: Border#AccentAppBorder
+    styles:
+      - Background:=$Background
+      - BorderThickness=$BorderThickness
+      - BorderBrush:=$BorderBrush
+      - CornerRadius=$CornerRadius
+  - target: Microsoft.UI.Xaml.Controls.DropDownButton > Grid@CommonStates
+    styles:
+      - Background@Normal:=$ElementBG
+      - BorderBrush@Normal:=$ElementBorderBrush
+      - BorderBrush@PointerOver:=$ElementBorderBrush
+      - BorderBrush@Pressed:=$ElementBorderBrush
+      - Background@PointerOver:=$ElementBG
+      - Background@Pressed:=$ElementBG
+      - BorderThickness=$ElementBorderThickness
+      - Margin=2
+      - CornerRadius=$ElementCornerRadius
+      - Padding=9,3,7,4
+  - target: StartDocked.NavigationPaneButton#PowerButton
+    styles:
+      - RenderTransform:=<TranslateTransform X="-8" />
+webContentStyles:
+  - target: '#qfPreviewPane'
+    styles:
+      - 'min-width: 300px !important'
+  - target: '*'
+    styles:
+      - 'transition: background-color 0.083s ease-in-out !important'
+webContentCustomJs: ''
+styleConstants:
+  - Background=<WindhawkBlur BlurAmount="15" TintColor="#10808080"/>
+  - BorderBrush2=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeAltHighColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
+  - BorderThickness=0.3,1,0.3,0.3
+  - ClockBG=<WindhawkBlur BlurAmount="20" TintColor="{ThemeResource SystemAccentColorLight2}" TintOpacity="0.3" />
+  - Background2=<AcrylicBrush TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.3" FallbackColor="{ThemeResource SystemChromeAltHighColor}" />
+  - ElementBG=<SolidColorBrush Color="#202020" Opacity="0.2" />
+  - ElementBorderThickness=0.3,0.3,0.3,1
+  - ElementBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="1" /><GradientStop Color="#50606060" Offset="0.15" /></LinearGradientBrush>
+  - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="0.0" /><GradientStop Color="#50404040" Offset="0.25" /><GradientStop Color="#50808080" Offset="1" /></LinearGradientBrush>
+  - CornerRadius=10
+  - ElementCornerRadius=6
+resourceVariables:
+  - variableKey: ''
+    value: ''
