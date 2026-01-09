@@ -30,15 +30,11 @@ controlStyles:
   - target: CalendarViewDayItem > Border
     styles:
       - CornerRadius=$ElementCornerRadius
-      - BorderThickness=$ElementBorderThickness
-      - BorderBrush:=$ElementBorderBrush
-      - Background:=$ElementBG
+      - BorderBrush:=Transparent
   - target: Control > Border
     styles:
       - CornerRadius=$ElementCornerRadius
-      - BorderThickness=$ElementBorderThickness
-      - BorderBrush:=$ElementBorderBrush
-      - Background:=$ElementBG
+      - BorderBrush:=Transparent
   - target: Grid#ControlCenterRegion
     styles:
       - CornerRadius=$CornerRadius
@@ -214,7 +210,7 @@ styleConstants:
   - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="0.0" /><GradientStop Color="#50404040" Offset="0.25" /><GradientStop Color="#50808080" Offset="1" /></LinearGradientBrush>
   - CornerRadius=10
   - ElementCornerRadius=6
-  - AccentBG=<WindhawkBlur BlurAmount="15" TintColor="{ThemeResource SystemAccentColor}"/>
+  - AccentBG=<WindhawkBlur BlurAmount="15" TintColor="{ThemeResource SystemAccentColorLight}"/>
 resourceVariables:
   - variableKey: ''
     value: ''
