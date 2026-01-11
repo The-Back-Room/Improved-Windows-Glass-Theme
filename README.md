@@ -6,16 +6,11 @@
 <img width="49%" height="auto" alt="Minimal Preview" src="/resources/Minimal-Preview.png" />
 </div>
 
-> [!NOTE]
-> Let me say right away that I'm neither a programmer nor a designer. I simply liked this design and decided to tweak it a bit to suit my tastes. I'd be grateful for any help or advice. This is still a work in progress (I do this in my free time and whenever I feel like it)
-
-##### Also thanks to @x3phyy for this and other improvements that I'm using
-
 > [!IMPORTANT]
 > The start menu theme ONLY supports 16:9 or 16:10 screen reolutions with a DPI of 100% *(Tested on 1920x1080 and 1920x1200)*. Using it on anything else will result in overlapping elements. There is a minimal variation included of which *should* support most resolutions regardless of DPI.
 
 
-#### If you'd like to help, I'd be grateful! Below will be written the current problems that I want to solve in the future or I am unable to solve them. You can find a changelog with all of our current changes [here](/CHANGELOG.md).
+#### If you'd like to help, I'd be grateful!
 
 ## To-Do
 Tweaks and adjusments that I am looking into and want to get done in future updates.
