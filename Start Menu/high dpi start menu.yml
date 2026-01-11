@@ -10,7 +10,7 @@ controlStyles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius
-      - MaxWidth=780
+      - MaxWidth=580
       - Width=Auto
       - RenderTransform:=<TranslateTransform X="10" Y="4" />
   - target: Border#AppBorder
