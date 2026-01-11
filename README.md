@@ -20,23 +20,18 @@
 Tweaks and adjusments that I am looking into and want to get done in future updates.
 
 ### Start Menu
-1. Properly fit the navigattion tray on the far right without causing the start menu to have a cutoff.
-   - Center the Account and the Power buttons for symmetry
-   - Adjust the start menu content and scroll container height to extend further down to be flush with the rest of the start menu.
-2. Adjust the blur radius for imrpoved visual clarity.
+1. Adjust the start menu scroll container size for more consistant visuals.
              
 ### Taskbar
 1. Change the tray background from the standard one to WindowGlass
 2. Add seperate start button images for each start button state. *(preferably one that looks more like a frosted glass w11 start button to match the glass ui a bit more)*
-   - **Normal State**: A grey-scaled *(preferably frosted glass)* version of the default Windows 11 start button's normal image.
-   - **Pointer Over State**: A grey-scaled *(preferably frosted glass)* version default start button's pointer over image.
-   - **Pressed State**: A grey-scaled *(preferably frosted glass)* version default start button's pressed image. 
-3. Remove the gray border around folder thumbnails in the pinned apps section.
-4. Adjust the blur radius for imrpoved visual clarity.
+   - **Normal State**: A grey-scaled *(preferably frosted glass)* version of the default start button's normal image.
+   - **Pointer Over State**: A grey-scaled *(preferably frosted glass)* version of the default start button's pointer over image.
+   - **Pressed State**: A grey-scaled *(preferably frosted glass)* version of the default start button's pressed image. 
+3. Remove or adjust the gray border around folder thumbnails in the pinned apps section.
 
 ### Notifications Center
-1. Change the color of the buttons when it is off, icons and the text underneath them to gray for better  readability
-2. Adjust the blur radius for imrpoved visual clarity.
+1. Change the color of the inactive button icons and the text underneath them to gray for better  readability.
 
 ## Manual installation
 
@@ -47,7 +42,9 @@ The theme styles must be imported manually for now due to the official version n
 * Install the [Vivo Sans En VF](https://1drv.ms/u/c/67fedd4420ed716d/EXRoW1f5dABJrO2dPj0tbM0Bm1uYiGeoKyAYA7X7er2Zww?e=cLsiJJ) and [Vivo Sans Clock Stencil](https://1drv.ms/u/c/67fedd4420ed716d/EW6LJO1CAu1Fs-khbTGXWFUB5sXhRxM-I__B1lkKWgizdA?e=J1RJYy) fonts.
 * Download the [w11-grey.png](/resources/w11-grey.png) file and place it into `C:\Resources\Icons\Start Orbs\`. *(If the location doesn`t exist, create it.)*
 
-### Start Menu
+---
+
+### Default Start Menu
 
 * Open the Windows 11 Start Menu Styler mod in Windhawk.
 * Go to the `Advanced` tab.
@@ -64,11 +61,31 @@ This theme also includes a minimal version of the Start menu with the Phone Link
 * Go to the `Settings` tab and click the `Textual` button.
 * Copy the contents of the [start menu minimal.yml](/Start%20Menu/start%20menu%20minimal.yml) file to the text box under `Mod settings` and click `Save`.
 
-### Taskbar
+### High DPI Start Menu
+
+This theme also includes a high dpi version of the Start menu with smaller grid limits to allow the Phone Link widget on systems with higher DPI. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
+
+* Open the Windows 11 Start Menu Styler mod in Windhawk.
+* Go to the `Settings` tab and click the `Textual` button.
+* Copy the contents of the [high dpi start menu.yml](/Start%20Menu/high%20dpi%20start%20menu.yml) file to the text box under `Mod settings` and click `Save`.
+
+---
+
+### Default Taskbar
 
 * Open the Windows 11 Taskbar Styler mod in Windhawk.
 * Go to the `Settings` tab and click the `Textual` button.
 * Copy the contents of the [taskbar.yml](/Taskbar/taskbar.yml) file to the text box under `Mod settings` and click `Save`.
+
+### Full Width Taskbar
+
+For users who prefer a full width taskbar.
+
+* Open the Windows 11 Taskbar Styler mod in Windhawk.
+* Go to the `Settings` tab and click the `Textual` button.
+* Copy the contents of the [full width taskbar.yml](/Taskbar/full%20width%20taskbar.yml) file to the text box under `Mod settings` and click `Save`.
+
+---
 
 ### Notification Center
 
