@@ -2,7 +2,7 @@
 
 # Improved Windows Glass Theme
 
-<img width="90%" height="auto" alt="Minimal Preview" src="/resources/Preview.png" /><br />
+<img width="99%" height="auto" alt="Minimal Preview" src="/resources/Preview.png" /><br />
 <img width="49%" height="auto" alt="High DPI Preview" src="/resources/High-DPI-Preview.png" /> 
 <img width="49%" height="auto" alt="Minimal Preview" src="/resources/Minimal-Preview.png" />
 </div>
