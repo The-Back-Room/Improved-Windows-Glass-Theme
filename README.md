@@ -1,6 +1,6 @@
 <div align="center">
 
-# Improved WindowsGlass Theme
+# Improved Windows Glass Theme
 
 <img width="100%" height="auto" alt="Minimal Preview" src="/resources/Preview.png" /><br />
 <img width="49%" height="auto" alt="High DPI Preview" src="/resources/High-DPI-Preview.png" /> 
