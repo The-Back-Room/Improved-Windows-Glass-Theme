@@ -10,7 +10,7 @@ controlStyles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius
-      - MaxWidth=750
+      - MaxWidth=580
       - Width=Auto
   - target: Border#AccentAppBorder
     styles:
@@ -183,7 +183,7 @@ controlStyles:
   - target: GridView#PinnedList > Border
     styles:
       - HorizontalAlignment=Stretch
-  - target: ' Border#ContentBorder@CommonStates > Grid#DroppedFlickerWorkaroundWrapper > Border#BackgroundBorder'
+  - target: Border#ContentBorder@CommonStates > Grid#DroppedFlickerWorkaroundWrapper > Border#BackgroundBorder
     styles:
       - Background@PointerOver:=$Background
       - BorderBrush@PointerOver:=$BorderBrush

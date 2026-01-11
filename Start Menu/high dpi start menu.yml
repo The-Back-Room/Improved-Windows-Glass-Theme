@@ -212,7 +212,7 @@ controlStyles:
   - target: StartMenu.FolderModal#StartFolderModal > Grid#Root
     styles:
       - Margin=-100,0,75,0
-  - target: ' Border#ContentBorder@CommonStates > Grid#DroppedFlickerWorkaroundWrapper > Border#BackgroundBorder'
+  - target: Border#ContentBorder@CommonStates > Grid#DroppedFlickerWorkaroundWrapper > Border#BackgroundBorder
     styles:
       - Background@PointerOver:=$Background
       - BorderBrush@PointerOver:=$BorderBrush

@@ -1,8 +1,9 @@
 # WindowsGlass
 
 <div align="center">
-<img width="48%" height="auto" alt="Minimal Preview" src="/Preview.png" /> 
-<img width="48%" height="auto" alt="Minimal Preview" src="/Minimal-Preview.png" />
+<img width="100%" height="auto" alt="Minimal Preview" src="/resources/Preview.png" /><br />
+<img width="48%" height="auto" alt="High DPI Preview" src="/resources/High-DPI-Preview.png" /> 
+<img width="48%" height="auto" alt="Minimal Preview" src="/resources/Minimal-Preview.png" />
 </div>
 
 > [!NOTE]
