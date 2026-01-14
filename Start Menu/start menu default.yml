@@ -10,7 +10,8 @@ controlStyles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius
-      - Width=780
+      - MaxWidth=780
+      - Width=Auto
       - RenderTransform:=<TranslateTransform X="10" Y="4" />
   - target: Border#AppBorder
     styles:
@@ -206,7 +207,7 @@ controlStyles:
       - RenderTransform:=<TranslateTransform X="-200" Y="-8" />
   - target: GridView#PinnedList > Border
     styles:
-      - Width=525
+      - Width=520
       - HorizontalAlignment=Left
   - target: StartMenu.FolderModal#StartFolderModal > Grid#Root
     styles:
@@ -344,7 +345,7 @@ webContentStyles:
       - 'transition: background-color 0.083s ease-in-out !important'
 webContentCustomJs: ''
 styleConstants:
-  - Background=<WindhawkBlur BlurAmount="20" TintColor="#10808080" TintOpacity="0.2" />
+  - Background=<WindhawkBlur BlurAmount="15" TintColor="#25323232" TintOpacity="0.2" />
   - BorderBrush2=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeAltHighColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
   - BorderThickness=0.3,1,0.3,0.3
   - ClockBG=<WindhawkBlur BlurAmount="20" TintColor="{ThemeResource SystemAccentColorLight2}" TintOpacity="0.3" />

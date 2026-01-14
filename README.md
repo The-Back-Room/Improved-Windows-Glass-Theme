@@ -44,7 +44,7 @@ The theme styles must be imported manually for now due to the official version n
 
 ### Minimal Start Menu
 
-This theme also includes a minimal version of the Start menu with the Phone Link companion removed.
+This theme also includes a minimal version of the Start menu with the Phone Link companion removed. *(Should work regardless of resolution or DPI)*
 
 * Open the Windows 11 Start Menu Styler mod in Windhawk.
 * Go to the `Settings` tab and click the `Textual` button.
@@ -62,7 +62,15 @@ This theme also includes a high dpi version of the Start menu with smaller grid 
 
 * Open the Windows 11 Taskbar Styler mod in Windhawk.
 * Go to the `Settings` tab and click the `Textual` button.
-* Copy the contents of the [taskbar.yml](/Taskbar/taskbar.yml) file to the text box under `Mod settings` and click `Save`.
+* Copy the contents of the [taskbar.yml](/Taskbar/default%20taskbar.yml) file to the text box under `Mod settings` and click `Save`.
+
+### High DPI Taskbar
+
+This theme also includes a high dpi version of the taskbar. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
+
+* Open the Windows 11 Taskbar Styler mod in Windhawk.
+* Go to the `Settings` tab and click the `Textual` button.
+* Copy the contents of the [taskbar.yml](/Taskbar/high%20dpi%20taskbar.yml) file to the text box under `Mod settings` and click `Save`.
 
 ### Full Width Taskbar
 

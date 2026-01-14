@@ -202,7 +202,7 @@ controlStyles:
       - BorderThickness=$ElementBorderThickness
       - CornerRadius=$ElementCornerRadius
 styleConstants:
-  - Background=<WindhawkBlur BlurAmount="20" TintColor="#10808080" TintOpacity="0,2"/>
+  - Background=<WindhawkBlur BlurAmount="15" TintColor="#25323232" TintOpacity="0.2" />
   - BorderThickness=0.3,1,0.3,0.3
   - ElementBG=<WindhawkBlur BlurAmount="20" TintColor="#202020" TintOpacity="0.2" />
   - ElementBorderThickness=0.3,0.3,0.3,1

@@ -1,9 +1,16 @@
 theme: ''
 controlStyles:
+  - target: Taskbar.TaskbarFrame#TaskbarFrame
+    styles:
+      - CornerRadius=$CornerRadius
+      - HorizontalAlignment=Stretch
+      - MaxWidth=1330
+      - Width=Auto
   - target: Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid
     styles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
+      - CornerRadius=$CornerRadius
       - Background:=$Background
   - target: Rectangle#BackgroundFill
     styles:
@@ -21,6 +28,7 @@ controlStyles:
       - BorderThickness=$ElementBorderThickness
       - CornerRadius=$ElementCornerRadius
       - Margin=4
+      - RenderTransform:=<TranslateTransform X="-304" />
   - target: SystemTray.ChevronIconView
     styles:
       - CornerRadius=$CornerRadius
@@ -214,6 +222,12 @@ controlStyles:
   - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon
     styles:
       - Visibility=1
+  - target: SystemTray.SystemTrayFrame
+    styles:
+      - HorizontalAlignment=Right
+  - target: Grid#AugmentedEntryPointContentGrid
+    styles:
+      - HorizontalAlignment=Left
 styleConstants:
   - BorderThickness=0.3,1,0.3,0.3
   - ElementBorderThickness=0.3,0.3,0.3,1

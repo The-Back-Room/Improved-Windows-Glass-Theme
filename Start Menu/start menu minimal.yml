@@ -10,7 +10,7 @@ controlStyles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius
-      - MaxWidth=580
+      - MaxWidth=560
       - Width=Auto
   - target: Border#AccentAppBorder
     styles:
@@ -123,7 +123,7 @@ controlStyles:
       - Height=54
       - CornerRadius=$ElementCornerRadius
       - HorizontalAlignment=Stretch
-      - MaxWidth=710
+      - MaxWidth=520
       - Width=Auto
   - target: Windows.UI.Xaml.Controls.Primitives.ScrollBar#VerticalScrollBar
     styles:
@@ -307,7 +307,7 @@ webContentStyles:
       - 'transition: background-color 0.083s ease-in-out !important'
 webContentCustomJs: ''
 styleConstants:
-  - Background=<WindhawkBlur BlurAmount="20" TintColor="#10808080" TintOpacity="0.2" />
+  - Background=<WindhawkBlur BlurAmount="15" TintColor="#25323232" TintOpacity="0.2" />
   - BorderBrush2=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeAltHighColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
   - BorderThickness=0.3,1,0.3,0.3
   - ClockBG=<WindhawkBlur BlurAmount="20" TintColor="{ThemeResource SystemAccentColorLight2}" TintOpacity="0.3" />

@@ -231,7 +231,7 @@ controlStyles:
 styleConstants:
   - BorderThickness=0.3,1,0.3,0.3
   - ElementBorderThickness=0.3,0.3,0.3,1
-  - Background=<WindhawkBlur BlurAmount="20" TintColor="#10808080"/>
+  - Background=<WindhawkBlur BlurAmount="15" TintColor="#25323232" TintOpacity="0.2" />
   - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="0.0" /><GradientStop Color="#50404040" Offset="0.25" /><GradientStop Color="#50808080" Offset="1" /></LinearGradientBrush>
   - GlassBG=<AcrylicBrush TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.3" FallbackColor="{ThemeResource SystemChromeAltHighColor}" />
   - GlassBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeLowColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
