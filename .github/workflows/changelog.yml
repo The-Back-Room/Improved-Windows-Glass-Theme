@@ -24,8 +24,10 @@ jobs:
         uses: charmixer/auto-changelog-action@v1
         with:
           token: ${{ github.token }}
-          message: 'chore: update changelog'
-          content: |
+          allowUpdate: true
+          allowCreate: true
+          output: CHANGELOG.md
+          template: |
             ## [{{version}}] - {{date}}
             {{#each changes}}
             ### {{this.type}}
@@ -33,7 +35,7 @@ jobs:
             - {{this}}
             {{/each}}
             {{/each}}
-            
+
       - name: Commit files
         env:
           CI_USER: ${{ secrets.username }}
