@@ -19,6 +19,11 @@ jobs:
         with:
           token: ${{ github.token }}
           tag: ${{ github.ref_name }}
+          branch: main
+          template: keepachangelog
+          version_prefix: v
+          file_pattern: CHANGELOG.md
+          allowUpdates: true
 
       - name: Create Release
         uses: ncipollo/release-action@v1.20.0
