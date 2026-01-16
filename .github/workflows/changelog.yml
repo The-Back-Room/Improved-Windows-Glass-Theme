@@ -20,7 +20,6 @@ jobs:
     name: Generate changelog for main branch
     steps:
       - uses: actions/checkout@v1
-
       - name: Generate changelog
         uses: charmixer/auto-changelog-action@v1
         with:
@@ -34,6 +33,7 @@ jobs:
             - {{this}}
             {{/each}}
             {{/each}}
+            
       - name: Commit files
         env:
           CI_USER: ${{ secrets.username }}
