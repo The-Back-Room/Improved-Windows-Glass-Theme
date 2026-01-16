@@ -92,4 +92,4 @@ For users who prefer a full width taskbar.
   * Copy the contents of the [notification center.yml](/Notification%20Center/notification%20center.yml) file to the text box under `Mod settings` and click `Save`.
 2. Open the Shell Flyout Positions mod in Windhawk
   * Go to the `Settings` tab and click the `Textual` button.
-  * Copy the contents of the [flyout positions.yml](Shell%20Flyout$20Positions/fylout%20positions.yml) file to the text box uynder `Mod Settings` and click `Save`.
+  * Copy the contents of the [align with tray.yml](/Shell%20Fylout%20Positions/align%20with%20tray.yml) file to the text box uynder `Mod Settings` and click `Save`.
