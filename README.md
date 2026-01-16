@@ -40,56 +40,56 @@ The theme styles must be imported manually for now due to the official version n
 #### Default Start Menu
 
 1. Open the Windows 11 Start Menu Styler mod in Windhawk.
-  * Go to the `Advanced` tab.
-  * Add `LockApp.exe` to the `Custom process inclusion list`.
-  * Return to the `Settings` tab and click the `Textual` button.
-  * Copy the contents of the [start menu default.yml](/Start%20Menu/start%20menu%20default.yml) file to the text box under `Mod settings` and click `Save`.
+   - Go to the `Advanced` tab.
+   - Add `LockApp.exe` to the `Custom process inclusion list`.
+   - Return to the `Settings` tab and click the `Textual` button.
+   - Copy the contents of the [start menu default.yml](/Start%20Menu/start%20menu%20default.yml) file to the text box under `Mod settings` and click `Save`.
 
 #### Minimal Start Menu
 
 This theme also includes a minimal version of the Start menu with the Phone Link companion removed. *(Should work regardless of resolution or DPI)*
 
 1. Open the Windows 11 Start Menu Styler mod in Windhawk.
-  * Go to the `Settings` tab and click the `Textual` button.
-  * Copy the contents of the [start menu minimal.yml](/Start%20Menu/start%20menu%20minimal.yml) file to the text box under `Mod settings` and click `Save`.
+   - Go to the `Settings` tab and click the `Textual` button.
+   - Copy the contents of the [start menu minimal.yml](/Start%20Menu/start%20menu%20minimal.yml) file to the text box under `Mod settings` and click `Save`.
 
 #### High DPI Start Menu
 
 This theme also includes a high dpi version of the Start menu with smaller grid limits to allow the Phone Link widget on systems with higher DPI. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
 
 1. Open the Windows 11 Start Menu Styler mod in Windhawk.
-  * Go to the `Settings` tab and click the `Textual` button.
-  * Copy the contents of the [high dpi start menu.yml](/Start%20Menu/high%20dpi%20start%20menu.yml) file to the text box under `Mod settings` and click `Save`.
+   - Go to the `Settings` tab and click the `Textual` button.
+   - Copy the contents of the [high dpi start menu.yml](/Start%20Menu/high%20dpi%20start%20menu.yml) file to the text box under `Mod settings` and click `Save`.
 
 ## Taskbar
 
 #### Default Taskbar
 
 1. Open the Windows 11 Taskbar Styler mod in Windhawk.
-  * Go to the `Settings` tab and click the `Textual` button.
-  * Copy the contents of the [taskbar.yml](/Taskbar/default%20taskbar.yml) file to the text box under `Mod settings` and click `Save`.
+   - Go to the `Settings` tab and click the `Textual` button.
+   - Copy the contents of the [taskbar.yml](/Taskbar/default%20taskbar.yml) file to the text box under `Mod settings` and click `Save`.
 
 #### High DPI Taskbar
 
 This theme also includes a high dpi version of the taskbar. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
 
 1. Open the Windows 11 Taskbar Styler mod in Windhawk.
-  * Go to the `Settings` tab and click the `Textual` button.
-  * Copy the contents of the [taskbar.yml](/Taskbar/high%20dpi%20taskbar.yml) file to the text box under `Mod settings` and click `Save`.
+   - Go to the `Settings` tab and click the `Textual` button.
+   - Copy the contents of the [taskbar.yml](/Taskbar/high%20dpi%20taskbar.yml) file to the text box under `Mod settings` and click `Save`.
 
 #### Full Width Taskbar
 
 For users who prefer a full width taskbar.
 
 1. Open the Windows 11 Taskbar Styler mod in Windhawk.
-  * Go to the `Settings` tab and click the `Textual` button.
-  * Copy the contents of the [full width taskbar.yml](/Taskbar/full%20width%20taskbar.yml) file to the text box under `Mod settings` and click `Save`.
+   - Go to the `Settings` tab and click the `Textual` button.
+   - Copy the contents of the [full width taskbar.yml](/Taskbar/full%20width%20taskbar.yml) file to the text box under `Mod settings` and click `Save`.
 
 ## Notification Center
 
 1. Open the Windows 11 Notification Center Styler mod in Windhawk.
-  * Go to the `Settings` tab and click the `Textual` button.
-  * Copy the contents of the [notification center.yml](/Notification%20Center/notification%20center.yml) file to the text box under `Mod settings` and click `Save`.
+   - Go to the `Settings` tab and click the `Textual` button.
+   - Copy the contents of the [notification center.yml](/Notification%20Center/notification%20center.yml) file to the text box under `Mod settings` and click `Save`.
 2. Open the Shell Flyout Positions mod in Windhawk
-  * Go to the `Settings` tab and click the `Textual` button.
-  * Copy the contents of the [align with tray.yml](/Shell%20Fylout%20Positions/align%20with%20tray.yml) file to the text box uynder `Mod Settings` and click `Save`.
+   - Go to the `Settings` tab and click the `Textual` button.
+   - Copy the contents of the [align with tray.yml](/Shell%20Fylout%20Positions/align%20with%20tray.yml) file to the text box under `Mod Settings` and click `Save`.
