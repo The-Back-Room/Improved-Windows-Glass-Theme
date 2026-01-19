@@ -31,7 +31,7 @@ The theme styles must be imported manually for now due to the official version n
 
 ## Requirements
 
-* **Windhawk Mods**: Windows 11 Start Menu Styler, Windows 11 Taskbar Styler, Windows 11 Notification Center Styler, Shell Flyout Positions
+* **Windhawk Mods**: Windows 11 Start Menu Styler, Windows 11 Taskbar Styler, Windows 11 Notification Center Styler, Windows 11 File Explorer Styler, Translucent Windows, Shell Flyout Positions
 * **Vivo Sans Fonts**: Install the [Vivo Sans En VF](https://1drv.ms/u/c/67fedd4420ed716d/EXRoW1f5dABJrO2dPj0tbM0Bm1uYiGeoKyAYA7X7er2Zww?e=cLsiJJ) and [Vivo Sans Clock Stencil](https://1drv.ms/u/c/67fedd4420ed716d/EW6LJO1CAu1Fs-khbTGXWFUB5sXhRxM-I__B1lkKWgizdA?e=J1RJYy) fonts.
 * **Start Button Image**: Download the [w11-grey.png](/resources/w11-grey.png) file and place it into `C:\Resources\Icons\Start Orbs\`. *(If the location doesn`t exist, create it.)*
 
@@ -93,3 +93,14 @@ For users who prefer a full width taskbar.
 2. Open the Shell Flyout Positions mod in Windhawk
    - Go to the `Settings` tab and click the `Textual` button.
    - Copy the contents of the [align with tray.yml](/Shell%20Flyout%20Positions/align%20with%20tray.yml) file to the text box under `Mod Settings` and click `Save`.
+
+## File EExplorer
+
+1. Open the Windows 11 File Explorer Styler mod in Windhawk.
+   - Go to the `Settings` tab and choose the `WindowGlass` theme.
+2. Open the Translucent Windows mod in Windhawk.
+   - Go to the `Settings` tab and do the following:
+       - Enable toggle switches in "Rendering Customization": Windows theme custom rendering, New system colors and Windows theme accent colorizer
+       - In "Background translucent effects" choose "Blur (AccentBlurBehind)"
+       - In "AccentBlurBehind color blend" input field write 0F000000
+       - Enable toggle switches "Immersive darkmode titlebar" and "Extend effects into entire window"
