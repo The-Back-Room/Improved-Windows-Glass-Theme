@@ -26,7 +26,8 @@ Tweaks and adjusments that I am looking into and want to get done in future upda
    - **Pressed State**: A grey-scaled *(preferably frosted glass)* version of the default start button's pressed image. 
 
 ### File Explorer
-1. Adjust the transparency of the overflow menus to match the rest of the style better.
+1. Adjust the transparency of the overflow menus for improved visibility.
+2. Adjust the transparency of the tooltips for improved visibility.
 
 ## Manual installation
 
