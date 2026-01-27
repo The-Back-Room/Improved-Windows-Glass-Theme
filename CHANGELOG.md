@@ -2,6 +2,9 @@
 
 
 
+### Bug Fixes
+
+- fix: Update TooltipLine format in clock configuration for improved media information display [`711dad5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/711dad50b573602c8d4b4f87f833c6b46024c9b5)
 
 ### Other Changes
 
@@ -100,6 +103,8 @@
 - Remove unused preview images from README and related directories [`9a94932`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9a949326d4fec86b4cfcea7dc4e421cb8e746117)
 - Update image layout in README for Taskbar and Notification Center previews [`cbb7a1f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/cbb7a1f62bdcfb1382591df3f59cc5e43ce4afcd)
 - Fix System Tray Position [`034179c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/034179ccbab8e342ec1097dbc2ecec7d9696746f)
+- fix: Update TooltipLine format in clock configuration for improved media information display [`711dad5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/711dad50b573602c8d4b4f87f833c6b46024c9b5)
+- Update CHANGELOG [`8afef59`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/8afef59995ed2bfae4216ed36ec9734a4563b1ac)
 - Add additional adjustments for Start Menu visuals to the To-Do section [`db22b31`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/db22b31f489f93b0fb887ed69b9d6491710ae9f3)
 - Fix alt text for File Explorer preview image in README.md [`e5a3629`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e5a36294759d797e5fb034fe89cf8a00d7c4bbfe)
 - Fix typo in README.md for Shell Flyout Positions mod instructions [`1d01f91`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/1d01f910ba134d65141ca98a3025e4694b146682)
