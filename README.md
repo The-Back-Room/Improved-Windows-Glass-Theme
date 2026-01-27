@@ -36,7 +36,7 @@ The theme styles must be imported manually for now due to the official version n
 
 ## Requirements
 
-* **Windhawk Mods**: Windows 11 Start Menu Styler, Windows 11 Taskbar Styler, Windows 11 Notification Center Styler, Shell Flyout Positions
+* **Windhawk Mods**: `Windows 11 Start Menu Styler`, `Windows 11 Taskbar Styler`, `Windows 11 Notification Center Styler`, `Shell Flyout Positions`, `Taskbar tray system icon tweaks`
 * **Vivo Sans Fonts**: Install the [Vivo Sans En VF](https://1drv.ms/u/c/67fedd4420ed716d/EXRoW1f5dABJrO2dPj0tbM0Bm1uYiGeoKyAYA7X7er2Zww?e=cLsiJJ) and [Vivo Sans Clock Stencil](https://1drv.ms/u/c/67fedd4420ed716d/EW6LJO1CAu1Fs-khbTGXWFUB5sXhRxM-I__B1lkKWgizdA?e=J1RJYy) fonts.
 * **Start Button Image**: Download the [w11-grey.png](/resources/w11-grey.png) file and place it into `C:\Resources\Icons\Start Orbs\`. *(If the location doesn`t exist, create it.)*
 
@@ -44,7 +44,7 @@ The theme styles must be imported manually for now due to the official version n
 
 ### Default Start Menu
 
-1. Open the Windows 11 Start Menu Styler mod in Windhawk.
+1. Open the `Windows 11 Start Menu Styler` mod in Windhawk.
    - Go to the `Advanced` tab.
    - Add `LockApp.exe` to the `Custom process inclusion list`.
    - Return to the `Settings` tab and click the `Textual` button.
@@ -54,7 +54,7 @@ The theme styles must be imported manually for now due to the official version n
 
 This theme also includes a minimal version of the Start menu with the Phone Link companion removed. *(Should work regardless of resolution or DPI)*
 
-1. Open the Windows 11 Start Menu Styler mod in Windhawk.
+1. Open the `Windows 11 Start Menu Styler` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    - Copy the contents of the [start menu minimal.yml](/Start%20Menu/start%20menu%20minimal.yml) file to the text box and click `Save`.
 
@@ -62,7 +62,7 @@ This theme also includes a minimal version of the Start menu with the Phone Link
 
 This theme also includes a high dpi version of the Start menu with smaller grid limits to allow the Phone Link widget on systems with higher DPI. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
 
-1. Open the Windows 11 Start Menu Styler mod in Windhawk.
+1. Open the `Windows 11 Start Menu Styler` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    - Copy the contents of the [high dpi start menu.yml](/Start%20Menu/high%20dpi%20start%20menu.yml) file to the text box and click `Save`.
 
@@ -70,32 +70,41 @@ This theme also includes a high dpi version of the Start menu with smaller grid 
 
 ### Default Taskbar
 
-1. Open the Windows 11 Taskbar Styler mod in Windhawk.
+1. Open the ``Windows 11 Taskbar Styler`` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    - Copy the contents of the [taskbar.yml](/Taskbar/default%20taskbar.yml) file to the text box and click `Save`.
+2. Open the `Taskbar tray system icon tweaks` mod in Windhawk.
+   - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
+   - Copy the contents of the [system tray tweaks.yml](/System%20Tray%20Tweaks/system%20tray%20tweaks.yml) file to the text box and click `Save`.
 
 ### High DPI Taskbar
 
 This theme also includes a high dpi version of the taskbar. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
 
-1. Open the Windows 11 Taskbar Styler mod in Windhawk.
+1. Open the `Windows 11 Taskbar Styler` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    - Copy the contents of the [taskbar.yml](/Taskbar/high%20dpi%20taskbar.yml) file to the text box and click `Save`.
+2. Open the `Taskbar tray system icon tweaks` mod in Windhawk.
+   - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
+   - Copy the contents of the [system tray tweaks.yml](/System%20Tray%20Tweaks/system%20tray%20tweaks.yml) file to the text box and click `Save`.
 
 ### Full Width Taskbar
 
 For users who prefer a full width taskbar.
 
-1. Open the Windows 11 Taskbar Styler mod in Windhawk.
+1. Open the `Windows 11 Taskbar Styler` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    - Copy the contents of the [full width taskbar.yml](/Taskbar/full%20width%20taskbar.yml) file to the text box and click `Save`.
+2. Open the `Taskbar tray system icon tweaks` mod in Windhawk.
+   - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
+   - Copy the contents of the [system tray tweaks.yml](/System%20Tray%20Tweaks/system%20tray%20tweaks.yml) file to the text box and click `Save`.
 
 ## Notification Center
 
-1. Open the Windows 11 Notification Center Styler mod in Windhawk.
+1. Open the `Windows 11 Notification Center Styler` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    - Copy the contents of the [notification center.yml](/Notification%20Center/notification%20center.yml) file to the text box and click `Save`.
-2. Open the Shell Flyout Positions mod in Windhawk
+2. Open the `Shell Flyout Positions` mod in Windhawk
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    - Copy the contents of the [align with tray.yml](/Shell%20Flyout%20Positions/align%20with%20tray.yml) file to the text box and click `Save`.
 

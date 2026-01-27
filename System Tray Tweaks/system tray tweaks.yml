@@ -1,0 +1,10 @@
+hideVolumeIcon: 0
+hideNetworkIcon: 0
+hideBatteryIcon: 0
+hideMicrophoneIcon: 0
+hideGeolocationIcon: 1
+hideStudioEffectsIcon: 1
+hideLanguageBar: 1
+hideLanguageSupplementaryIcons: 1
+hideBellIcon: whenInactiveAndNoDnd
+showDesktopButtonWidth: 12
