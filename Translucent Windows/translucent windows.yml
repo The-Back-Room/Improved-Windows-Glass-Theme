@@ -1,0 +1,52 @@
+RenderingMod:
+  ThemeBackground: 1
+  SysColors: 1
+  AccentColorControls: 1
+type: acrylicblur
+AccentBlurBehind: 3A232323
+FlyoutsEffects: 1
+ImmersiveDarkTitle: 1
+ExtendFrame: 1
+CornerOption: smallround
+RainbowSpeed: 1
+TitlebarColor:
+  ColorTitlebar: 0
+  RainbowTitlebar: 0
+  titlerbarstyles_active: FF0000
+  titlerbarstyles_inactive: 00FFFF
+TitlebarTextColor:
+  ColorTitlebarText: 0
+  RainbowTextColor: 0
+  titlerbarcolorstyles_active: FF0000
+  titlerbarcolorstyles_inactive: 00FFFF
+BorderColor:
+  ColorBorder: 0
+  RainbowBorder: 0
+  borderstyles_active: FF0000
+  borderstyles_inactive: 00FFFF
+RuledPrograms:
+  - target: ''
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    type: ''
+    AccentBlurBehind: ''
+    ImmersiveDarkTitle: 0
+    ExtendFrame: 0
+    CornerOption: ''
+    RainbowSpeed: 0
+    TitlebarColor:
+      ColorTitlebar: 0
+      RainbowTitlebar: 0
+      titlerbarstyles_active: ''
+      titlerbarstyles_inactive: ''
+    TitlebarTextColor:
+      ColorTitlebarText: 0
+      RainbowTextColor: 0
+      titlerbarcolorstyles_active: ''
+      titlerbarcolorstyles_inactive: ''
+    BorderColor:
+      ColorBorder: 0
+      RainbowBorder: 0
+      borderstyles_active: ''
+      borderstyles_inactive: ''
