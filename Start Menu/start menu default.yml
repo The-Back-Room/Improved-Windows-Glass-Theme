@@ -205,6 +205,7 @@ controlStyles:
   - target: Microsoft.UI.Xaml.Controls.DropDownButton
     styles:
       - RenderTransform:=<TranslateTransform X="-200" Y="-8" />
+      - Visibility=1
   - target: GridView#PinnedList > Border
     styles:
       - Width=520
