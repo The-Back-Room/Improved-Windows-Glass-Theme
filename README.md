@@ -2,10 +2,6 @@
 
 # Improved Windows Glass Theme
 
-<img width="96%" height="auto" alt="Minimal Preview" src="/resources/Preview.png" />
-<img width="48%" height="auto" alt="High DPI Preview" src="/resources/High-DPI-Preview.png" />
-<img width="48%" height="auto" alt="Minimal Preview" src="/resources/Minimal-Preview.png" />
-<img width="96%" height="auto" alt="File Explorer Preview" src="/resources/File-Explorer-Preview.png" />
 </div>
 
 > [!IMPORTANT]
@@ -13,6 +9,18 @@
 
 
 #### If you'd like to help, feel free to open a PR with your improvements and/or fixes!
+
+<details>
+<summary>Preview Images</summary>
+<img width="96%" height="auto" alt="Minimal Preview" src="/resources/Preview.png" />
+<hr />
+<img width="48%" height="auto" alt="High DPI Preview" src="/resources/High-DPI-Preview.png" />
+<img width="48%" height="auto" alt="Minimal Preview" src="/resources/Minimal-Preview.png" />
+<img width="48%" height="auto" alt="Clock Preview" src="/resources/Clock-Preview.png" />
+<hr />
+<img width="96%" height="auto" alt="File Explorer Preview" src="/resources/File-Explorer-Preview.png" />
+
+</details>
 
 ## To-Do
 Tweaks and adjusments that I am looking into and want to get done in future updates.
