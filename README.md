@@ -18,7 +18,8 @@
 <hr />
 <img width="48%" height="auto" alt="Clock Preview" src="/resources/Clock-Preview.png" />
 <hr />
-<img width="96%" height="auto" alt="File Explorer Preview" src="/resources/File-Explorer-Preview.png" />
+<img width="48%" height="auto" alt="File Explorer Preview" src="/resources/File-Explorer-Preview.png" />
+<img width="48%" height="auto" alt="File Explorer Preview" src="/resources/File-Explorer-Tabs-Preview.png" />
 
 </details>
 
