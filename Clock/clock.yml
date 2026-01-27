@@ -1,12 +1,12 @@
-ShowSeconds: 1
-TimeFormat: hh':'mm':'ss tt
+ShowSeconds: 0
+TimeFormat: hh':'mm tt
 DateFormat: ddd',' MMM dd yyyy
 WeekdayFormat: dddd
 WeekdayFormatCustom: Sun, Mon, Tue, Wed, Thu, Fri, Sat
-TopLine: '%date% | %time%'
+TopLine: '%media_status% %media_info%'
 BottomLine: '%web1%'
 MiddleLine: '%weekday%'
-TooltipLine: '%weather%%n%%n%%web1_full%%n%%n%%media_status% %media_info%'
+TooltipLine: '%date% | %time%%n%%n%%weather%%n%%n%%web1_full%%n%%n%%media_status% %media_artist% - %media_title%'
 TooltipLineMode: replace
 Width: 180
 Height: 60
@@ -24,7 +24,7 @@ MediaPlayer:
     - ''
   MaxLength: 28
   NoMediaText: No media
-  RemoveBrackets: 0
+  RemoveBrackets: 1
 WebContentWeatherLocation: ''
 WebContentWeatherFormat: '%c 🌡️%t 🌬️%w'
 WebContentWeatherUnits: autoDetect
