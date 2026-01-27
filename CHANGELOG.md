@@ -4,8 +4,12 @@
 
 ### Bug Fixes
 
-- fix: Update clock configuration [`e5811a4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e5811a44de106e9e07e01b6dd59aa627d231fbc1)
+- fix: Add new preview images and adjust sizes of existing images [`333d18b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/333d18b93af7b6ac3bdd84fa4279f3ed06ae5b3e)
+- fix: Update preview images and move them for cleaner structure [`f4dd79a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f4dd79ac15091efcf788c37e06bf06f26087df4d)
+- fix: Update clock configuration: [`e5811a4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e5811a44de106e9e07e01b6dd59aa627d231fbc1)
 - fix: Consolidate TooltipLine format updates in changelog for clarity [`5edf99c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5edf99c7e3fc8b919b414035dd6f790bd7170294)
+- fix: Consolidate duplicate entries in changelog for clarity [`0cf650b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0cf650b61d399c68b3b6c3be604fb3b1c78ac3d2)
+- fix: adjust preview image seperatros [`ba809a3`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ba809a3f73f22678ca9a1bab3f33fb0672fe1f49)
 - fix: Update TooltipLine format in clock configuration for improved media information display [`711dad5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/711dad50b573602c8d4b4f87f833c6b46024c9b5)
 
 ### Other Changes
@@ -58,6 +62,7 @@
 - Add new changelog template and update CHANGELOG for improved documentation [`feeb7bd`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/feeb7bda26786df5f6e762b51d1c51dfb1f7a528)
 - Refactor CHANGELOG.md format and add auto-changelog configuration [`2a8421d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2a8421dbd7a7cd65cfd38df947754de5c2018ccb)
 - Update issue templates [`224e2ac`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/224e2ac53d6829e1e48ca8915da4eefcbc19e586)
+- fix: Update preview images and move them for cleaner structure [`f4dd79a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f4dd79ac15091efcf788c37e06bf06f26087df4d)
 - Clarify instructions for switching to Textual mode in various sections [`683a8f3`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/683a8f39b60c159217e197facffc07d825cab581)
 - Add CHANGELOG.md to document project updates [`1192727`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/1192727f0766731434088aed682a30c191c35cae)
 - Refactor Start Menu and Taskbar Styles [`2df8a91`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2df8a915cc14e0b23492db6d34e9690c2d439587)
@@ -95,6 +100,7 @@
 - Remove "Previews" section and clean up README formatting [`0e96747`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0e96747411e05a02e7157f8e47fcfdeec8333290)
 - Fix System Tray Position [`cd938f1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/cd938f1091c4701c299130b2ddc1b02c24e1dcb0)
 - Add screenshots [`9c9347b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9c9347bb6f6653462954d4fa2489d44fb365b068)
+- fix: Consolidate duplicate entries in changelog for clarity [`0cf650b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0cf650b61d399c68b3b6c3be604fb3b1c78ac3d2)
 - Update CHANGELOG [`9f8d92d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9f8d92d47c13e42eb967e764ba779597620f83da)
 - Update auto-changelog configuration to use compact template and fix sortCommits key [`2882db1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2882db1d30c226e1ce939904134a7272fb1ae5d6)
 - Update image previews in README.md [`5cb8385`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5cb83857401435eabeef962319a3196aa126cd56)
@@ -107,6 +113,7 @@
 - Remove unused preview images from README and related directories [`9a94932`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9a949326d4fec86b4cfcea7dc4e421cb8e746117)
 - Update image layout in README for Taskbar and Notification Center previews [`cbb7a1f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/cbb7a1f62bdcfb1382591df3f59cc5e43ce4afcd)
 - Fix System Tray Position [`034179c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/034179ccbab8e342ec1097dbc2ecec7d9696746f)
+- fix: adjust preview image seperatros [`ba809a3`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ba809a3f73f22678ca9a1bab3f33fb0672fe1f49)
 - fix: Update TooltipLine format in clock configuration for improved media information display [`711dad5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/711dad50b573602c8d4b4f87f833c6b46024c9b5)
 - Update CHANGELOG [`8afef59`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/8afef59995ed2bfae4216ed36ec9734a4563b1ac)
 - Add additional adjustments for Start Menu visuals to the To-Do section [`db22b31`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/db22b31f489f93b0fb887ed69b9d6491710ae9f3)
