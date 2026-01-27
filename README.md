@@ -19,6 +19,8 @@ Tweaks and adjusments that I am looking into and want to get done in future upda
 
 ### Start Menu
 1. Adjust the start menu scroll container size for more consistant visuals.
+2. Adjust list view width to remove overlapping on hover.
+3. Adjust grid view width to allow for more columns and better fit the available space.
              
 ### Taskbar
 1. Add seperate start button images for each start button state. *(preferably one that looks more like a frosted glass w11 start button to match the glass ui a bit more)*
