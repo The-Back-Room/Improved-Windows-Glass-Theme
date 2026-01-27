@@ -3,7 +3,7 @@ controlStyles:
   - target: Microsoft.UI.Xaml.Controls.Grid#PART_LayoutRoot
     styles:
       - Background=Transparent
-      - HorizontalAlignment=Center
+      - HorizontalAlignment=Stretch
   - target: FileExplorerExtensions.FirstCrumbStackPanelControl#FirstCrumbStackPanel
     styles:
       - Visibility=1
