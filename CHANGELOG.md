@@ -4,6 +4,8 @@
 
 ### Bug Fixes
 
+- fix: Update clock configuration [`e5811a4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e5811a44de106e9e07e01b6dd59aa627d231fbc1)
+- fix: Consolidate TooltipLine format updates in changelog for clarity [`5edf99c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5edf99c7e3fc8b919b414035dd6f790bd7170294)
 - fix: Update TooltipLine format in clock configuration for improved media information display [`711dad5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/711dad50b573602c8d4b4f87f833c6b46024c9b5)
 
 ### Other Changes
@@ -65,6 +67,7 @@
 - Fix typos and improve clarity in changelog entries; consolidate bug fixes for Start Menu, Taskbar, and Notification Center [`3e00ac0`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/3e00ac06372801e78d7f9e366d808422995b47bc)
 - Fix formatting inconsistencies in README for improved readability [`3ce00ba`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/3ce00ba952c62d5b9cb66e3c68e6d6c5a2cad85e)
 - Refactor code structure for improved readability and maintainability [`eae8c3a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/eae8c3a487c2ea595414b14a9f90e6389717a1b4)
+- fix: Update clock configuration: [`e5811a4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e5811a44de106e9e07e01b6dd59aa627d231fbc1)
 - Update changelog generation workflow and create CHANGELOG.md [`5bac0d5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5bac0d5c5c0165c73565dbebd770ec27f3716f27)
 - Update notification center styles; set border brush to transparent and adjust accent background tint [`2cdffbd`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2cdffbd556f7272910f8f9bde43473f0ed4bb184)
 - Add instructions for theme application and update start button image path in json file [`9b248a0`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9b248a0af3cf400b95ba39a63c5cf5082672cff0)
@@ -83,6 +86,7 @@
 - Update notification center styles; adjust background and element styles for improved visual consistency [`44b7e50`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/44b7e5022085e5bf8c6b6f1a0f7e470a3c4189d4)
 - Add border styles and padding for improved element appearance in Windows Glass theme [`ca24779`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ca2477963c6829e2fdc0ba6cde33bbe74e91f5de)
 - Refine future improvement suggestions in README for clarity [`91e9604`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/91e9604ff35304073bbdf8313444896ede66281b)
+- fix: Consolidate TooltipLine format updates in changelog for clarity [`5edf99c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5edf99c7e3fc8b919b414035dd6f790bd7170294)
 - Fix changelog generation parameters in workflow [`89874cc`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/89874cc5c0dd52fdac78aca1e903da98625bbd10)
 - Update README.md to reflect the correct theme name [`7be8555`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/7be85550c167596c1a615f9538d15337f542f8a6)
 - Update README with detailed start button image specs [`fa7f8f9`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/fa7f8f9ebefc630fb3d39af7efe63cf5ff2e9ae3)
