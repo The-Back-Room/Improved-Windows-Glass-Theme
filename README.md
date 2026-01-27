@@ -38,7 +38,7 @@ The theme styles must be imported manually for now due to the official version n
 
 ## Requirements
 
-* **Windhawk Mods**: `Windows 11 Start Menu Styler`, `Windows 11 Taskbar Styler`, `Windows 11 Notification Center Styler`, `Shell Flyout Positions`, `Taskbar tray system icon tweaks`, `Translucent Windows`
+* **Windhawk Mods**: `Windows 11 Start Menu Styler`, `Windows 11 Taskbar Styler`, `Windows 11 Notification Center Styler`, `Shell Flyout Positions`, `Taskbar tray system icon tweaks`, `Translucent Windows`, `Taskbar Clock Customization`
 * **Vivo Sans Fonts**: Install the [Vivo Sans En VF](https://1drv.ms/u/c/67fedd4420ed716d/EXRoW1f5dABJrO2dPj0tbM0Bm1uYiGeoKyAYA7X7er2Zww?e=cLsiJJ) and [Vivo Sans Clock Stencil](https://1drv.ms/u/c/67fedd4420ed716d/EW6LJO1CAu1Fs-khbTGXWFUB5sXhRxM-I__B1lkKWgizdA?e=J1RJYy) fonts.
 * **Start Button Image**: Download the [w11-grey.png](/resources/w11-grey.png) file and place it into `C:\Resources\Icons\Start Orbs\`. *(If the location doesn`t exist, create it.)*
 
@@ -77,7 +77,10 @@ This theme also includes a high dpi version of the Start menu with smaller grid 
    - Copy the contents of the [taskbar.yml](/Taskbar/default%20taskbar.yml) file to the text box and click `Save`.
 2. Open the `Taskbar tray system icon tweaks` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
-   - Copy the contents of the [system tray tweaks.yml](/System%20Tray%20Tweaks/system%20tray%20tweaks.yml) file to the text box and click `Save`.
+   - Copy the contents of the [system tray.yml](/System%20Tray%20Tweaks/system%20tray.yml) file to the text box and click `Save`.
+3. Open the `Taskbar Clock Customization` mod in Windhawk.
+   - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
+   - Copy the contents of the [clock.yml](/Clock/clock.yml) file to the text box and click `Save`.
 
 ### High DPI Taskbar
 
@@ -88,7 +91,10 @@ This theme also includes a high dpi version of the taskbar. *(Tested on 1920x108
    - Copy the contents of the [taskbar.yml](/Taskbar/high%20dpi%20taskbar.yml) file to the text box and click `Save`.
 2. Open the `Taskbar tray system icon tweaks` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
-   - Copy the contents of the [system tray tweaks.yml](/System%20Tray%20Tweaks/system%20tray%20tweaks.yml) file to the text box and click `Save`.
+   - Copy the contents of the [system tray.yml](/System%20Tray%20Tweaks/system%20tray.yml) file to the text box and click `Save`.
+3. Open the `Taskbar Clock Customization` mod in Windhawk.
+   - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
+   - Copy the contents of the [clock.yml](/Clock/clock.yml) file to the text box and click `Save`.
 
 ### Full Width Taskbar
 
@@ -99,7 +105,10 @@ For users who prefer a full width taskbar.
    - Copy the contents of the [full width taskbar.yml](/Taskbar/full%20width%20taskbar.yml) file to the text box and click `Save`.
 2. Open the `Taskbar tray system icon tweaks` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
-   - Copy the contents of the [system tray tweaks.yml](/System%20Tray%20Tweaks/system%20tray%20tweaks.yml) file to the text box and click `Save`.
+   - Copy the contents of the [system tray.yml](/System%20Tray%20Tweaks/system%20tray.yml) file to the text box and click `Save`.
+3. Open the `Taskbar Clock Customization` mod in Windhawk.
+   - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
+   - Copy the contents of the [clock.yml](/Clock/clock.yml) file to the text box and click `Save`.
 
 ## Notification Center
 
