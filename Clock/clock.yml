@@ -6,7 +6,7 @@ WeekdayFormatCustom: Sun, Mon, Tue, Wed, Thu, Fri, Sat
 TopLine: '%date% | %time%'
 BottomLine: '%web1%'
 MiddleLine: '%weekday%'
-TooltipLine: '%weather%%n%%n%%web1_full%%n%%n%%media_status% %media_artist% - %media_title%'
+TooltipLine: '%weather%%n%%n%%web1_full%%n%%n%%media_status% %media_info%'
 TooltipLineMode: replace
 Width: 180
 Height: 60
