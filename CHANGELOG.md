@@ -1,6 +1,9 @@
 ### [Unreleased]()
 
 
+### New Features
+
+- feat: Add rendering exclusions for MS Office applications and OneDrive [`af4497a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/af4497a6a4a986b0127c3c705e5db1a28a7f89a2)
 
 ### Bug Fixes
 
@@ -37,6 +40,7 @@
 - Enhance taskbar styles with new button panel configurations and background effects [`9a66849`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9a668497ccab51ecb2d33ca8cba5eb92b8b5af57)
 - Add Taskbar Clock Customization support and update system tray configuration [`5e6eb37`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5e6eb378edd22f09a7d89edae74ee0d58cfa6a02)
 - Refactor taskbar and start menu styles; enhance visibility settings and adjust layout properties [`ea219b8`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ea219b86445ce38c9979bcee7325d1fed3af8315)
+- feat: Add rendering exclusions for MS Office applications and OneDrive [`af4497a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/af4497a6a4a986b0127c3c705e5db1a28a7f89a2)
 - Updated taskbar search box [`1e1a1d0`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/1e1a1d0af435e8ef8401b4db274232c1ebb9d570)
 - Add support for `Translucent Windows` mod [`a1a7e6d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/a1a7e6d28505ce1cf0bf3b59c5b0f1f56c71fd49)
 - Remove changelog generation workflow and delete CHANGELOG.md [`2c2fccb`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2c2fccb77702178b5a1abd26889d4c0dddee4443)
@@ -122,6 +126,7 @@
 - Remove unused preview images from README and related directories [`9a94932`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9a949326d4fec86b4cfcea7dc4e421cb8e746117)
 - Update image layout in README for Taskbar and Notification Center previews [`cbb7a1f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/cbb7a1f62bdcfb1382591df3f59cc5e43ce4afcd)
 - Fix System Tray Position [`034179c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/034179ccbab8e342ec1097dbc2ecec7d9696746f)
+- Update CHANGELOG [`0938b84`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0938b842f74fe7efed2a78ea988680f18b75e079)
 - Remove unused resources [`7a88a5c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/7a88a5cad93f875703ba2ee42059fb304f109853)
 - fix: Update Address Bar HorizontalAlignment in File Explorer [`2d606c4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2d606c46789a4f84bfa84fc7fbdd95727c4dea14)
 - fix: adjust preview image seperatros [`ba809a3`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ba809a3f73f22678ca9a1bab3f33fb0672fe1f49)
