@@ -5,6 +5,7 @@
 <img width="96%" height="auto" alt="Minimal Preview" src="/resources/Preview.png" />
 <img width="48%" height="auto" alt="High DPI Preview" src="/resources/High-DPI-Preview.png" />
 <img width="48%" height="auto" alt="Minimal Preview" src="/resources/Minimal-Preview.png" />
+<img width="96%" height="auto" alt="Minimal Preview" src="/resources/File-Explorer-Preview.png" />
 </div>
 
 > [!IMPORTANT]
