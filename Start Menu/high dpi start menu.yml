@@ -285,8 +285,8 @@ controlStyles:
   - target: GridView#RecommendedList > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid > GridViewItem
     styles:
       - Margin=10,0,0,0
-      - MinWidth=165
-      - MaxWidth=180
+      - MinWidth=125
+      - MaxWidth=165
       - Width=Auto
   - target: Grid#TopLevelSuggestionsListHeader
     styles:
