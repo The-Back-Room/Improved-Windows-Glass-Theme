@@ -1,0 +1,23 @@
+{{#each releases}}
+  ### [{{title}}]({{href}})
+
+  {{! List commits with `Breaking change: ` somewhere in the message }}
+  {{#commit-list commits heading='### Breaking Changes' message='Breaking change: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that add new features, but not those already listed above }}
+  {{#commit-list commits heading='### New Features' message='feat: ' exclude='Breaking change: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that fix bugs, but not those already listed above }}
+  {{#commit-list commits heading='### Bug Fixes' message='fix: ' exclude='Breaking change: ,feat: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List other commits not already listed above }}
+  {{#commit-list commits heading='### Other Changes' exclude='Breaking change: ,feat: ,fix: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+{{/each}}
