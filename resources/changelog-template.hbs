@@ -17,8 +17,17 @@
   {{/commit-list}}
 
   {{! List other commits not already listed above }}
-  {{#commit-list commits heading='### Other Changes' exclude='Breaking change: ,feat: ,fix: ,fiz: ,fixt: '}}
+  {{#commit-list commits heading='### Other Changes' exclude='Breaking change: ,feat: ,fix: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
+  {{! List commits that refactor code }}
+  {{#commit-list commits heading='### Code Refactoring' message='refactor: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that merge branches }}
+  {{#commit-list commits heading='### Merges' message='Merge pull request ,Merge branch '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
 {{/each}}
