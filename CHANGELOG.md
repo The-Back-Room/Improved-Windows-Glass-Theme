@@ -29,6 +29,8 @@
 - fix: Update Address Bar HorizontalAlignment in File Explorer [`2d606c4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2d606c46789a4f84bfa84fc7fbdd95727c4dea14)
 - fix: adjust preview image seperatros [`ba809a3`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ba809a3f73f22678ca9a1bab3f33fb0672fe1f49)
 - fix: Update TooltipLine format in clock configuration for improved media information display [`711dad5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/711dad50b573602c8d4b4f87f833c6b46024c9b5)
+- fix: Remove outdated reference to issue comment in Translucent Windows instructions [`66288bf`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/66288bf5eca3f24f73dc900864d3e8981683036c)
+- fix: Remove unnecessary blank line from exclusions list [`85cb3b5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/85cb3b513785fbbf4f0e0e75c03f2edf2e01b734)
 - fix: Add mspaint.exe to exclusion list [`579fe7f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/579fe7fcca457f2e7e74efeed41b5255ebf0293a)
 
 
