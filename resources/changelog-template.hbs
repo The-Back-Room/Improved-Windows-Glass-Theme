@@ -17,12 +17,17 @@
   {{/commit-list}}
 
   {{! List other commits not already listed above }}
-  {{#commit-list commits heading='### Other Changes' exclude='Breaking change: ,feat: ,fix: '}}
+  {{#commit-list commits heading='### Other Changes' exclude='Breaking change: ,feat: ,fix: , fiz: , fixt: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! Ignore pushes with typoed release titles }}
-  {{^if isInvalidReleaseTitle}}
-    ---
-  {{/if}}
+  {{! Add correct organization for typoed release titles }}
+  {{#commit-list commits heading='### Bug Fixes' message='fixt: ' exclude='Breaking change: ,feat: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{#commit-list commits heading='### Bug Fixes' message='fiz: ' exclude='Breaking change: ,feat: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
 {{/each}}
