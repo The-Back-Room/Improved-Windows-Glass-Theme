@@ -16,8 +16,38 @@
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List other commits that don't fall into the above categories }}
-  {{#commit-list commits heading='### Other' exclude='feat: |fix: |Breaking change: '}}
+  {{! List commits that refactor code }}
+  {{#commit-list commits heading='### Refactors' message='refactor: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that improve documentation }}
+  {{#commit-list commits heading='### Documentation' message='docs: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that add tests }}
+  {{#commit-list commits heading='### Tests' message='test: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that improve performance }}
+  {{#commit-list commits heading='### Performance Improvements' message='perf: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that chore tasks }}
+  {{#commit-list commits heading='### Chores' message='chore: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that merge branches }}
+  {{#commit-list commits heading='### Merges' message='Merge branch '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that merge pull requests }}
+  {{#commit-list commits heading='### Pull Requests' message='Merge pull request '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 {{/each}}
