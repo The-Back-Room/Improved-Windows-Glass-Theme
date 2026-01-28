@@ -11,11 +11,6 @@
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List commits that fix bugs, but not those already listed above }}
-  {{#commit-list commits heading='### Bug Fixes' message='fixt: ,fix: ,fix: ' exclude='Breaking change: ,feat: '}}
-    - {{subject}} [`{{shorthash}}`]({{href}})
-  {{/commit-list}}
-
   {{! List other commits not already listed above }}
   {{#commit-list commits heading='### Other Changes' exclude='Breaking change: ,feat: ,fix: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
@@ -30,4 +25,10 @@
   {{#commit-list commits heading='### Merges' message='Merge pull request ,Merge branch '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
+
+  {{! List commits that fix bugs, but not those already listed above }}
+  {{#commit-list commits heading='### Bug Fixes' message='fixt: ,fix: ,fix: ' exclude='Breaking change: ,feat: ,refactor: ,Merge pull request ,Merge branch '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
 {{/each}}
