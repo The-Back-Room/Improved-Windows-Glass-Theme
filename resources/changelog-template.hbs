@@ -21,9 +21,8 @@
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! Ignore releases not matching the above criteria --}}
-  {{#if (and (not (commit-list-empty commits 'Breaking change: ')) (not (commit-list-empty commits 'feat: ' exclude='Breaking change: ')) (not (commit-list-empty commits 'fix: ' exclude='Breaking change: ,feat: ')) (not (commit-list-empty commits exclude='Breaking change: ,feat: ,fix: '))) }}
-  {{else}}
-  {{!-- No relevant changes for this release --}}
+  {{! Ignore pushes with typoed release titles }}
+  {{^if isInvalidReleaseTitle}}
+    ---
   {{/if}}
 {{/each}}
