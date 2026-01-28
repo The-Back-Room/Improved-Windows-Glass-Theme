@@ -12,6 +12,7 @@
 
 - fix: Exclude office applications from Translucent Windows and restore date and time to taskbar clock [`c89cc4e`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/c89cc4ef8efd1e740c72144508152eda9fe4fdc1)
 - fix: Update pinned folder size in high dpi start menu configuration [`5f9ffdf`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5f9ffdfcf391004c9ec5c7f18cd9834b62ae4042)
+- fix: Clarify exclusion of MS Office apps in Translucent Windows [`5ad88a2`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5ad88a23a01e315b16c5e76430a6f8a58941f25a)
 - fix: Update sizing in Minimal Start Menu style to fix DPI compatibility [`51f9e4f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/51f9e4f7d60196d0200ba29537f492126a97e5c8)
 - fix: Update preview images and move them for cleaner structure [`f4dd79a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f4dd79ac15091efcf788c37e06bf06f26087df4d)
 - fix: Correct bug fix message formatting in changelog template [`42ee75f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/42ee75f4fdd9d00a05e3dbdc9546cd03506d8164)
@@ -130,6 +131,7 @@
 - Update image previews in README.md [`5cb8385`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5cb83857401435eabeef962319a3196aa126cd56)
 - Update changelog to include alternative full width taskbar variant and active highlight for task list icons [`36ce5e8`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/36ce5e81c704cd302a2b9dacf9e50f5f6569c5f2)
 - Update README with future plans and installation steps [`61f6ef0`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/61f6ef035e29771f92f12b7eadf0dfcd9f41066c)
+- Update CHANGELOG [`cfd38de`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/cfd38de156bd1cb39047fdcde8252a80445f4631)
 - Update CHANGELOG [`d4fbdc1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/d4fbdc1ecd43eebb1c0837b61828e90bb7fc3b7d)
 - Update CHANGELOG [`e49fe49`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e49fe493632b45542054e5fa66bf24fc7fa8076d)
 - Add new preview images and adjust sizes of existing images [`333d18b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/333d18b93af7b6ac3bdd84fa4279f3ed06ae5b3e)
