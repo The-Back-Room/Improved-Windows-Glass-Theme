@@ -21,6 +21,8 @@
 - fix: Consolidate TooltipLine format updates in changelog for clarity [`5edf99c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5edf99c7e3fc8b919b414035dd6f790bd7170294)
 - fix: Consolidate duplicate entries in changelog for clarity [`0cf650b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0cf650b61d399c68b3b6c3be604fb3b1c78ac3d2)
 - fix: Update exclusion list for Office applications [`1745437`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/1745437147a5890f0b4a535f551dc8b70ea92b2a)
+- fix: Update SysColors setting in translucent windows configuration [`7bd437f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/7bd437ff290b049aee7412245c3afd5fc864a232)
+- fix: Update reference to issue comment regarding MS Office apps exclusion in Translucent Windows [`d6b0bbb`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/d6b0bbb8fa0b275ef7f19fe0f9c21858ff07776e)
 - fix: Update exclusion list for Microsoft Office applications [`9f7a3fb`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9f7a3fb47a7ec130b45e1f17bd2d74cebdb769de)
 - fix: Update Address Bar HorizontalAlignment in File Explorer [`2d606c4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2d606c46789a4f84bfa84fc7fbdd95727c4dea14)
 - fix: adjust preview image seperatros [`ba809a3`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ba809a3f73f22678ca9a1bab3f33fb0672fe1f49)
