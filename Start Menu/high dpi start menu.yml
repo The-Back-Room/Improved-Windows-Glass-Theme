@@ -204,15 +204,12 @@ controlStyles:
       - CornerRadius=$ElementCornerRadius
   - target: Microsoft.UI.Xaml.Controls.DropDownButton
     styles:
-      - RenderTransform:=<TranslateTransform X="-200" Y="-8" />
+      - // RenderTransform:=<TranslateTransform X="-200" Y="-8" />
       - Visibility=1
   - target: GridView#PinnedList > Border
     styles:
       - Width=335
       - HorizontalAlignment=Left
-  - target: StartMenu.FolderModal#StartFolderModal > Grid#Root
-    styles:
-      - Margin=-100,0,75,0
   - target: Border#ContentBorder@CommonStates > Grid#DroppedFlickerWorkaroundWrapper > Border#BackgroundBorder
     styles:
       - Background@PointerOver:=$Background
@@ -258,7 +255,7 @@ controlStyles:
       - Background@PointerOver:=$Background
       - BorderThickness@PointerOver=$BorderThickness
       - CornerRadius=$ElementCornerRadius
-  - target: Microsoft.UI.Xaml.Controls.DropDownButton > Grid#RootGrid
+  - target: // Microsoft.UI.Xaml.Controls.DropDownButton > Grid#RootGrid
     styles:
       - Background:=$ElementBG
       - BorderBrush:=$ElementBorderBrush
@@ -298,7 +295,7 @@ controlStyles:
   - target: Button#ShowMoreSuggestionsButton
     styles:
       - Visibility=1
-  - target: ContentPresenter#ZoomedInPresenter > GridView#AllAppsGrid > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid
+  - target: GridView#AllAppsGrid > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid
     styles:
       - MaximumRowsOrColumns=2
   - target: Border > AdaptiveCards.Rendering.Uwp.WholeItemsPanel > Border > AdaptiveCards.Rendering.Uwp.WholeItemsPanel > Border
@@ -322,7 +319,7 @@ controlStyles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius
-  - target: Microsoft.UI.Xaml.Controls.DropDownButton > Grid@CommonStates
+  - target: // Microsoft.UI.Xaml.Controls.DropDownButton > Grid@CommonStates
     styles:
       - Background@Normal:=$ElementBG
       - BorderBrush@Normal:=$ElementBorderBrush
@@ -337,6 +334,15 @@ controlStyles:
   - target: StartDocked.NavigationPaneButton#PowerButton
     styles:
       - RenderTransform:=<TranslateTransform X="-8" />
+  - target: StartMenu.FolderModal#StartFolderModal > Windows.UI.Xaml.Controls.Grid#Root > Windows.UI.Xaml.Controls.ContentControl#ContentControl > Windows.UI.Xaml.Controls.ContentPresenter > StartMenu.UniversalTileContainer#UniversalTileContainer > Windows.UI.Xaml.Controls.Grid#GridViewContainer
+    styles:
+      - MaxWidth=350
+      - MaxHeight=350
+      - Width=Auto
+      - Height=Auto
+  - target: StartMenu.FolderModal > Grid
+    styles:
+      - Margin=-100,0,75,0
 webContentStyles:
   - target: '#qfPreviewPane'
     styles:
