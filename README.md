@@ -134,7 +134,9 @@ For users who prefer a full width taskbar.
 2. Open the `Translucent Windows` mod in Windhawk.
    - Got to the `Advanced` tab and copy the following into the `Custom process exclusion list`.
    ```
+   *\Microsoft Office\*
    ms-teams.exe
+   teams.exe
    olk.exe
    outlook.exe
    onedrive.exe
