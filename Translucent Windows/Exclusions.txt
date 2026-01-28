@@ -1,4 +1,3 @@
-
 *\Microsoft Office\*
 winword.exe
 excel.exe
