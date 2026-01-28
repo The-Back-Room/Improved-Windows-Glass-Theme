@@ -133,4 +133,4 @@ For users who prefer a full width taskbar.
    - Copy the contents of the [file explorer.yml](/File%20Explorer/file%20explorer.yml) file to the text box and click `Save`.
 2. Open the `Translucent Windows` mod in Windhawk.
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
-   - Copy the contents of the [translucent windows.yml](/Translucent%20Windows/translucent%20windows.yml) file to the text box and click `Save`. *(Refer the [this issue](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/issues/3) in regards to a bug with excluding MS Office apps from Translucent Windows)*
+   - Copy the contents of the [translucent windows.yml](/Translucent%20Windows/translucent%20windows.yml) file to the text box and click `Save`. *(Refer to [this issue comment](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/issues/3#issuecomment-3812780048) in regards to getting around a bug with excluding MS Office apps from Translucent Windows)*
