@@ -5,6 +5,7 @@
 
 - feat: Add rendering exclusions for MS Office applications and OneDrive [`af4497a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/af4497a6a4a986b0127c3c705e5db1a28a7f89a2)
 - feat: Update changelog template to correctly sort typoed release titles [`389d54e`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/389d54e712fb9fa6d6d36f0dde81bba6950747ac)
+- feat: Enhance clock display and tooltip [`96612f6`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/96612f644c6653c204572da0a6130f15f4eb3ae6)
 - feat: Add conditional check for relevant changes in changelog template [`bd50e05`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/bd50e05b95cf2a42e09f3033fdef01983eb665ec)
 
 ### Fixes
@@ -23,6 +24,7 @@
 - fix: Update Address Bar HorizontalAlignment in File Explorer [`2d606c4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2d606c46789a4f84bfa84fc7fbdd95727c4dea14)
 - fix: adjust preview image seperatros [`ba809a3`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ba809a3f73f22678ca9a1bab3f33fb0672fe1f49)
 - fix: Update TooltipLine format in clock configuration for improved media information display [`711dad5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/711dad50b573602c8d4b4f87f833c6b46024c9b5)
+- fix: Add mspaint.exe to exclusion list [`579fe7f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/579fe7fcca457f2e7e74efeed41b5255ebf0293a)
 - fix: Update exclusion list for rendering in Translucent Windows mod to use the Custom process exclusions list for ease of management [`f0db183`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f0db18386890e05ad6b0910e9629e98cad54a031)
 
 ### Other
@@ -99,6 +101,7 @@
 - add .gitignore to hide unneccessary files from repo [`029c905`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/029c905e860322e0fa02bff2dfccc2e232c1c4b9)
 - Clean up README.md formatting [`4a7bdb4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/4a7bdb460cdd7b5466e26d477cf680017430594c)
 - Update README to remove personal comments [`51f5706`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/51f57062444a1eb535ea107786d2d9797bcf7ee1)
+- Update CHANGELOG [`1a00e9a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/1a00e9ac83e0d9e397a7c26c0fc6a178c1e87530)
 - Update CHANGELOG [`c38d281`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/c38d2816d955c9715e661dcee1f800c05510915b)
 - Adjust MinWidth and MaxWidth for recommended list item styles in high dpi start menu [`345ae20`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/345ae20efb54ea85a92d48dbec25df0ea79ac945)
 - Remove auto-changelog configuration file [`16fca63`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/16fca63c3d771c71b55c975a5f0f634a08bd3b7f)
