@@ -4,6 +4,7 @@
 ### New Features
 
 - feat: Add rendering exclusions for MS Office applications and OneDrive [`af4497a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/af4497a6a4a986b0127c3c705e5db1a28a7f89a2)
+- feat: Add conditional check for relevant changes in changelog template [`bd50e05`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/bd50e05b95cf2a42e09f3033fdef01983eb665ec)
 
 ### Bug Fixes
 
@@ -13,6 +14,7 @@
 - fix: Update sizing in Minimal Start Menu style to fix DPI compatibility [`51f9e4f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/51f9e4f7d60196d0200ba29537f492126a97e5c8)
 - fix: Update preview images and move them for cleaner structure [`f4dd79a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f4dd79ac15091efcf788c37e06bf06f26087df4d)
 - fix: Update clock configuration: [`e5811a4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e5811a44de106e9e07e01b6dd59aa627d231fbc1)
+- fix: Simplify release title validation in changelog template [`40fd074`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/40fd0743ca3bb0a48383c8f92672ca1c75ea88bc)
 - fix: Consolidate TooltipLine format updates in changelog for clarity [`5edf99c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5edf99c7e3fc8b919b414035dd6f790bd7170294)
 - fix: Consolidate duplicate entries in changelog for clarity [`0cf650b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0cf650b61d399c68b3b6c3be604fb3b1c78ac3d2)
 - fix: Update Address Bar HorizontalAlignment in File Explorer [`2d606c4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2d606c46789a4f84bfa84fc7fbdd95727c4dea14)
@@ -89,9 +91,11 @@
 - Update CHANGELOG [`43c2d59`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/43c2d59591e5abaa256c58705799b4236585cae8)
 - Remove commented-out properties and update Search Box styles in taskbar.yml [`70eaf82`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/70eaf82789c28d769449aea808e99611e9e37c0c)
 - Add grey start button and update taskbar styles for improved UI [`7b7e466`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/7b7e466dda9b9a0d8a38d68e6c6d5e0365cfd23f)
+- fix: Simplify release title validation in changelog template [`40fd074`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/40fd0743ca3bb0a48383c8f92672ca1c75ea88bc)
 - add .gitignore to hide unneccessary files from repo [`029c905`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/029c905e860322e0fa02bff2dfccc2e232c1c4b9)
 - Clean up README.md formatting [`4a7bdb4`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/4a7bdb460cdd7b5466e26d477cf680017430594c)
 - Update README to remove personal comments [`51f5706`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/51f57062444a1eb535ea107786d2d9797bcf7ee1)
+- feat: Add conditional check for relevant changes in changelog template [`bd50e05`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/bd50e05b95cf2a42e09f3033fdef01983eb665ec)
 - Adjust MinWidth and MaxWidth for recommended list item styles in high dpi start menu [`345ae20`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/345ae20efb54ea85a92d48dbec25df0ea79ac945)
 - Remove auto-changelog configuration file [`16fca63`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/16fca63c3d771c71b55c975a5f0f634a08bd3b7f)
 - Update repository name in changelog generation workflow [`78a1c24`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/78a1c2468d5fd79df2124cfb653777e362025191)
@@ -113,6 +117,7 @@
 - Remove "Previews" section and clean up README formatting [`0e96747`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0e96747411e05a02e7157f8e47fcfdeec8333290)
 - Fix System Tray Position [`cd938f1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/cd938f1091c4701c299130b2ddc1b02c24e1dcb0)
 - Add screenshots [`9c9347b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9c9347bb6f6653462954d4fa2489d44fb365b068)
+- Update CHANGELOG [`d249485`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/d249485c5a87ed403b802d6d393cdb190202519b)
 - fix: Consolidate duplicate entries in changelog for clarity [`0cf650b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0cf650b61d399c68b3b6c3be604fb3b1c78ac3d2)
 - Update CHANGELOG [`9f8d92d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9f8d92d47c13e42eb967e764ba779597620f83da)
 - Update auto-changelog configuration to use compact template and fix sortCommits key [`2882db1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2882db1d30c226e1ce939904134a7272fb1ae5d6)
@@ -175,3 +180,5 @@
 - Add start button image for enhanced user interface [`f6607d0`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f6607d023fa274c58f6754dc53ae19ffedb09a72)
 - Update Preview.png image for improved quality [`aa2601d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/aa2601d2ee1aec9345686fd14f41478f754e6d34)
 - Rename sub directories [`5a91513`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5a915134f0a2e3c69d0271c70a229277c06b8820)
+
+---
