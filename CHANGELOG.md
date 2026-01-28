@@ -7,6 +7,8 @@
 
 ### Bug Fixes
 
+- fix: Update exclusion list for rendering in Translucent Windows mod to use the Custom process exclusions list for ease of management [`f0db183`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f0db18386890e05ad6b0910e9629e98cad54a031)
+- fix: Add new preview images and adjust sizes of existing images [`333d18b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/333d18b93af7b6ac3bdd84fa4279f3ed06ae5b3e)
 - fix: Exclude office applications from Translucent Windows and restore date and time to taskbar clock [`c89cc4e`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/c89cc4ef8efd1e740c72144508152eda9fe4fdc1)
 - fix: Update sizing in Minimal Start Menu style to fix DPI compatibility [`51f9e4f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/51f9e4f7d60196d0200ba29537f492126a97e5c8)
 - fix: Update preview images and move them for cleaner structure [`f4dd79a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f4dd79ac15091efcf788c37e06bf06f26087df4d)
@@ -100,6 +102,7 @@
 - Update notification center styles; adjust background and element styles for improved visual consistency [`44b7e50`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/44b7e5022085e5bf8c6b6f1a0f7e470a3c4189d4)
 - Add border styles and padding for improved element appearance in Windows Glass theme [`ca24779`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ca2477963c6829e2fdc0ba6cde33bbe74e91f5de)
 - Refine future improvement suggestions in README for clarity [`91e9604`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/91e9604ff35304073bbdf8313444896ede66281b)
+- Update CHANGELOG [`93a81b9`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/93a81b9ce39111545e615eb7005f8728d0356c65)
 - Update CHANGELOG [`5e9f71d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5e9f71dff70b992ede485337ff0a91b17a1a49b0)
 - fix: Consolidate TooltipLine format updates in changelog for clarity [`5edf99c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5edf99c7e3fc8b919b414035dd6f790bd7170294)
 - Fix changelog generation parameters in workflow [`89874cc`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/89874cc5c0dd52fdac78aca1e903da98625bbd10)
@@ -118,7 +121,6 @@
 - Update README with future plans and installation steps [`61f6ef0`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/61f6ef035e29771f92f12b7eadf0dfcd9f41066c)
 - Update CHANGELOG [`d4fbdc1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/d4fbdc1ecd43eebb1c0837b61828e90bb7fc3b7d)
 - Update CHANGELOG [`e49fe49`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e49fe493632b45542054e5fa66bf24fc7fa8076d)
-- fiz: Add new preview images and adjust sizes of existing images [`333d18b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/333d18b93af7b6ac3bdd84fa4279f3ed06ae5b3e)
 - Enhance clarity on File Explorer transparency adjustments [`9e20045`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9e20045070fcc08a859e5383941b9490344eda4e)
 - Add extra details to To-Do list [`b48eac0`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/b48eac071c6ce03cbb02dcfb9373f62d0d8083c1)
 - Update installation instructions for Start Menu: add font installation and LockApp.exe inclusion steps [`e0c1c81`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e0c1c818a5061480309d306574e02247541ce636)
