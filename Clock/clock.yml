@@ -1,13 +1,13 @@
-ShowSeconds: 1
-TimeFormat: hh':'mm':'ss tt
-DateFormat: ddd',' MMM dd yyyy
+ShowSeconds: 0
+TimeFormat: hh':'mm tt
+DateFormat: MMM dd
 WeekdayFormat: dddd
 WeekdayFormatCustom: Sun, Mon, Tue, Wed, Thu, Fri, Sat
-TopLine: '%date% | %time%'
+TopLine: 📅 %date% 🕒 %time%
 BottomLine: '%web1%'
 MiddleLine: '%weekday%'
-TooltipLine: '%weather%%n%%n%%web1_full%%n%%n%%media_status% %media_artist% - %media_title%'
-TooltipLineMode: replace
+TooltipLine: '%web1_full%%n%%n%%media_status% %media_artist% - %media_title%'
+TooltipLineMode: append
 Width: 180
 Height: 60
 MaxWidth: 0
