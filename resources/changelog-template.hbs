@@ -7,28 +7,17 @@
   {{/commit-list}}
 
   {{! List commits that add new features, but not those already listed above }}
-  {{#commit-list commits heading='### New Features' message='feat: ' exclude='Breaking change: '}}
+  {{#commit-list commits heading='### Features' message='feat: ' exclude='Breaking change: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List other commits not already listed above }}
-  {{#commit-list commits heading='### Other Changes' exclude='Breaking change: ,feat: ,fix: '}}
+  {{! List commits that fix bugs }}
+  {{#commit-list commits heading='### Fixes' message='fix: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List commits that refactor code }}
-  {{#commit-list commits heading='### Code Refactoring' message='refactor: '}}
+  {{! List other commits that don't fall into the above categories }}
+  {{#commit-list commits heading='### Other' exclude='feat: |fix: |Breaking change: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
-
-  {{! List commits that merge branches }}
-  {{#commit-list commits heading='### Merges' message='Merge pull request ,Merge branch '}}
-    - {{subject}} [`{{shorthash}}`]({{href}})
-  {{/commit-list}}
-
-  {{! List commits that fix bugs, but not those already listed above }}
-  {{#commit-list commits heading='### Bug Fixes' message='fixt: ,fix: ,fix: ' exclude='Breaking change: ,feat: ,refactor: ,Merge pull request ,Merge branch '}}
-    - {{subject}} [`{{shorthash}}`]({{href}})
-  {{/commit-list}}
-
 {{/each}}
