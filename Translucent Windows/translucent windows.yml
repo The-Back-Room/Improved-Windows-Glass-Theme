@@ -1,6 +1,6 @@
 RenderingMod:
   ThemeBackground: 1
-  SysColors: 1
+  SysColors: 0
   AccentColorControls: 1
 type: acrylicblur
 AccentBlurBehind: 3A232323
