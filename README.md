@@ -141,9 +141,12 @@ For users who prefer a full width taskbar.
    outlook.exe
    onedrive.exe
    onenote.exe
+   onenotem.exe
    excel.exe
    powerpnt.exe
    winword.exe
+   officeclicktorun.exe
+   notepad.exe
    ```
    - Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    - Copy the contents of the [translucent windows.yml](/Translucent%20Windows/translucent%20windows.yml) file to the text box and click `Save`.
