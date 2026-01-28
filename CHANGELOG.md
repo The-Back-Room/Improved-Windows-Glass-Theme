@@ -11,6 +11,7 @@
 ### Fixes
 
 - fix: Exclude office applications from Translucent Windows and restore date and time to taskbar clock [`c89cc4e`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/c89cc4ef8efd1e740c72144508152eda9fe4fdc1)
+- fix: Update Translucent Windows instructions to reference new exclusions file [`9a234b9`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9a234b924b8e7c2a274926b5adeb4d2f9f2ffccf)
 - fix: Update pinned folder size in high dpi start menu configuration [`5f9ffdf`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5f9ffdfcf391004c9ec5c7f18cd9834b62ae4042)
 - fix: Clarify exclusion of MS Office apps in Translucent Windows [`5ad88a2`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5ad88a23a01e315b16c5e76430a6f8a58941f25a)
 - fix: Update sizing in Minimal Start Menu style to fix DPI compatibility [`51f9e4f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/51f9e4f7d60196d0200ba29537f492126a97e5c8)
@@ -20,6 +21,7 @@
 - fix: Simplify release title validation in changelog template [`40fd074`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/40fd0743ca3bb0a48383c8f92672ca1c75ea88bc)
 - fix: Consolidate TooltipLine format updates in changelog for clarity [`5edf99c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5edf99c7e3fc8b919b414035dd6f790bd7170294)
 - fix: Consolidate duplicate entries in changelog for clarity [`0cf650b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0cf650b61d399c68b3b6c3be604fb3b1c78ac3d2)
+- fix: Update custom process exclusions list for Translucent Windows to include additional MS Office applications [`3bfe931`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/3bfe9310d62a68bed3f3306bcca794cd5711b784)
 - fix: Update exclusion list for Office applications [`1745437`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/1745437147a5890f0b4a535f551dc8b70ea92b2a)
 - fix: Update SysColors setting in translucent windows configuration [`7bd437f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/7bd437ff290b049aee7412245c3afd5fc864a232)
 - fix: Update reference to issue comment regarding MS Office apps exclusion in Translucent Windows [`d6b0bbb`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/d6b0bbb8fa0b275ef7f19fe0f9c21858ff07776e)
