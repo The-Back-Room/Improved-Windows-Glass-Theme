@@ -3,6 +3,7 @@
 
 ### Features
 
+- feat: Add README files for Start Menu, Taskbar, File Explorer, and Notification Center; consolidate main README file [`4282906`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/4282906cdb74b79280065936a5c5ce003e80c834)
 - feat: Add rendering exclusions for MS Office applications and OneDrive [`af4497a`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/af4497a6a4a986b0127c3c705e5db1a28a7f89a2)
 - feat: Update changelog template to correctly sort typoed release titles [`389d54e`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/389d54e712fb9fa6d6d36f0dde81bba6950747ac)
 - feat: Enhance clock display and tooltip [`96612f6`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/96612f644c6653c204572da0a6130f15f4eb3ae6)
