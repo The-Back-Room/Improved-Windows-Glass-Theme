@@ -1,13 +1,15 @@
 # Improved Windows Glass Theme
 
 <div align="center">
-
 <img width="100%" height="auto" src="/resources/Preview.png" />
-<img width="49%" height="auto" src="/resources/High-DPI-Preview.png" /> 
-<img width="49%" height="auto" src="/resources/Minimal-Preview.png" /> 
-<img width="49%" height="auto" src="/resources/File-Explorer-Preview.png" /> 
-<img width="49%" height="auto" src="/resources/File-Explorer-Tabs-Preview.png" />
 
+<details>
+<summary>Extra Preview Images</summary>
+<img width="48%" height="auto" src="/resources/High-DPI-Preview.png" /> 
+<img width="48%" height="auto" src="/resources/Minimal-Preview.png" /> 
+<img width="48%" height="auto" src="/resources/File-Explorer-Preview.png" /> 
+<img width="48%" height="auto" src="/resources/File-Explorer-Tabs-Preview.png" />
+</details>
 </div>
 
 > [!IMPORTANT]
