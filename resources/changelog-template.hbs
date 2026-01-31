@@ -2,52 +2,52 @@
   #### [{{title}}]({{href}})
 
   {{! List commits with `Breaking change: ` somewhere in the message }}
-  {{#commit-list commits heading='### Breaking Changes' message='Breaking change: '}}
-    - {{subject}} [`{{shorthash}}`]({{href}})
-  {{/commit-list}}
-
-  {{! List commits that add new features, but not those already listed above }}
-  {{#commit-list commits heading='### Features' message='feat: ' exclude='Breaking change: '}}
+  {{#commit-list commits heading='### Breaking Changes' message='Breaking Change: ,Breaking change: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that fix bugs }}
-  {{#commit-list commits heading='### Fixes' message='fix: '}}
+  {{#commit-list commits heading='### Fixes' message='Fix: ,fix: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that refactor code }}
-  {{#commit-list commits heading='### Refactors' message='refactor: '}}
+  {{#commit-list commits heading='### Refactors' message='Refactor: ,refactor: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that improve documentation }}
-  {{#commit-list commits heading='### Documentation' message='docs: '}}
+  {{#commit-list commits heading='### Documentation' message='Docs: ,docs: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that add tests }}
-  {{#commit-list commits heading='### Tests' message='test: '}}
+  {{#commit-list commits heading='### Tests' message='Test: ,test: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that improve performance }}
-  {{#commit-list commits heading='### Performance Improvements' message='perf: '}}
+  {{#commit-list commits heading='### Performance Improvements' message='Perf: ,perf: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List commits that chore tasks }}
-  {{#commit-list commits heading='### Chores' message='chore: '}}
+  {{! List commits that are chores }}
+  {{#commit-list commits heading='### Chores' message='Chore: ,chore: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List commits that merge branches }}
-  {{#commit-list commits heading='### Merges' message='Merge branch '}}
+  {{! List commits that are merges }}
+  {{#commit-list commits heading='### Merges' message='Merge '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List commits that merge pull requests }}
-  {{#commit-list commits heading='### Pull Requests' message='Merge pull request '}}
+  {{! List commits that add new features }}
+  {{#commit-list commits heading='### Features' message='Feat: ,feat: '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that do not match any of the above categories }}
+  {{#commit-list commits heading='### Other Changes' exclude='Breaking Change: ,breaking change: ,Fix: ,fix: ,Refactor: ,refactor: ,Docs: ,docs: ,Test: ,test: ,Perf: ,perf: ,Chore: ,chore: ,Merge ,Feat: ,feat: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 {{/each}}
