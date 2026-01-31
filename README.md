@@ -15,7 +15,11 @@
 > [!IMPORTANT]
 > The start menu theme ONLY supports 16:9 or 16:10 screen reolutions with a DPI of 100% *(Tested on 1920x1080 and 1920x1200)*. Using it on anything else will result in overlapping elements. There is a minimal variation included of which *should* support most resolutions regardless of DPI.
 
+<div align="center">
+
 #### If you'd like to help, feel free to open a PR with your improvements and/or fixes!<br />You can see a list of currently planned changes in our [TO-DO](/TO-DO.md) page.
+
+</div>
 
 ## Requirements
 
