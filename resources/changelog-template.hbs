@@ -2,52 +2,52 @@
   #### [{{title}}]({{href}})
 
   {{! List commits with `Breaking change: ` somewhere in the message }}
-  {{#commit-list commits heading='### Breaking Changes' message='Breaking Change: ,Breaking change: '}}
+  {{#commit-list commits heading='### Breaking Changes' message='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that fix bugs }}
-  {{#commit-list commits heading='### Fixes' message='Fix: ,fix: '}}
+  {{#commit-list commits heading='### Fixes' message='fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that refactor code }}
-  {{#commit-list commits heading='### Refactors' message='Refactor: ,refactor: '}}
+  {{#commit-list commits heading='### Refactors' message='refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that improve documentation }}
-  {{#commit-list commits heading='### Documentation' message='Docs: ,docs: '}}
+  {{#commit-list commits heading='### Documentation' message='docs: |Docs: | DOCS: |Docs | docs '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that add tests }}
-  {{#commit-list commits heading='### Tests' message='Test: ,test: '}}
+  {{#commit-list commits heading='### Tests' message='test: |Test: |TEST: |Test | TEST | test '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that improve performance }}
-  {{#commit-list commits heading='### Performance Improvements' message='Perf: ,perf: '}}
+  {{#commit-list commits heading='### Performance Improvements' message='perf: |Perf: |PERF: |Perf | perf '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that are chores }}
-  {{#commit-list commits heading='### Chores' message='Chore: ,chore: '}}
+  {{#commit-list commits heading='### Chores' message='chore: |Chore: |CHORE: |Chore | chore '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that are merges }}
-  {{#commit-list commits heading='### Merges' message='Merge '}}
+  {{#commit-list commits heading='### Merges' message='Merge |merge |MERGE '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that add new features }}
-  {{#commit-list commits heading='### Features' message='Feat: ,feat: '}}
+  {{#commit-list commits heading='### Features' message='feat: |Feat: |FEAT: |Feat | feat '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that do not match any of the above categories }}
-  {{#commit-list commits heading='### Other Changes' exclude='Breaking Change: ,breaking change: ,Fix: ,fix: ,Refactor: ,refactor: ,Docs: ,docs: ,Test: ,test: ,Perf: ,perf: ,Chore: ,chore: ,Merge ,Feat: ,feat: '}}
+  {{#commit-list commits heading='### Other Changes' exclude='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: |fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor |docs: |Docs: | DOCS: |Docs | docs |test: |Test: |TEST: |Test | TEST | test |perf: |Perf: |PERF: |Perf | perf |chore: |Chore: |CHORE: |Chore | chore |Merge |merge |MERGE |feat: |Feat: |FEAT: |Feat | feat '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 {{/each}}
