@@ -2,11 +2,11 @@
 
 <div align="center">
 
-<img width="97%" height="auto" alt="Minimal Preview" src="/resources/Preview.png" />
-<img width="48%" height="auto" alt="High DPI Preview" src="/resources/High-DPI-Preview.png" />
-<img width="48%" height="auto" alt="Minimal Preview" src="/resources/Minimal-Preview.png" />
-<img width="48%" height="auto" alt="File Explorer Preview" src="/resources/File-Explorer-Preview.png" />
-<img width="48%" height="auto" alt="File Explorer Preview" src="/resources/File-Explorer-Tabs-Preview.png" />
+<img width="100%" height="auto" src="/resources/Preview.png" />
+<img width="50%" height="auto" src="/resources/High-DPI-Preview.png" />
+<img width="50%" height="auto" src="/resources/Minimal-Preview.png" />
+<img width="50%" height="auto" src="/resources/File-Explorer-Preview.png" />
+<img width="50%" height="auto" src="/resources/File-Explorer-Tabs-Preview.png" />
 
 </div>
 
