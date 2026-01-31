@@ -13,25 +13,7 @@
 > [!IMPORTANT]
 > The start menu theme ONLY supports 16:9 or 16:10 screen reolutions with a DPI of 100% *(Tested on 1920x1080 and 1920x1200)*. Using it on anything else will result in overlapping elements. There is a minimal variation included of which *should* support most resolutions regardless of DPI.
 
-#### If you'd like to help, feel free to open a PR with your improvements and/or fixes!
-
-## To-Do
-Tweaks and adjusments that I am looking into and want to get done in future updates.
-
-### Start Menu
-1. Adjust the start menu scroll container size for more consistant visuals.
-2. Adjust list view width to remove overlapping on hover.
-3. Adjust grid view width to allow for more columns and better fit the available space.
-             
-### Taskbar
-1. Add seperate start button images for each start button state. *(preferably one that looks more like a frosted glass w11 start button to match the glass ui a bit more)*
-   - **Normal State**: A grey-scaled *(preferably frosted glass)* version of the default start button's normal image.
-   - **Pointer Over State**: A grey-scaled *(preferably frosted glass)* version of the default start button's pointer over image.
-   - **Pressed State**: A grey-scaled *(preferably frosted glass)* version of the default start button's pressed image. 
-
-### File Explorer
-1. Adjust the transparency of the overflow menus for improved visibility.
-2. Adjust the transparency of the tooltips for improved visibility.
+#### If you'd like to help, feel free to open a PR with your improvements and/or fixes! You can see a list of currently planned changes in our [TO-DO](/TO-DO.md) page.
 
 ## Requirements
 
