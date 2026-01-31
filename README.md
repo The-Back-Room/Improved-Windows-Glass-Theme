@@ -22,8 +22,8 @@
 
 </div>
 
-## Inructions
-Follow the instructions for each section listed below to learn how to setup the  Windows Glass theme.
+## Instructions
+Follow the instructions listed below to learn how to setup the  Windows Glass theme.
 
 ### Requirements
 
