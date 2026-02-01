@@ -3,6 +3,12 @@
 > [!IMPORTANT]
 > The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 
+<div align="center">
+
+![Default](../resources/Preview.png) ![High DPI](../resources/High-DPI-Preview.png) ![Minimal](../resources/Minimal-Preview.png)
+ 
+</div>
+
 ## Installation
 
 ### Requirements
