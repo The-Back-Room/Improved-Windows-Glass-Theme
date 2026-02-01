@@ -3,7 +3,7 @@
 # Improved Windows Glass Theme
 
 <div align="center">
-<img src="Preview-1.png" width="48%" height="auto" /> <img src="Preview-2.png" width="48%" height="auto" />
+<img src="Preview-1.png" width="45%" height="auto" /> <img src="Preview-2.png" width="45%" height="auto" />
 </div>
 
 </div>

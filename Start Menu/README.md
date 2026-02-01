@@ -16,7 +16,7 @@ Follow the instructions listed below to install and setup the Windows Glass Star
 ### Default Start Menu
 
 <div align="center">
-<img src="Default-Preview.png" width="95%" height="auto" />
+<img src="Default-Preview.png" width="50%" height="auto" />
 </div>
 
 * Download and install the fonts listed in the requirements above.
@@ -329,7 +329,7 @@ Follow the instructions listed below to install and setup the Windows Glass Star
 This theme also includes a minimal variant of the Start menu with the Phone Link companion removed. *(Should work regardless of resolution or DPI)*
 
 <div align="center">
-<img src="Minimal-Preview.png" width="95%" height="auto" />
+<img src="Minimal-Preview.png" width="50%" height="auto" />
 </div>
 
 * Download and install the fonts listed in the requirements above.
@@ -616,7 +616,7 @@ This theme also includes a minimal variant of the Start menu with the Phone Link
 This theme also includes a high dpi variant of the Start menu with smaller grid limits to allow the Phone Link widget on systems with higher DPI. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
 
 <div align="center">
-<img src="High-DPI-Preview.png" width="95%" height="auto" />
+<img src="High-DPI-Preview.png" width="50%" height="auto" />
 </div>
 
 * Download and install the fonts listed in the requirements above.
