@@ -25,6 +25,7 @@
 - fix: Consolidate TooltipLine format updates in changelog for clarity [`5edf99c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5edf99c7e3fc8b919b414035dd6f790bd7170294)
 - Fix changelog generation parameters in workflow [`89874cc`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/89874cc5c0dd52fdac78aca1e903da98625bbd10)
 - Fix System Tray Position [`cd938f1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/cd938f1091c4701c299130b2ddc1b02c24e1dcb0)
+- fix: fix typo in image path [`e0ba3b2`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e0ba3b2b95b73f858e4888381808fa0095c34fcb)
 - fix: correct typo in "Instructions" section header in README [`a9bccbf`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/a9bccbf70f80b6ab9db35678ded847a8b037de83)
 - fix: Consolidate duplicate entries in changelog for clarity [`0cf650b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0cf650b61d399c68b3b6c3be604fb3b1c78ac3d2)
 - Update auto-changelog configuration to use compact template and fix sortCommits key [`2882db1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/2882db1d30c226e1ce939904134a7272fb1ae5d6)
@@ -45,15 +46,25 @@
 - Fix file references in README for mod settings [`9d793ff`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9d793fffce199e3d3b2c668362107c951861cec1)
 - Fix image width for minimal preview in README.md [`11101ec`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/11101ec424ca76b35f9baf0015d3608791eecac0)
 - Fix theme name formatting in README.md [`1128ee1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/1128ee1f8e6aed74ad6528ea48aeb303800a39e4)
+- fix: Correctly close div tag in README for proper HTML structure [`d54586f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/d54586f0cafb2e35a07da1340b8e29f192876f1f)
 - fix: Remove outdated reference to issue comment in Translucent Windows instructions [`66288bf`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/66288bf5eca3f24f73dc900864d3e8981683036c)
 - fix: Remove unnecessary blank line from exclusions list [`85cb3b5`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/85cb3b513785fbbf4f0e0e75c03f2edf2e01b734)
 - fix: Add mspaint.exe to exclusion list [`579fe7f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/579fe7fcca457f2e7e74efeed41b5255ebf0293a)
 
 ### Refactors
 
+- refactor: Remove excess indentation and consolidate README pages for clarity [`f8ce804`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f8ce804e76383711c19833d8a75d5ef9a8eedd6a)
 - refactor: Refactor instructions across multiple files to simplify installation [`7bcdd47`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/7bcdd475ef93acf9828954d03fa0c8e4b507a3ee)
+- refactor: Update image alignment in multiple README files for better presentation [`f7a279d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/f7a279d7695a51e53600c174080496c187790e79)
+- refactor: Add line breaks in multiple README files for improved navigation and clarity [`c62dd80`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/c62dd809fa9502c117faf9236bea870c93addebe)
 - Refactor: Refactor changelog template to standardize commit message formatting across categories [`693ed00`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/693ed00ac9ae7d49de6d8dadf5ee6e674194d3dd)
+- refactor: Add new preview images and adjust image alignment [`fbda564`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/fbda5648a3395cebe3189e1f73ecc9b5f395593c)
+- refactor: Update image syntax for better alignment in README files [`309afe7`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/309afe7756a6ec7321fed3826ecfcac61262ab71)
+- refactor: Center images in README for consistent presentation [`6260d65`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/6260d6512992c7ce837e885bdbebf89baa54f0e8)
+- refactor: Adjust image widths in multiple README files for improved layout [`5adf54e`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5adf54e2bb4bd27e52266e954c8b62c1d74cf484)
 - Update changelog template to correctly exclude invalid fix message formats and add refactor and merge sections [`05008c9`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/05008c9d4a0b3ed85f4edaad8e02706305eb09ad)
+- refactor: Remove unnecessary div tags around images in README for cleaner markup [`8652cba`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/8652cba6f84b5546d8720f00a9299a60c9d31f10)
+- refactor: Update image alignment in README for better presentation [`cb41427`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/cb41427dd2cd89e37fb870da44123494db2c3aa0)
 - refactor: Remove custom start button image [`60a0f2d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/60a0f2d9e56f392175f97b1261c5ce13cead193d)
 
 
@@ -125,6 +136,7 @@
 - Refactor control styles to enhance CornerRadius application and improve visibility settings [`4368c7d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/4368c7dd27cc3579d6a1f96f3b1945b9bbfc77a2)
 - Update README with requirements and installation steps [`0a7969f`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/0a7969fd21911935c8e10a957aed37b1703c61a6)
 - Update issue templates [`19c5028`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/19c5028ac71539adfcd92efc7f41f318e2510c11)
+- Update CHANGELOG [`3a29202`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/3a292021c7edfd304e01cdfe5ab571dccff6280a)
 - Update CHANGELOG [`ab5d607`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ab5d607fed66b99cec96a53feb4bc0090a1b8b9e)
 - Update README with requirements and installation steps [`16da54b`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/16da54b420648cd8efbea40ad717f6b194d95fe3)
 - Add workflow to generate changelog on release [`ef4aecb`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/ef4aecbb2608e9eccd180457de3826e26169eaf9)
