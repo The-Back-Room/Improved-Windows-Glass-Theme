@@ -1,9 +1,5 @@
 ## File Explorer
 
-<div align="center" >
-<img src="File-Explorer-Preview.png" width="48%" height="auto" /> <img src="File-Explorer-Home-Tab-Preview.png" width="48%" height="auto" />
-</div>
-
 > [!IMPORTANT]
 > The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 
@@ -21,6 +17,10 @@ Follow these instructions to install the Windows Glass File Explorer theme on yo
 ---
 
 ### File Explorer
+
+<div align="center" >
+<img src="File-Explorer-Preview.png" width="48%" height="auto" /> <img src="File-Explorer-Home-Tab-Preview.png" width="48%" height="auto" />
+</div>
 
 * Open the `Windows 11 File Explorer Styler` mod in Windhawk.
 * Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
