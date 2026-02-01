@@ -25,7 +25,34 @@
 ## Instructions
 Follow the instructions listed below to learn how to setup the  Windows Glass theme.
 
-* [Start Menu](/Start%20Menu/README.md) - Instructions for setting up the Windows Glass Start Menu theme.
-* [Taskbar](/Taskbar/README.md) - Instructions for setting up the Windows Glass Taskbar theme.
-* [Notification Center](/Notification%20Center/README.md) - Instructions for setting up the Windows Glass Notification Center theme.
-* [File Explorer](/File%20Explorer/README.md) - Instructions for setting up the Windows Glass File Explorer theme.
+1. Open Windhawk and go to `Settings > Advanced settings > More advanced settings` and copy the code below into the `Process exclusion list`.
+
+<details>
+<summary>Content to import (click to expand)</summary>
+
+```
+*\Microsoft Office\*
+winword.exe
+excel.exe
+powerpnt.exe
+olk.exe
+outlook.exe
+ms-teams.exe
+onenote.exe
+onenotem.exe
+excel.exe
+mspub.exe
+msaccess.exe
+teams.exe
+OfficeClickToRun.exe
+mspaint.exe
+notepad.exe
+```
+
+</details>
+
+2. Follow the instructions listed below to setup each different section of the Windows Glass theme.
+    * [Start Menu](/Start%20Menu/README.md) - Instructions for setting up the Windows Glass Start Menu theme.
+    * [Taskbar](/Taskbar/README.md) - Instructions for setting up the Windows Glass Taskbar theme.
+    * [Notification Center](/Notification%20Center/README.md) - Instructions for setting up the Windows Glass Notification Center theme.
+    * [File Explorer](/File%20Explorer/README.md) - Instructions for setting up the Windows Glass File Explorer theme.
