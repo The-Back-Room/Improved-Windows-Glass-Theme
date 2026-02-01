@@ -1,9 +1,7 @@
 # Start Menu
 
-<div align="center" width="90%">
-
-![Default](Default-Preview.png) ![High DPI](High-DPI-Preview.png) ![Minimal](Minimal-Preview.png)
- 
+<div align="center">
+<img src="Default-Preview.png" width="48%" height="auto" /> <img src="High-DPI-Preview.png" width="48%" height="auto" /> <img src="Minimal-Preview.png" width="48%" height="auto" />
 </div>
 
 > [!IMPORTANT]

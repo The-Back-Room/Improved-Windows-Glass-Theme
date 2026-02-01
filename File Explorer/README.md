@@ -1,9 +1,7 @@
 ## File Explorer
 
-<div align="center" width="90%">
-
-![File Explorer](File-Explorer-Preview.png) ![Home Tab](File-Explorer-Home-Tab-Preview.png)
-
+<div align="center" >
+<img src="File-Explorer-Preview.png" width="48%" height="auto" /> <img src="File-Explorer-Home-Tab-Preview.png" width="48%" height="auto" />
 </div>
 
 > [!IMPORTANT]

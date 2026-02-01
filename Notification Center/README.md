@@ -1,9 +1,7 @@
 # Notification Center
 
 <div align="center" width="90%">
-
-![Notification Center](Notification-Center-Preview.png) ![Action Center](Action-Center-Preview.png)
-
+<img src="Notification-Center-Preview.png" width="48%" height="auto" /> <img src="Action-Center-Preview.png" width="48%" height="auto" />
 </div>
 
 > [!IMPORTANT]

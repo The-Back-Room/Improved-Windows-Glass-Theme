@@ -1,9 +1,7 @@
 # Taskbar
 
 <div align="center" width="90%">
-
-![High DPI](High-DPI-Preview.png) ![Default](Default-Preview.png) ![Full Width](Full-Width-Preview.png)
-
+<img src="(High-DPI-Preview.png" width="48%" height="auto" /> <img src="Default-Preview.png" width="48%" height="auto" /> <img src="Full-Width-Preview.png" width="48%" height="auto" />
 </div>
 
 > [!IMPORTANT]
