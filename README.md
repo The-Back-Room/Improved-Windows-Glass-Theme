@@ -2,16 +2,12 @@
 
 # Improved Windows Glass Theme
 
-<img width="100%" height="auto" src="/resources/Preview.png" />
+<div align="center" width="90%">
 
-<details>
-<summary>Extra Preview Images</summary>
-<img width="48%" height="auto" src="/resources/High-DPI-Preview.png" /> 
-<img width="48%" height="auto" src="/resources/Minimal-Preview.png" /> 
-<img width="48%" height="auto" src="/resources/File-Explorer-Preview.png" /> 
-<img width="48%" height="auto" src="/resources/File-Explorer-Tabs-Preview.png" />
-</details>
+![Preview 1](Preview-1.png) ![Preview 2](Preview-2.png)
+
 </div>
+
 
 > [!IMPORTANT]
 > The start menu theme ONLY supports 16:9 or 16:10 screen reolutions with a DPI of 100% *(Tested on 1920x1080 and 1920x1200)*. Using it on anything else will result in overlapping elements. There is a minimal variation included of which *should* support most resolutions regardless of DPI.

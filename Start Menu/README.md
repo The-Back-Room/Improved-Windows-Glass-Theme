@@ -1,13 +1,13 @@
 # Start Menu
 
-> [!IMPORTANT]
-> The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
-
-<div align="center">
+<div align="center" width="90%">
 
 ![Default](Default-Preview.png) ![High DPI](High-DPI-Preview.png) ![Minimal](Minimal-Preview.png)
  
 </div>
+
+> [!IMPORTANT]
+> The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 
 ## Installation
 

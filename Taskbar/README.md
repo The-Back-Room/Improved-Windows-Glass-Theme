@@ -1,6 +1,6 @@
 # Taskbar
 
-<div align="center">
+<div align="center" width="90%">
 
 ![High DPI](High-DPI-Preview.png) ![Default](Default-Preview.png) ![Full Width](Full-Width-Preview.png)
 

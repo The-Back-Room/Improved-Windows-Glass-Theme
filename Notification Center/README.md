@@ -1,5 +1,11 @@
 # Notification Center
 
+<div align="center" width="90%">
+
+![Notification Center](Notification-Center-Preview.png) ![Action Center](Action-Center-Preview.png)
+
+</div>
+
 > [!IMPORTANT]
 > The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 

@@ -1,10 +1,13 @@
 ## File Explorer
 
-<div align="center">
+<div align="center" width="90%">
 
 ![File Explorer](File-Explorer-Preview.png) ![Home Tab](File-Explorer-Home-Tab-Preview.png)
 
 </div>
+
+> [!IMPORTANT]
+> The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 
 ## Requirements
 
