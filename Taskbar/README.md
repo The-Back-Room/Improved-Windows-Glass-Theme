@@ -5,7 +5,9 @@
 
 ## Requirements
 * **Windhawk Mods**"
-   * [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-styler)
+  * [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-styler)
+  * [Taskbar tray system icon tweaks](https://windhawk.net/mods/taskbar-tray-system-icon-tweaks)
+  * [Taskbar Clock Customization](https://windhawk.net/mods/taskbar-clock-customization)
 * **Start Button Image**:
   * [w11-grey.png](/resources/w11-grey.png)
 
