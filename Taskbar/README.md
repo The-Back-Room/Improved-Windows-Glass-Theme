@@ -4,7 +4,7 @@
 > The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 
 ## Requirements
-* **Windhawk Mods**"
+* **Windhawk Mods**:
   * [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-styler)
   * [Taskbar tray system icon tweaks](https://windhawk.net/mods/taskbar-tray-system-icon-tweaks)
   * [Taskbar Clock Customization](https://windhawk.net/mods/taskbar-clock-customization)
