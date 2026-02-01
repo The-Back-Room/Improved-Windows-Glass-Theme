@@ -2,10 +2,8 @@
 
 # Improved Windows Glass Theme
 
-<div align="center" width="90%">
-
-![Preview 1](Preview-1.png) ![Preview 2](Preview-2.png)
-
+<div align="center">
+<img src="Preview-1.png" width="48%" height="auto" /> <img src="Preview-2.png" width="48%" height="auto" />
 </div>
 
 
