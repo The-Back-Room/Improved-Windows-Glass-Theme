@@ -1,8 +1,8 @@
 # Taskbar
 
 <div align="center">
-<img src="(High-DPI-Preview.png" width="95%" height="auto" /> 
-<img src="Default-Preview.png" width="95%" height="auto" /> 
+<img src="High-DPI-Preview.png" width="95%" height="auto" /><br />
+<img src="Default-Preview.png" width="95%" height="auto" /><br />
 <img src="Full-Width-Preview.png" width="95%" height="auto" />
 </div>
 
