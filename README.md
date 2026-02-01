@@ -13,7 +13,7 @@
 
 <div align="center">
 
-#### If you'd like to help, feel free to open a PR with your improvements and/or fixes!<br />You can see a list of currently planned changes in our [TO-DO](/TO-DO.md) page.<br /><br />Alternatively, you can check out our [CHANGELOG](/CHANGELOG.md) for a list of implemented tweaks and changes.
+#### If you'd like to help, feel free to open a PR with your improvements and/or fixes!<br />You can see a list of currently planned changes in our [TO-DO](/TO-DO.md) page.
 
 </div>
 

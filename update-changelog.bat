@@ -1,3 +1,0 @@
-@ECHO OFF
-ECHO Updating changelog...
-auto-changelog --config .auto-changelog
