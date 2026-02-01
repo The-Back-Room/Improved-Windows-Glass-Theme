@@ -20,11 +20,11 @@
 ## Instructions
 Follow the instructions listed below to learn how to setup the  Windows Glass theme.
 
-1. Open Windhawk and go to `Settings > Advanced settings > More advanced settings` and copy the code below into the `Process exclusion list` in order to exclude MS Office apps *(This resolves various issues by preventing Windhawk from modifying MS Offices apps)*.
+1. Open Windhawk and go to `Settings > Advanced settings > More advanced settings` and copy the code below into the `Process exclusion list` in order to exclude MS Office apps; This resolves various issues by preventing Windhawk from modifying MS Office apps.
 
     <details>
     <summary>Content to import (click to expand)</summary>
-    
+
     ```
     *\Microsoft Office\*
     winword.exe
