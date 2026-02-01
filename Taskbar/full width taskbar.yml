@@ -204,16 +204,20 @@ controlStyles:
       - BorderBrush:=$ElementBorderBrush
       - BorderThickness=$ElementBorderThickness
       - Background:=$ElementBG
-  - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Border#BackgroundElement
+  - target: // Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Border#BackgroundElement
     styles:
-      - Background:=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\w11-grey.png" />
       - BorderBrush:=$ElementBorderBrush
       - BorderThickness=$ElementBorderThickness
       - CornerRadius=$ElementCornerRadius
       - Padding=18
-  - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon
+      - Background@Normal:=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\Windows Glass\Normal.png" />
+      - Background@PointerOver:=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\Windows Glass\Hover.png" />
+      - Background@Pressed:=<ImageBrush Stretch="Uniform" ImageSource="C:\Resources\Icons\Start Orbs\Windows Glass\Pressed.png" />
+      - // This section is on hold until I have the correct images and have fleshed out the correct method to add them.
+  - target: // Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon
     styles:
       - Visibility=1
+      - // This section is on hold until I have the correct images and have fleshed out the correct method to add them.
 styleConstants:
   - BorderThickness=0.3,1,0.3,0.3
   - ElementBorderThickness=0.3,0.3,0.3,1
