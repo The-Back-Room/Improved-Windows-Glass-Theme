@@ -11,28 +11,23 @@
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List commits that refactor code }}
-  {{#commit-list commits heading='### Refactors' message='refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor '}}
+  {{! List commits that refactor code except in README or documentation }}
+  {{#commit-list commits heading='### Refactors' message='refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor ' exclude='docs: |Docs: | DOCS: |Docs | docs | README | Readme | readme | README.md | Readme.md | readme.md '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that improve documentation }}
-  {{#commit-list commits heading='### Documentation' message='docs: |Docs: | DOCS: |Docs | docs '}}
+  {{#commit-list commits heading='### Documentation' message='docs: |Docs: | DOCS: |Docs | docs | README | Readme | readme | README.md | Readme.md | readme.md '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List commits that add tests }}
-  {{#commit-list commits heading='### Tests' message='test: |Test: |TEST: |Test | TEST | test '}}
+  {{! Exclude commits that add tests }}
+  {{#commit-list commits heading='### Tests' exclude='test: |Test: |TEST: |Test | TEST | test '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
   {{! List commits that improve performance }}
   {{#commit-list commits heading='### Performance Improvements' message='perf: |Perf: |PERF: |Perf | perf '}}
-    - {{subject}} [`{{shorthash}}`]({{href}})
-  {{/commit-list}}
-
-  {{! List commits that are chores }}
-  {{#commit-list commits heading='### Chores' message='chore: |Chore: |CHORE: |Chore | chore '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
@@ -46,8 +41,13 @@
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
+  {{! Exclude commits that are chores }}
+  {{#commit-list commits heading='### Chores' exclude='chore: |Chore: |CHORE: |Chore | chore '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
   {{! List commits that do not match any of the above categories }}
-  {{#commit-list commits heading='### Other Changes' exclude='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: |fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |fiz: |fixt: |refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor |docs: |Docs: | DOCS: |Docs | docs |test: |Test: |TEST: |Test | TEST | test |perf: |Perf: |PERF: |Perf | perf |chore: |Chore: |CHORE: |Chore | chore |Merge pull request |Merge branch |merge pull request |merge branch |MERGE PULL REQUEST |MERGE BRANCH |feat: |Feat: |FEAT: |Feat | feat '}}
+  {{#commit-list commits heading='### Other Changes' exclude='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: |fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |fiz: |fixt: |refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor |docs: |Docs: | DOCS: |Docs | docs | README | Readme | readme | README.md | Readme.md | readme.md |test: |Test: |TEST: |Test | TEST | test |perf: |Perf: |PERF: |Perf | perf |Merge pull request |Merge branch |merge pull request |merge branch |MERGE PULL REQUEST |MERGE BRANCH |feat: |Feat: |FEAT: |Feat | feat |chore: |Chore: |CHORE: |Chore | chore '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 {{/each}}
