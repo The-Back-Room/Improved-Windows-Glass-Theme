@@ -6,8 +6,8 @@
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
-  {{! List commits that fix bugs }}
-  {{#commit-list commits heading='### Fixes' message='fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |fiz: |fixt: '}}
+  {{! List commits that fix bugs not marked as breaking changes }}
+  {{#commit-list commits heading='### Fixes' message='fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |fiz: |fixt: ' exclude='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
@@ -43,6 +43,11 @@
 
   {{! List commits that add new features }}
   {{#commit-list commits heading='### Features' message='feat: |Feat: |FEAT: |Feat | feat '}}
+    - {{subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! List commits that do not match any of the above categories }}
+  {{#commit-list commits heading='### Other Changes' exclude='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: |fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |fiz: |fixt: |refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor |docs: |Docs: | DOCS: |Docs | docs |test: |Test: |TEST: |Test | TEST | test |perf: |Perf: |PERF: |Perf | perf |chore: |Chore: |CHORE: |Chore | chore |Merge pull request |Merge branch |merge pull request |merge branch |MERGE PULL REQUEST |MERGE BRANCH |feat: |Feat: |FEAT: |Feat | feat '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 {{/each}}
