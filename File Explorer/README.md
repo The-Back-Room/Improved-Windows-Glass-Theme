@@ -1,5 +1,11 @@
 ## File Explorer
 
+<div align="center">
+
+![Preview 1](../resources/File-Explorer-Preview.png) ![Preview 2](../resources/File-Explorer-Tabs-Preview.png)
+
+</div>
+
 ## Requirements
 
 * **Windhawk Mods**:
