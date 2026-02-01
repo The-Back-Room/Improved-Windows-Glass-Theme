@@ -26,6 +26,7 @@
 - fix: Consolidate TooltipLine format updates in changelog for clarity [`5edf99c`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/5edf99c7e3fc8b919b414035dd6f790bd7170294)
 - Fix changelog generation parameters in workflow [`89874cc`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/89874cc5c0dd52fdac78aca1e903da98625bbd10)
 - Fix System Tray Position [`cd938f1`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/cd938f1091c4701c299130b2ddc1b02c24e1dcb0)
+- fix: Clarify instructions for excluding MS Office apps in README [`241a456`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/241a456019a6284a55461999988c1d9a1631a9fe)
 - fix: Correct spelling of 'CHANGELOG' in documentation section of changelog template [`9876961`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/987696116d16ca3ad048b71a3f83638267b31196)
 - fix: fix typo in image path [`e0ba3b2`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/e0ba3b2b95b73f858e4888381808fa0095c34fcb)
 - fix: correct typo in "Instructions" section header in README [`a9bccbf`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/a9bccbf70f80b6ab9db35678ded847a8b037de83)
@@ -58,6 +59,7 @@
 ### Refactors
 
 - refactor: Refactor instructions across multiple files to simplify installation [`7bcdd47`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/7bcdd475ef93acf9828954d03fa0c8e4b507a3ee)
+- refactor: Improve clarity in instructions for Windhawk setup in README [`9cf6c39`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/9cf6c394a7a9ed2bc874937523fc0487dc5a9fe1)
 - refactor: Add new preview images and adjust image alignment [`fbda564`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/fbda5648a3395cebe3189e1f73ecc9b5f395593c)
 - refactor: Remove custom start button image [`60a0f2d`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/60a0f2d9e56f392175f97b1261c5ce13cead193d)
 - refactor: Update merge commit list formatting for consistency [`7f9781e`](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/commit/7f9781e5f80f5564570dd5b390782e6f6cb5b6ec)
