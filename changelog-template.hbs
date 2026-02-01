@@ -37,7 +37,7 @@
   {{/commit-list}}
 
   {{! List commits that are merges }}
-  {{#commit-list commits heading='### Merges' message='Merge |merge |MERGE '}}
+  {{#commit-list commits heading='### Merges' message='Merge pull request |Merge branch |merge pull request |merge branch |MERGE PULL REQUEST |MERGE BRANCH '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
@@ -47,7 +47,7 @@
   {{/commit-list}}
 
   {{! List commits that do not match any of the above categories }}
-  {{#commit-list commits heading='### Other Changes' exclude='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: |fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor |docs: |Docs: | DOCS: |Docs | docs |test: |Test: |TEST: |Test | TEST | test |perf: |Perf: |PERF: |Perf | perf |chore: |Chore: |CHORE: |Chore | chore |Merge |merge |MERGE |feat: |Feat: |FEAT: |Feat | feat '}}
+  {{#commit-list commits heading='### Other Changes' exclude='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: |fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor |docs: |Docs: | DOCS: |Docs | docs |test: |Test: |TEST: |Test | TEST | test |perf: |Perf: |PERF: |Perf | perf |chore: |Chore: |CHORE: |Chore | chore |Merge pull request |Merge branch |merge pull request |merge branch |MERGE PULL REQUEST |MERGE BRANCH |feat: |Feat: |FEAT: |Feat | feat '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 {{/each}}
