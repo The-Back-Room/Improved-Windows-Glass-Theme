@@ -11,7 +11,9 @@
 * **Start Button Image**:
   * [w11-grey.png](/resources/w11-grey.png)
 
-## Default Taskbar
+## Installation
+
+### Default Taskbar
 
 * Download the start button image listed in the requirements above and place it into `C:\Resources\Icons\Start Orbs\`. *(If the location doesn`t exist, create it.)*
 * Open the ``Windows 11 Taskbar Styler`` mod in Windhawk.
@@ -24,7 +26,7 @@
    * Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    * Copy the contents of the [clock.yml](/Clock/clock.yml) file to the text box and click `Save`.
 
-## High DPI Taskbar
+### High DPI Taskbar
 
 This theme also includes a high dpi version of the taskbar. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
 
@@ -39,7 +41,7 @@ This theme also includes a high dpi version of the taskbar. *(Tested on 1920x108
    * Go to the `Settings` tab and click the `Textual` button to swap into Textual mode.
    * Copy the contents of the [clock.yml](/Clock/clock.yml) file to the text box and click `Save`.
 
-## Full Width Taskbar
+### Full Width Taskbar
 
 For users who prefer a full width taskbar.
 
