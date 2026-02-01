@@ -8,11 +8,14 @@
 > The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 
 ## Installation
+Follow the instructions listed below to install and setup the Windows Glass Start Menu theme on your system.
 
 ### Requirements
 
 * **Windhawk Mods**:  
   * [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler)
+
+---
 
 ### Default Start Menu
 
@@ -320,6 +323,8 @@
 
 </details>
 
+---
+
 ### Minimal Start Menu
 This theme also includes a minimal variant of the Start menu with the Phone Link companion removed. *(Should work regardless of resolution or DPI)*
 
@@ -600,6 +605,8 @@ This theme also includes a minimal variant of the Start menu with the Phone Link
 ```
 
 </details>
+
+---
 
 ### High DPI Start Menu
 

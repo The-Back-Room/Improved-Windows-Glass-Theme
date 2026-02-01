@@ -7,13 +7,18 @@
 > [!IMPORTANT]
 > The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 
-## Requirements
+## Installation
+Follow these instructions to install the Windows Glass File Explorer theme on your system.
+
+---
+
+### Requirements
 
 * **Windhawk Mods**:
   * [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
   * [Translucent Windows](https://windhawk.net/mods/translucent-windows)
 
-## Installation
+---
 
 ### File Explorer
 
@@ -175,6 +180,8 @@
 ```
 
 </details>
+
+---
 
 ### Translucent Windows
 

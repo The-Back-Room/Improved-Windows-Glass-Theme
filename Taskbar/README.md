@@ -9,15 +9,20 @@
 > [!IMPORTANT]
 > The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 
-## Requirements
+
+## Installation
+Follow the instructions listed below to install and setup the Windows Glass Taskbar theme on your system.
+
+---
+
+### Requirements
 
 * **Windhawk Mods**:
   * [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-styler)
   * [Taskbar tray system icon tweaks](https://windhawk.net/mods/taskbar-tray-system-icon-tweaks)
   * [Taskbar Clock Customization](https://windhawk.net/mods/taskbar-clock-customization)
 
-## Installation
-Follow the instructions listed below to install and setup the Windows Glass Taskbar theme on your system.
+---
 
 ### Default Taskbar
 
@@ -234,6 +239,8 @@ Follow the instructions listed below to install and setup the Windows Glass Task
 ```
 
 </details>
+
+---
 
 ### High DPI Taskbar
 This theme also includes a high dpi variant of the taskbar. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
@@ -452,6 +459,8 @@ This theme also includes a high dpi variant of the taskbar. *(Tested on 1920x108
 
 </details>
 
+---
+
 ### Full Width Taskbar
 This theme also includes a full width variant.
 
@@ -658,6 +667,8 @@ This theme also includes a full width variant.
 
 </details>
 
+---
+
 ### Taskbar Clock Customization (Optional)
 
 * Open the `Taskbar Clock Customization` mod in Windhawk.
@@ -728,6 +739,8 @@ This theme also includes a full width variant.
 ```
 
 </details>
+
+---
 
 ### Taskbar tray system icon tweaks (Optional)
 

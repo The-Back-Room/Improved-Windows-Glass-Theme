@@ -7,13 +7,18 @@
 > [!IMPORTANT]
 > The theme styles must be imported manually for now due to the official version needing a large amount of fixes. To do that, follow these steps.
 
-## Requirements
+## Installation
+Follow the instructions listed below to install and setup the Windows Glass Notification Center theme on your system.
+
+---
+
+### Requirements
 
 * **Windhawk Mods**:
   * [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11-notification-center-styler)
   * [Shell Flyout Positions](https://windhawk.net/mods/shell-flyout-positions)
 
-## Installation
+---
 
 ### Notification Center
 
@@ -202,6 +207,8 @@
 ```
 
 </details>
+
+---
 
 ### Shell Fylout Positions
 
