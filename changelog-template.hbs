@@ -17,7 +17,7 @@
   {{/commit-list}}
 
   {{! List commits that improve documentation }}
-  {{#commit-list commits heading='### Documentation' message='docs: |Docs: | DOCS: |Docs | docs | README | Readme | readme | README.md | Readme.md | readme.md '}}
+  {{#commit-list commits heading='### Documentation' message='docs: |Docs: | DOCS: |Docs | docs | README | Readme | readme | README.md | Readme.md | readme.md |CHANEGLOG |Changelog | changelog | CHANGELOG.md | Changelog.md | changelog.md '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 
@@ -47,7 +47,7 @@
   {{/commit-list}}
 
   {{! List commits that do not match any of the above categories }}
-  {{#commit-list commits heading='### Other Changes' exclude='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: |fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |fiz: |fixt: |refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor |docs: |Docs: | DOCS: |Docs | docs | README | Readme | readme | README.md | Readme.md | readme.md |test: |Test: |TEST: |Test | TEST | test |perf: |Perf: |PERF: |Perf | perf |Merge pull request |Merge branch |merge pull request |merge branch |MERGE PULL REQUEST |MERGE BRANCH |feat: |Feat: |FEAT: |Feat | feat |chore: |Chore: |CHORE: |Chore | chore '}}
+  {{#commit-list commits heading='### Other Changes' exclude='breaking change: |Breaking change: |BREAKING CHANGE: |BREAKING CHANGE |Breaking Change: |fix: |Fix: |FIX: |Fix | FIX | fix |bugfix: |Bugfix: | BUGFIX: | Bugfix | BUGFIX | bugfix |fiz: |fixt: |refactor: |Refactor: | REFACTOR: |REFACTOR |refactor | Refactor |docs: |Docs: | DOCS: |Docs | docs | README | Readme | readme | README.md | Readme.md | readme.md |CHANEGLOG |Changelog | changelog | CHANGELOG.md | Changelog.md | changelog.md |test: |Test: |TEST: |Test | TEST | test |perf: |Perf: |PERF: |Perf | perf |Merge pull request |Merge branch |merge pull request |merge branch |MERGE PULL REQUEST |MERGE BRANCH |feat: |Feat: |FEAT: |Feat | feat |chore: |Chore: |CHORE: |Chore | chore '}}
     - {{subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
 {{/each}}
