@@ -25,14 +25,6 @@
 ## Instructions
 Follow the instructions listed below to learn how to setup the  Windows Glass theme.
 
-### Requirements
-
-* **Windhawk Mods**: `Windows 11 Start Menu Styler`, `Windows 11 Taskbar Styler`, `Windows 11 Notification Center Styler`, `Shell Flyout Positions`, `Taskbar tray system icon tweaks`, `Translucent Windows`, `Taskbar Clock Customization`
-* **Vivo Sans Fonts**: Install the [Vivo Sans En VF](https://1drv.ms/u/c/67fedd4420ed716d/EXRoW1f5dABJrO2dPj0tbM0Bm1uYiGeoKyAYA7X7er2Zww?e=cLsiJJ) and [Vivo Sans Clock Stencil](https://1drv.ms/u/c/67fedd4420ed716d/EW6LJO1CAu1Fs-khbTGXWFUB5sXhRxM-I__B1lkKWgizdA?e=J1RJYy) fonts.
-* **Start Button Image**: Download the [w11-grey.png](/resources/w11-grey.png) file and place it into `C:\Resources\Icons\Start Orbs\`. *(If the location doesn`t exist, create it.)*
-
-### Installation
-
 * [Start Menu](/Start%20Menu/README.md) - Instructions for setting up the Windows Glass Start Menu theme.
 * [Taskbar](/Taskbar/README.md) - Instructions for setting up the Windows Glass Taskbar theme.
 * [Notification Center](/Notification%20Center/README.md) - Instructions for setting up the Windows Glass Notification Center theme.
