@@ -19,9 +19,7 @@ Follow the instructions listed below to install and setup the Windows Glass Task
 
 ### Default Taskbar
 
-<div align="center">
-<img src="Default-Preview.png" width="95%" height="auto" />
-</div>
+<img src="Default-Preview.png" width="100%" height="auto" />
 
 * Open the `Windows 11 Taskbar Styler` mod in Windhawk.
 * Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
@@ -242,9 +240,7 @@ Follow the instructions listed below to install and setup the Windows Glass Task
 ### High DPI Taskbar
 This theme also includes a high dpi variant of the taskbar. *(Tested on 1920x1080 and 1920x1200 resolutions at 125% DPI)*
 
-<div align="center">
-<img src="High-DPI-Preview.png" width="95%" height="auto" />
-</div>
+<img src="High-DPI-Preview.png" width="100%" height="auto" />
 
 * Open the `Windows 11 Taskbar Styler` mod in Windhawk.
 * Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
@@ -465,9 +461,7 @@ This theme also includes a high dpi variant of the taskbar. *(Tested on 1920x108
 ### Full Width Taskbar
 This theme also includes a full width variant.
 
-<div align="center">
-<img src="Full-Width-Preview.png" width="95%" height="auto" />
-</div>
+<img src="Full-Width-Preview.png" width="100%" height="auto" />
 
 * Open the `Windows 11 Taskbar Styler` mod in Windhawk.
 * Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
