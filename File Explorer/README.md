@@ -145,8 +145,13 @@ Follow these instructions to install the Windows Glass File Explorer theme on yo
 "controlStyles[32].styles[0]": "Visibility=1",
 "controlStyles[33].target": "FileExplorerExtensions.NavigationBarControl",
 "controlStyles[33].styles[0]": "Grid.RowSpan=2",
-"controlStyles[33].styles[1]": "Margin=0,0,0,1"
+"controlStyles[33].styles[1]": "Margin=0,0,0,1",
+"controlStyles[34].target": "Grid#DetailsViewControlRootGrid",
+"controlStyles[35].target": "StackPanel#DetailsViewThumbnail",
+"controlStyles[34].styles[0]": "Background:=Transparent",
+"controlStyles[35].styles[0]": "Background:=Transparent"
 }
+```
 ```
 
 </details>

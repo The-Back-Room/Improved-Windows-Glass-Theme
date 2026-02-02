@@ -134,6 +134,12 @@ controlStyles:
     styles:
       - Grid.RowSpan=2
       - Margin=0,0,0,1
+  - target: Grid#DetailsViewControlRootGrid
+    styles:
+      - Background:=Transparent
+  - target: StackPanel#DetailsViewThumbnail
+    styles:
+      - Background:=Transparent
 styleConstants:
   - Background=<WindhawkBlur BlurAmount="15" TintColor="#25323232" TintOpacity="0.2" />
   - MainContentBG=<SolidColorBrush Color="{ThemeResource SystemChromeAltHighColor}" Opacity="1" />
