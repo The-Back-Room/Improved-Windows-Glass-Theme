@@ -776,7 +776,7 @@ Optional feature to add a native music player widget to the taskbar. Replaces th
 
 #### Default Taskbar
 
-* Disable Widgets in your system Taskbar settings.
+* Disable Widgets in your system Taskbar settings and set your `Taskbar alignment` to `Center`.
 * Open the `Taskbar Music Lounge` mod in Windhawk
 * Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
 
@@ -800,7 +800,7 @@ Optional feature to add a native music player widget to the taskbar. Replaces th
 
 #### High DPI Taskbar
 
-* Disable Widgets in your system Taskbar settings.
+* Disable Widgets in your system Taskbar settings and set your `Taskbar alignment` to `Center`.
 * Open the `Taskbar Music Lounge` mod in Windhawk
 * Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
 
@@ -825,7 +825,7 @@ Optional feature to add a native music player widget to the taskbar. Replaces th
 
 #### Full Width Taskbar
 
-* Disable Widgets in your system Taskbar settings.
+* Disable Widgets in your system Taskbar settings and set your `Taskbar alignment` to `Center`.
 * Open the `Taskbar Music Lounge` mod in Windhawk
 * Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
 
