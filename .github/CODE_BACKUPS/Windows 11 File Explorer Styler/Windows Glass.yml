@@ -53,14 +53,14 @@ controlStyles:
       - CornerRadius=$ElementCornerRadius
       - BorderThickness=$ElementBorderThickness
       - Margin=4,0
-      - Background:=$ElementBG
+      - // Background:=$ElementBG
   - target: 'FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid  '
     styles:
       - BorderBrush:=$ElementBorderBrush
       - CornerRadius=$ElementCornerRadius
       - BorderThickness=$ElementBorderThickness
       - Margin=4,0
-      - Background:=$ElementBG
+      - // Background:=$ElementBG
   - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid > Grid#GalleryRootGrid
     styles:
       - Background:=Transparent
@@ -183,6 +183,4 @@ styleConstants:
   - CornerRadius=10
   - ElementCornerRadius=6
 resourceVariables:
-  - variableKey: ''
-    value: ''
-explorerFrameContainerHeight: 0
+  -
