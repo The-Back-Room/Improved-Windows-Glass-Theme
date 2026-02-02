@@ -152,7 +152,6 @@ Follow these instructions to install the Windows Glass File Explorer theme on yo
 "controlStyles[35].styles[0]": "Background:=Transparent"
 }
 ```
-```
 
 </details>
 
