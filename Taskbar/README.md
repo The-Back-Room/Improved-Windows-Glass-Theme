@@ -767,6 +767,7 @@ This theme also includes a full width variant.
 
 </details>
 
+---
 
 ### Taskbar Music Lounge (Optional)
 Optional feature to add a native music player widget to the taskbar. Replaces the taskbar widgets pane.
