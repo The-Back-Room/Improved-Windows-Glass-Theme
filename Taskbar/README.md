@@ -12,8 +12,9 @@ Follow the instructions listed below to install and setup the Windows Glass Task
 
 * **Windhawk Mods**:
   * [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-styler)
-  * [Taskbar tray system icon tweaks](https://windhawk.net/mods/taskbar-tray-system-icon-tweaks)
-  * [Taskbar Clock Customization](https://windhawk.net/mods/taskbar-clock-customization)
+  * [Taskbar tray system icon tweaks](https://windhawk.net/mods/taskbar-tray-system-icon-tweaks) *(Optional)*
+  * [Taskbar Clock Customization](https://windhawk.net/mods/taskbar-clock-customization) *(Optional)*
+  * [Taskbar Music Lounge](https://windhawk.net/mods/taskbar-music-lounge) *(Optional)*
 
 ---
 
@@ -765,3 +766,84 @@ This theme also includes a full width variant.
 ```
 
 </details>
+
+
+### Taskbar Music Lounge (Optional)
+Optional feature to add a native music player widget to the taskbar. Replaces the taskbar widgets pane.
+
+<img src="Taskbar-Music-Lounge-Preview.png" width="100%" height="auto" />
+
+#### Default Taskbar
+
+* Disable Widgets in your system Taskbar settings.
+* Open the `Taskbar Music Lounge` mod in Windhawk
+* Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
+
+<details>
+<summary>Content to import (click to expand)</summary>
+
+```json
+{
+"PanelWidth": 300,
+"PanelHeight": 38,
+"FontSize": 14,
+"OffsetX": 302,
+"OffsetY": 0,
+"AutoTheme": 1,
+"TextColor": 16777215,
+"BgOpacity": 0
+}
+```
+
+</details>
+
+#### High DPI Taskbar
+
+* Disable Widgets in your system Taskbar settings.
+* Open the `Taskbar Music Lounge` mod in Windhawk
+* Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
+
+<details>
+<summary>Content to import (click to expand)</summary>
+
+```json
+{
+"PanelWidth": 300,
+"PanelHeight": 48,
+"FontSize": 14,
+"OffsetX": 135,
+"OffsetY": 0,
+"AutoTheme": 1,
+"TextColor": 16777215,
+"BgOpacity": 0
+}
+```
+
+</details>
+
+
+#### Full Width Taskbar
+
+* Disable Widgets in your system Taskbar settings.
+* Open the `Taskbar Music Lounge` mod in Windhawk
+* Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
+
+<details>
+<summary>Content to import (click to expand)</summary>
+
+```json
+{
+"PanelWidth": 300,
+"PanelHeight": 48,
+"FontSize": 14,
+"OffsetX": 5,
+"OffsetY": 0,
+"AutoTheme": 1,
+"TextColor": 16777215,
+"BgOpacity": 0
+}
+```
+
+</details>
+
+
