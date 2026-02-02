@@ -83,7 +83,7 @@ Follow these instructions to install the Windows Glass File Explorer theme on yo
 "controlStyles[12].target": "FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid > Grid#GalleryRootGrid",
 "controlStyles[12].styles[0]": "Background:=Transparent",
 "controlStyles[13].target": "ToolTip",
-"controlStyles[13].styles[0]": "Background:=$Background",
+"controlStyles[13].styles[0]": "Background:=$ElementBG",
 "controlStyles[14].target": "Grid#TabContainerGrid > Border#LeftBottomBorderLine",
 "controlStyles[14].styles[0]": "Visibility=1",
 "controlStyles[15].target": "Grid#TabContainerGrid > Border#RightBottomBorderLine",
@@ -175,7 +175,10 @@ Follow these instructions to install the Windows Glass File Explorer theme on yo
 "styleConstants[11]": "ElementCornerRadius=6",
 "resourceVariables[0].variableKey": "",
 "resourceVariables[0].value": "",
-"explorerFrameContainerHeight": 0
+"explorerFrameContainerHeight": 0,
+"controlStyles[13].styles[1]": "BorderBrush:=$ElementBorderBrush",
+"controlStyles[13].styles[2]": "BorderThickness=$ElementBorderThickness",
+"controlStyles[13].styles[3]": "CornerRadius=$ElementCornerRadius"
 }
 ```
 

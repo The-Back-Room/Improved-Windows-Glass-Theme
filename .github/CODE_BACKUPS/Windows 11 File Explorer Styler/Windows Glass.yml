@@ -66,7 +66,10 @@ controlStyles:
       - Background:=Transparent
   - target: ToolTip
     styles:
-      - Background:=$Background
+      - Background:=$ElementBG
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
   - target: Grid#TabContainerGrid > Border#LeftBottomBorderLine
     styles:
       - Visibility=1
@@ -183,4 +186,6 @@ styleConstants:
   - CornerRadius=10
   - ElementCornerRadius=6
 resourceVariables:
-  -
+  - variableKey: ''
+    value: ''
+explorerFrameContainerHeight: 0
