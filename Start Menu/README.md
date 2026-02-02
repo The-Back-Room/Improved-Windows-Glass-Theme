@@ -19,7 +19,7 @@ Follow the instructions listed below to install and setup the Windows Glass Star
 
 * Download and install the fonts listed in the requirements above.
 * Open the `Windows 11 Start Menu Styler` mod in Windhawk.
-* Go to the `Advanced` taband add `LockApp.exe` to the `Custom process inclusion list`. Then copy the code below into the `Mod settings` box and click `save`.
+* Go to the `Advanced` tab and add `LockApp.exe` to the `Custom process inclusion list`. Then copy the code below into the `Mod settings` box and click `save`.
 
 <details>
 <summary>Content to import (click to expand)</summary>
@@ -330,7 +330,7 @@ This theme also includes a minimal variant of the Start menu with the Phone Link
 
 * Download and install the fonts listed in the requirements above.
 * Open the `Windows 11 Start Menu Styler` mod in Windhawk.
-* Go to the `Advanced` taband add `LockApp.exe` to the `Custom process inclusion list`. Then copy the code below into the `Mod settings` box and click `save`.
+* Go to the `Advanced` tab and add `LockApp.exe` to the `Custom process inclusion list`. Then copy the code below into the `Mod settings` box and click `save`.
 
 <details>
 <summary>Content to import (click to expand)</summary>
@@ -615,7 +615,7 @@ This theme also includes a high dpi variant of the Start menu with smaller grid 
 
 * Download and install the fonts listed in the requirements above.
 * Open the `Windows 11 Start Menu Styler` mod in Windhawk.
-* Go to the `Advanced` taband add `LockApp.exe` to the `Custom process inclusion list`. Then copy the code below into the `Mod settings` box and click `save`.
+* Go to the `Advanced` tab and add `LockApp.exe` to the `Custom process inclusion list`. Then copy the code below into the `Mod settings` box and click `save`.
 
 <details>
 <summary>Content to import (click to expand)</summary>
