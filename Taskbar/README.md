@@ -773,14 +773,15 @@ This theme also includes a full width variant.
 Optional feature to add a native music player widget to the taskbar. Replaces the taskbar widgets pane.  
 Uses the upstream version of the Taskbar Music Lounge with various tweaks and improvements in place of the official. 
 
+<img src="Taskbar-Music-Lounge-Preview.png" width="100%" height="auto" />
+
+
 #### Installation
 
 - Got to `Windhawk > Settings` and enable `Developer mode`.
 - Go back to `Windhawk > Home` and click the `Create a New Mod` button.
 - Copy and paste the contents of the [Hashah2311/windhawk-mods/taskbar-music-lounge.wh.cpp](https://github.com/Hashah2311/windhawk-mods/blob/main/mods/taskbar-music-lounge.wh.cpp) file into the `mod.wh.cpp` file that opens. *Make sure to replace the default contents.*
 - Click `Compile Mod` and wait for it to finish. Then click `Exit Editing Mode` and enable the mod if it isn't already enabled.
-
-<img src="Taskbar-Music-Lounge-Preview.png" width="100%" height="auto" />
 
 #### Default Taskbar
 
