@@ -1,6 +1,0 @@
-notificationCenter:
-  horizontalAlignment: tray
-  horizontalShift: 0
-actionCenter:
-  horizontalAlignment: same
-  horizontalShift: 0
