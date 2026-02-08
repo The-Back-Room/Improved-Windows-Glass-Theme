@@ -770,11 +770,12 @@ This theme also includes a full width variant.
 ---
 
 ### Taskbar Music Lounge - Fork (Optional)
-Optional feature to add a native music player widget to the taskbar. Replaces the taskbar widgets pane.
+Optional feature to add a native music player widget to the taskbar. Replaces the taskbar widgets pane.  
+Uses a forked version of the Taskbar Music Lounge with various tweaks and improvements in place of the official.
 
 <img src="Taskbar-Music-Lounge-Preview.png" width="100%" height="auto" />
 
-#### Requirement(s)
+#### Installation
 
 - Got to `Windhawk > Settings` and turn on Developer mode.
 - Return to `Windhawk > Home` and click the `Create a New Mod` button on the bottom right of the window.
