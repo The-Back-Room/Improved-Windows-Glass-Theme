@@ -14,7 +14,7 @@ Follow the instructions listed below to install and setup the Windows Glass Task
   * [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-styler)
   * [Taskbar tray system icon tweaks](https://windhawk.net/mods/taskbar-tray-system-icon-tweaks) *(Optional)*
   * [Taskbar Clock Customization](https://windhawk.net/mods/taskbar-clock-customization) *(Optional)*
-  * [Taskbar Music Lounge Enhanced](https://github.com/The-Back-Room/Taskbar-Music-Lounge-Enhanced) *(Optional)*
+  * [Taskbar Music Lounge](https://github.com/Hashah2311/windhawk-mods/blob/main/mods/taskbar-music-lounge.wh.cpp) *(Optional)*
 
 ---
 
@@ -771,7 +771,14 @@ This theme also includes a full width variant.
 
 ### Taskbar Music Lounge Enhanced (Optional)
 Optional feature to add a native music player widget to the taskbar. Replaces the taskbar widgets pane.  
-Uses a forked version of the Taskbar Music Lounge with various tweaks and improvements in place of the official.
+Uses the upstream version of the Taskbar Music Lounge with various tweaks and improvements in place of the official. 
+
+#### Installation
+
+- Got to `Windhawk > Settings` and enable `Developer mode`.
+- Go back to `Windhawk > Home` and click the `Create a New Mod` button.
+- Copy and paste the contents of the [Hashah2311/windhawk-mods/taskbar-music-lounge.wh.cpp](https://github.com/Hashah2311/windhawk-mods/blob/main/mods/taskbar-music-lounge.wh.cpp) file into the `mod.wh.cpp` file that opens. *Make sure to replace the default contents.*
+- Click `Compile Mod` and wait for it to finish. Then click `Exit Editing Mode` and enable the mod if it isn't already enabled.
 
 <img src="Taskbar-Music-Lounge-Preview.png" width="100%" height="auto" />
 
@@ -789,17 +796,14 @@ Uses a forked version of the Taskbar Music Lounge with various tweaks and improv
   "PanelWidth": 300,
   "PanelHeight": 38,
   "FontSize": 14,
+  "ButtonScale": 1,
+  "HideFullscreen": 1,
+  "IdleTimeout": 0,
   "OffsetX": 302,
   "OffsetY": 0,
   "AutoTheme": 1,
-  "InvertTheme": 1,
-  "BgColor": "0, 0, 0",
-  "BgOpacity": 0,
-  "TextColor": "255, 255, 255",
-  "EnableSlide": 0,
-  "EnableGameDetection": 1,
-  "FullscreenCheckInterval": 2,
-  "IgnoredApps": ""
+  "TextColor": 16777215,
+  "BgOpacity": 0
 }
 ```
 
@@ -817,19 +821,16 @@ Uses a forked version of the Taskbar Music Lounge with various tweaks and improv
 ```json
 {
   "PanelWidth": 300,
-  "PanelHeight": 38,
+  "PanelHeight": 48,
   "FontSize": 14,
-  "OffsetX": 110,
+  "ButtonScale": 1,
+  "HideFullscreen": 1,
+  "IdleTimeout": 0,
+  "OffsetX": 138,
   "OffsetY": 0,
   "AutoTheme": 1,
-  "InvertTheme": 1,
-  "BgColor": "0, 0, 0",
-  "BgOpacity": 0,
-  "TextColor": "255, 255, 255",
-  "EnableSlide": 0,
-  "EnableGameDetection": 1,
-  "FullscreenCheckInterval": 2,
-  "IgnoredApps": ""
+  "TextColor": 16777215,
+  "BgOpacity": 0
 }
 ```
 
@@ -850,17 +851,14 @@ Uses a forked version of the Taskbar Music Lounge with various tweaks and improv
   "PanelWidth": 300,
   "PanelHeight": 38,
   "FontSize": 14,
+  "ButtonScale": 1,
+  "HideFullscreen": 1,
+  "IdleTimeout": 0,
   "OffsetX": 5,
   "OffsetY": 0,
   "AutoTheme": 1,
-  "InvertTheme": 1,
-  "BgColor": "0, 0, 0",
-  "BgOpacity": 0,
-  "TextColor": "255, 255, 255",
-  "EnableSlide": 0,
-  "EnableGameDetection": 1,
-  "FullscreenCheckInterval": 2,
-  "IgnoredApps": ""
+  "TextColor": 16777215,
+  "BgOpacity": 0
 }
 ```
 
