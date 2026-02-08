@@ -769,12 +769,11 @@ This theme also includes a full width variant.
 
 ---
 
-### Taskbar Music Lounge Enhanced (Optional)
+### Taskbar Music Lounge (Optional)
 Optional feature to add a native music player widget to the taskbar. Replaces the taskbar widgets pane.  
 Uses the upstream version of the Taskbar Music Lounge with various tweaks and improvements in place of the official. 
 
 <img src="Taskbar-Music-Lounge-Preview.png" width="100%" height="auto" />
-
 
 #### Installation
 
