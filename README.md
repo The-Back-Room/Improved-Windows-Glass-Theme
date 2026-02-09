@@ -54,6 +54,6 @@ Follow the instructions listed below to learn how to setup the  Windows Glass th
 
 <div align="cener">
 
-#### If you have any issues or need help, check the [wiki](/wiki). If your issue isn't listed there, you can [open a issue](/issues).
+#### If you have any issues or need help, check the [wiki](/wiki).<br />If your issue isn't listed there, you can [open a issue](/issues).
 
 </div>
