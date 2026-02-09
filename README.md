@@ -54,6 +54,6 @@ Follow the instructions listed below to learn how to setup the  Windows Glass th
 
 <div align="center">
 
-#### If you have any issues or need help, check the [wiki](/wiki). If your issue isn't listed there, feel free to [open an issue](/issues).
+#### If you have any issues or need help, check the [wiki](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/wiki). If your issue isn't listed there, feel free to [open an issue](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/issues).
 
 </div>
