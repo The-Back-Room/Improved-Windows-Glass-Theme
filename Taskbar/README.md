@@ -6,6 +6,8 @@
 ## Installation
 Follow the instructions listed below to install and setup the Windows Glass Taskbar theme on your system.
 
+If you have any issues or need help, check the [wiki](/wiki). If your issue isn't listed there, you can [open a issue](/issues).
+
 ---
 
 ### Requirements
