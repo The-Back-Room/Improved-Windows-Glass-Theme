@@ -13,7 +13,7 @@
 
 <div align="center">
 
-#### If you'd like to help, feel free to open a PR with your improvements and/or fixes!<br />You can see a list of currently planned changes in our [TO-DO](/TO-DO.md) page.
+#### If you'd like to help, feel free to open a PR with your improvements and/or fixes!<br />You can see a list of currently planned changes in our [TO-DO](https://github.com/The-Back-Room/Improved-Windows-Glass-Theme/wiki/To%E2%80%90Do) page.
 
 </div>
 
