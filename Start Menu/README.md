@@ -16,7 +16,7 @@ Follow the instructions listed below to install and setup the Windows Glass Star
 
 
 <div align="center">
-<img src="Preview-1.png" width="450%" height="auto" /> <img src="Preview-2.png" width="450%" height="auto" />
+<img src="Preview-1.png" width="45%" height="auto" /> <img src="Preview-2.png" width="45%" height="auto" />
 </div>
 
 > [!NOTE]
