@@ -815,6 +815,9 @@ The theme styles can also be imported manually. To do that, follow these steps:
 ### Taskbar Music Lounge (Optional)
 Optional feature to add a native music player widget to the taskbar. Replaces the taskbar widgets pane.  
 
+>[!NOTE]
+> Version 4 or higher of the Taskbar Music Lounge mod for Windhawk to enable all features.  
+
 <img src="Taskbar-Music-Lounge-Preview.png" width="100%" height="auto" />
 
 
