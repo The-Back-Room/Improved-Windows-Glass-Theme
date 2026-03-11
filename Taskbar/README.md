@@ -18,7 +18,6 @@
 >[!NOTE]
 > Version 4 or higher of the Taskbar Music Lounge mod for Windhawk to enable all features.  
 
-<!-- 
 ## Theme selection
 
 The theme is integrated into the mod and can simply be selected from the mod's
@@ -27,7 +26,6 @@ settings:
 * Open the Windows 11 Taskbar Styler mod in Windhawk.
 * Go to the "Settings" tab.
 * Select the theme and save the settings.
--->
 
 ## Manual installation
 
@@ -255,7 +253,6 @@ This theme also includes a high dpi variant of the taskbar. *(Tested on 1920x108
 
 <img src="High-DPI-Preview.png" width="100%" height="auto" />
 
-<!-- 
 ## Theme selection
 
 The theme is integrated into the mod and can simply be selected from the mod's
@@ -264,7 +261,6 @@ settings:
 * Open the Windows 11 Taskbar Styler mod in Windhawk.
 * Go to the "Settings" tab.
 * Select the theme and save the settings.
--->
 
 ## Manual installation
 
@@ -492,7 +488,6 @@ This theme also includes a full width variant.
 
 <img src="Full-Width-Preview.png" width="100%" height="auto" />
 
-<!-- 
 ## Theme selection
 
 The theme is integrated into the mod and can simply be selected from the mod's
@@ -501,7 +496,6 @@ settings:
 * Open the Windows 11 Taskbar Styler mod in Windhawk.
 * Go to the "Settings" tab.
 * Select the theme and save the settings.
--->
 
 ## Manual installation
 
